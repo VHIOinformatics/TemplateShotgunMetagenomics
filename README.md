@@ -121,7 +121,7 @@ python generate_rmd.py config.yml template.rmd -o /custom/path/report.rmd
 
 ### Step 3: Render the RMarkdown
 
-## Ejemplo de flujo completo
+## Example whole workflow
 
 ```bash
 # 1. Edit configuration
@@ -138,7 +138,7 @@ Rscript -e "rmarkdown::render('20260421_PNuciforo_PORTRAIT_SM_downstream_generat
 
 The RMarkdown template uses Jinja2 to dynamically generate analyses:
 
-### Bucles sobre feature_columns
+### Loop over feature_columns
 
 ```jinja2
 {% for feature in feature_columns %}
@@ -166,9 +166,9 @@ For each column in  `feature_columns`, the following are **automatically** gener
 3. **PERMANOVA** (if enabled):
    - PERMANOVA test
 
-## Variables de configuración disponibles
+## Available configuration variables
 
-Dentro del template, tienes acceso a:
+Within the template, you have access to:
 
 - `{{ metadata.title }}` - Report title
 - `{{ metadata.author }}` - Author
@@ -225,8 +225,3 @@ Verify that:
 - The paths in `config.yml` are correct
 - The columns in `feature_columns` exist in your phyloseq
 - The necessary R packages are installed
-
-
-## Contacto
-
-Para dudas o mejoras, revisa los comentarios en los archivos o adapta según tus necesidades específicas.
