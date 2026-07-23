@@ -92,6 +92,7 @@ def render_rmd(template, config):
         'normalization': config.get('normalization', {}),
         'references': config.get('references', ''),
         'input_files': config.get('input_files', {}),
+        'mode': config.get('mode', {}),
         'metadata_source': config.get('metadata_source', {}),
         'output': config.get('output', {}),
     }

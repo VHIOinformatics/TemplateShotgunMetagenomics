@@ -29,14 +29,22 @@ samples_info: |
   - We are going to perform the analysis in all the columns provided by the researchers.
   - In some cases both columns have objects so we should clarify this metadata.
 
+
+# PROFILING MODE
+mode: 
+  bracken: true
+  metaphlan: false
+
 # INPUT FILES
 input_files:
+  bracken: /my/folder/bracken/db1
+  metaphlan: /my/folder/metaphlan/
   phyloseq_object: "/my/folder/phyloelement.rds"
   output_directory: "/my/folder/my_plots/"
 
 # METADATA SOURCE FROM EXCEL
 metadata_source:
-  excel_file: "/mnt/petasan_bioinformatics/projects/20260421_PNuciforo_PORTRAIT_SM/analysis/metadata.xlsx"
+  excel_file: "/my/folder/metadata.xlsx"
   metadata_sheet: "metadata"
   sample_id_column: "Sample"
 

@@ -1,0 +1,4842 @@
+1	root
+2	Archaea
+3	Methanobacteriota
+4	Methanobacteria
+5	Methanobacteriales
+6	Methanobacteriaceae
+7	Methanobrevibacter_A
+8	Methanobrevibacter_A sp900766745
+9	Thermoplasmatota
+10	Thermoplasmata
+11	Methanomassiliicoccales
+12	Methanomethylophilaceae
+13	MX-02
+14	MX-02 sp006954405
+15	Methanomassiliicoccaceae
+16	Methanomassiliicoccus_A
+17	Unknown species
+18	Halobacteriota
+19	Halobacteria
+20	Halobacteriales
+21	Haloferacaceae
+22	Haloferax
+23	Haloferax massiliensis
+24	Halorubrum
+25	Halorubrum lipolyticum
+26	Methanomassiliicoccus_A intestinalis
+27	Methanomassiliicoccus
+28	Methanomassiliicoccus luminyensis
+29	Methanobrevibacter_A oralis
+30	Methanobrevibacter_A smithii
+31	Methanosphaera
+32	Methanosphaera stadtmanae
+33	Methanobrevibacter_A smithii_A
+34	Methanomethylophilus
+35	Methanomethylophilus alvus
+36	UBA71
+37	UBA71 sp900767505
+38	Methanobrevibacter_A sp900769095
+39	ISO4-G1
+40	Methanomicrobia
+41	Methanomicrobiales
+42	Methanocorpusculaceae
+43	Methanocorpusculum
+44	UBA71 sp006954425
+45	Methanobrevibacter_A woesei
+46	UBA71 sp006954465
+47	Methanosphaera cuniculi
+48	Methanosphaera sp900322125
+49	Methanobacterium
+50	Methanobacterium sp000499765
+51	Bacteria
+52	Firmicutes_A
+53	Clostridia
+54	Peptostreptococcales
+55	Peptostreptococcaceae
+56	GCA-900066495
+57	GCA-900066495 sp902362365
+58	Lachnospirales
+59	Lachnospiraceae
+60	Blautia_A
+61	Blautia_A faecis
+62	Bacteroidota
+63	Bacteroidia
+64	Bacteroidales
+65	Rikenellaceae
+66	Alistipes
+67	Alistipes shahii
+68	Oscillospirales
+69	Ruminococcaceae
+70	Anaerotruncus
+71	Anaerotruncus colihominis
+72	Terrisporobacter
+73	Terrisporobacter glycolicus_A
+74	Firmicutes
+75	Bacilli
+76	Staphylococcales
+77	Staphylococcaceae
+78	Staphylococcus
+79	Staphylococcus xylosus
+80	Lactobacillales
+81	Lactobacillaceae
+82	Lactobacillus
+83	Lactobacillus intestinalis
+84	Lactobacillus johnsonii
+85	Ligilactobacillus
+86	Ligilactobacillus murinus
+87	Staphylococcus_A
+88	Staphylococcus_A lentus
+89	Staphylococcus xylosus_B
+90	Bacillales
+91	Bacillaceae
+92	Bacillus
+93	Bacillus subtilis
+94	Bacteroidaceae
+95	Bacteroides
+96	Bacteroides sp902362375
+97	Clostridiales
+98	Clostridiaceae
+99	Clostridium
+100	Clostridium butyricum
+101	Proteobacteria
+102	Gammaproteobacteria
+103	Enterobacterales
+104	Enterobacteriaceae
+105	Enterobacter
+106	Enterobacter mori
+107	Anaerotignaceae
+108	Anaerotignum
+109	Anaerotignum sp001304995
+110	Actinobacteriota
+111	Coriobacteriia
+112	Coriobacteriales
+113	Coriobacteriaceae
+114	Collinsella
+115	Collinsella sp902362275
+116	Coprococcus
+117	Coprococcus eutactus
+118	Enterobacter cloacae_O
+119	Latilactobacillus
+120	Latilactobacillus curvatus
+121	Limosilactobacillus
+122	Limosilactobacillus vaginalis_A
+123	Faecalibacterium
+124	Faecalibacterium prausnitzii_C
+125	Streptococcaceae
+126	Streptococcus
+127	Streptococcus parasanguinis
+128	Paraclostridium
+129	Paraclostridium bifermentans
+130	Staphylococcus nepalensis
+131	Erysipelotrichales
+132	Erysipelatoclostridiaceae
+133	Catenibacterium
+134	Catenibacterium mitsuokai
+135	Firmicutes_C
+136	Negativicutes
+137	Selenomonadales
+138	Selenomonadaceae
+139	Mitsuokella
+140	Mitsuokella jalaludinii
+141	Anaerostipes
+142	Anaerostipes hadrus_A
+143	Bacteroides finegoldii
+144	CAG-603
+145	CAG-603 sp900066105
+146	Blautia_A sp900066205
+147	Hungatella
+148	Hungatella effluvii
+149	Monoglobales_A
+150	UBA1381
+151	CAG-41
+152	CAG-41 sp900066215
+153	Massilimaliae
+154	Massilimaliae timonensis
+155	Blautia_A hydrogenotrophica
+156	Acutalibacteraceae
+157	Pseudoruminococcus
+158	Pseudoruminococcus massiliensis
+159	Haloplasmatales_A
+160	Turicibacteraceae
+161	Turicibacter
+162	Turicibacter sp001543345
+163	Dorea_A
+164	Dorea_A longicatena
+165	Faecalibacterium prausnitzii_H
+166	Anaerovoracaceae
+167	UBA1191
+168	UBA1191 sp900066305
+169	Acetatifactor
+170	Acetatifactor sp900066365
+171	Phocaeicola
+172	Phocaeicola sp900066445
+173	Phocaeicola sp900066455
+174	Tannerellaceae
+175	Parabacteroides
+176	Parabacteroides merdae
+177	Faecalibacillus
+178	Faecalibacillus intestinalis
+179	Veillonellales
+180	Megasphaeraceae
+181	Megasphaera
+182	Megasphaera stantonii
+183	Clostridium disporicum_A
+184	Clostridium_P
+185	Clostridium_P ventriculi
+186	GCA-900066495 sp900066495
+187	Blautia_A sp900066505
+188	Anaerosacchariphilus
+189	Anaerosacchariphilus sp900066385
+190	Anaerostipes sp000508985
+191	Alistipes sp002358415
+192	Bacteroides acidifaciens
+193	Muribaculaceae
+194	Muribaculum
+195	Muribaculum intestinale
+196	Muribaculum sp002358615
+197	Bacteroides sp002491635
+198	Eubacterium_I
+199	Eubacterium_I sp900066595
+200	Oscillospiraceae
+201	Lawsonibacter
+202	Lawsonibacter sp900066645
+203	Lachnospira
+204	Lachnospira eligens_A
+205	Collinsella aerofaciens_E
+206	Intestinibacter
+207	Intestinibacter bartlettii
+208	Emergencia
+209	Emergencia sp900066695
+210	Clostridium baratii
+211	Anaerostipes sp900066705
+212	GCA-900066755
+213	GCA-900066755 sp900066755
+214	Lachnoclostridium_B
+215	Lachnoclostridium_B sp900066765
+216	Butyricicoccaceae
+217	Agathobaculum
+218	Agathobaculum sp900291975
+219	Clostridium_A
+220	Clostridium_A leptum
+221	Lawsonibacter sp900066825
+222	Pseudoflavonifractor
+223	Pseudoflavonifractor capillosus
+224	UBA1394
+225	UBA1394 sp900066845
+226	Clostridia_A
+227	Christensenellales
+228	GCA-900066905
+229	GCA-900066905
+230	GCA-900066905 sp900066905
+231	Alistipes onderdonkii
+232	Paraclostridium tenue
+233	Roseburia
+234	Roseburia intestinalis
+235	Anaerobutyricum
+236	Anaerobutyricum soehngenii
+237	Lachnospira rogosae_A
+238	Exiguobacterales
+239	Exiguobacteraceae
+240	Exiguobacterium
+241	Exiguobacterium sp902362975
+242	Anaerostipes caccae
+243	Actinomycetia
+244	Mycobacteriales
+245	Mycobacteriaceae
+246	Corynebacterium
+247	Corynebacterium propinquum
+248	Pseudomonadales
+249	Moraxellaceae
+250	Acinetobacter
+251	Acinetobacter mesopotamicus
+252	Bacillales_B
+253	DSM-1321
+254	Peribacillus
+255	Peribacillus simplex
+256	Gemmiger
+257	Gemmiger formicilis
+258	Collinsella aerofaciens_F
+259	Lawsonibacter sp902363045
+260	CAG-81
+261	CAG-81 sp000435795
+262	Streptococcus lutetiensis
+263	CAG-353
+264	CAG-353 sp900066885
+265	Lawsonibacter sp014287875
+266	Burkholderiales
+267	Burkholderiaceae
+268	Achromobacter
+269	Achromobacter xylosoxidans
+270	UBA7160
+271	UBA7160 sp902363135
+272	Klebsiella_A
+273	Klebsiella_A grimontii
+274	Collinsella sp902363125
+275	GCA-900066755 sp902363085
+276	Leuconostoc
+277	Leuconostoc pseudomesenteroides
+278	Ligilactobacillus animalis
+279	Bacteroides bouchesdurhonensis
+280	Flavonifractor
+281	Flavonifractor plautii
+282	Massilibacillaceae
+283	CABIZH01
+284	CABIZH01 sp902363205
+285	Actinomycetales
+286	Micrococcaceae
+287	Micrococcus
+288	Micrococcus luteus
+289	Terrisporobacter sp902363255
+290	Bacilliculturomica
+291	Bacilliculturomica massiliensis
+292	Clostridium cuniculi
+293	Bacteroides clarus
+294	Enterococcaceae
+295	Enterococcus_D
+296	Enterococcus_D gallinarum
+297	Klebsiella_A oxytoca
+298	Citrobacter
+299	Citrobacter freundii
+300	Streptococcus sp004166885
+301	Kluyvera
+302	Kluyvera sp902363335
+303	Propionibacteriales
+304	Propionibacteriaceae
+305	Cutibacterium
+306	Cutibacterium acnes
+307	Actinomycetaceae
+308	Actinomyces
+309	Actinomyces sp900323545
+310	Streptococcus salivarius
+311	Streptococcus sp902363395
+312	Clostridium_J
+313	Clostridium_J sp902363375
+314	Exiguobacterium_A
+315	Exiguobacterium_A sp902363455
+316	Barnesiellaceae
+317	Barnesiella
+318	Barnesiella sp003150885
+319	NSJ-38
+320	NSJ-38 sp902363445
+321	Blautia
+322	Blautia sp000432195
+323	Tissierellales
+324	Peptoniphilaceae
+325	Peptoniphilus_A
+326	Peptoniphilus_A harei_A
+327	Eubacteriales
+328	Eubacteriaceae
+329	Eubacterium
+330	Eubacterium callanderi
+331	Staphylococcus epidermidis
+332	Blautia sp001304935
+333	Citrobacter youngae
+334	Clostridium_B
+335	Clostridium_B tyrobutyricum
+336	BX12
+337	BX12 sp902363595
+338	Catenibacillus
+339	Catenibacillus sp902363555
+340	Alistipes sp902363575
+341	Marseille-P4683
+342	Marseille-P4683 sp900232885
+343	Peptoniphilus_C
+344	Peptoniphilus_C sp902363535
+345	Anaerotruncus rubiinfantis
+346	Beduini
+347	Beduini sp902363625
+348	Blautia_A caecimuris
+349	Longibaculum
+350	Longibaculum muris
+351	Murimonas
+352	Murimonas intestini
+353	Agathobacter
+354	Agathobacter sp000434275
+355	UBA7160 sp902363665
+356	Parabacteroides johnsonii
+357	Eubacterium_G
+358	Eubacterium_G sp000434315
+359	UMGS1375
+360	UMGS1375 sp900066615
+361	UBA7182
+362	UBA7182 sp003480725
+363	Blautia_A massiliensis
+364	Turicibacter sanguinis
+365	Barnesiella intestinihominis
+366	Lacrimispora
+367	Lacrimispora sp902363735
+368	Dorea
+369	Dorea formicigenerans
+370	Bacillus paralicheniformis
+371	Faecalimonas
+372	Faecalimonas phoceensis
+373	Clostridium saudiense
+374	Hungatella sp005845265
+375	Clostridium paraputrificum
+376	Lacrimispora sp902363835
+377	CAG-45
+378	CAG-45 sp000438375
+379	RUG115
+380	RUG115 sp900066395
+381	Weissella
+382	Weissella confusa
+383	Collinsella sp002232035
+384	Paraclostridium sordellii
+385	Collinsella sp003436275
+386	Sellimonas
+387	Sellimonas intestinalis
+388	Collinsella sp003479805
+389	Lactobacillus amylovorus
+390	Enterococcus_B
+391	Enterococcus_B durans
+392	Enterococcus_C
+393	Enterococcus_C asini
+394	Mediterraneibacter_A
+395	Mediterraneibacter_A butyricigenes
+396	Extibacter
+397	Extibacter muris
+398	Limosilactobacillus fermentum
+399	Marinifilaceae
+400	Butyricimonas
+401	Butyricimonas sp003479425
+402	Eubacterium_G sp000432355
+403	Alistipes_A
+404	Alistipes_A sp900240235
+405	Blautia_A sp900120195
+406	Enterocloster
+407	Enterocloster lavalensis
+408	Erysipelotrichaceae
+409	Bulleidia
+410	Bulleidia moorei
+411	Parabacteroides faecis
+412	Muricomes
+413	Muricomes sp000509105
+414	Muricomes oroticus
+415	Anaerotignum faecicola
+416	Lawsonibacter sp003478995
+417	Enterocloster aldenensis
+418	Collinsella sp003459505
+419	UBA9414
+420	UBA9414 sp003458885
+421	Mitsuokella sp003458855
+422	Butyricimonas paravirosa
+423	Blautia_A luti
+424	Agathobaculum butyriciproducens
+425	Holdemanella
+426	Holdemanella sp003458715
+427	Lachnospira sp003537285
+428	Collinsella sp003462685
+429	Coprococcus sp900066115
+430	CAG-127
+431	CAG-127 sp900319515
+432	Bacillaceae_C
+433	Weizmannia
+434	Weizmannia coagulans
+435	Holdemania
+436	Holdemania filiformis
+437	KLE1615
+438	KLE1615 sp900066985
+439	UBA9502
+440	UBA9502 sp003478505
+441	Faecalibacterium prausnitzii_E
+442	Bacteroides thetaiotaomicron
+443	Collinsella sp003458415
+444	Enterocloster citroniae
+445	Streptococcus parasanguinis_B
+446	Blautia_A sp003471165
+447	Blautia_A sp900066145
+448	AF33-28
+449	AF33-28 sp003477885
+450	Butyricimonas virosa
+451	Eubacterium_G sp000435815
+452	CAG-81 sp900066535
+453	Lachnoclostridium_B sp900066555
+454	Eubacterium_G ventriosum
+455	Eubacterium_F
+456	Eubacterium_F sp003491505
+457	Bacteroides sp900556215
+458	Blautia_A obeum
+459	Blautia_A sp003477525
+460	Veillonellaceae
+461	Veillonella
+462	Veillonella dispar_A
+463	Prevotella
+464	Prevotella stercorea
+465	Blautia_A sp003474435
+466	Acetatifactor sp900066565
+467	Acidaminococcales
+468	Acidaminococcaceae
+469	Acidaminococcus
+470	Acidaminococcus provencensis
+471	Eubacterium maltosivorans
+472	AM07-15
+473	AM07-15 sp003477405
+474	Parabacteroides bouchesdurhonensis
+475	Parabacteroides sp003473295
+476	NSJ-61
+477	NSJ-61 sp003433845
+478	Bacteroides sp003545565
+479	Duodenibacillus
+480	Duodenibacillus sp003472385
+481	Lactococcus
+482	Lactococcus lactis
+483	Bacillus sonorensis
+484	Collinsella sp900544115
+485	CAG-317
+486	CAG-317 sp000433215
+487	Lactococcus petauri
+488	Coprococcus eutactus_A
+489	Collinsella sp902364645
+490	CAG-81 sp900066785
+491	Vagococcaceae
+492	Vagococcus
+493	Vagococcus teuberi
+494	Enterobacter kobei
+495	Bacteroides fragilis_A
+496	Collinsella sp003470665
+497	Enterococcus_D casseliflavus
+498	Collinsella sp003471585
+499	Amedibacterium
+500	Amedibacterium intestinale
+501	Desulfobacterota
+502	Desulfovibrionia
+503	Desulfovibrionales
+504	Desulfovibrionaceae
+505	Desulfovibrio
+506	Desulfovibrio legallii
+507	Enterocloster sp000431375
+508	Phocaeicola massiliensis
+509	Catenibacterium sp000437715
+510	Roseburia sp003470905
+511	Streptococcus pasteurianus
+512	Collinsella intestinalis
+513	Weissella cibaria
+514	Mediterraneibacter
+515	Mediterraneibacter faecis
+516	TF01-11
+517	TF01-11 sp001414325
+518	Fusicatenibacter
+519	Fusicatenibacter saccharivorans
+520	Blautia_A obeum_B
+521	Holdemanella sp002299315
+522	Odoribacter
+523	Odoribacter splanchnicus
+524	CAG-81 sp900066055
+525	Atopobiaceae
+526	Olsenella_B
+527	Olsenella_B sp000752675
+528	Collinsella sp900540855
+529	Ruminococcus_E
+530	Ruminococcus_E bromii_B
+531	UBA9502 sp003480315
+532	Collinsella sp003469205
+533	Collinsella sp003469185
+534	Anaerobutyricum hallii
+535	Blautia_A sp900066335
+536	Exiguobacterium sp003467445
+537	Bacteroides nordii
+538	Collinsella sp003437035
+539	Absicoccus
+540	Absicoccus sp000434355
+541	Schaedlerella
+542	Schaedlerella sp900066545
+543	Faecalibacillus sp003480255
+544	Roseburia sp900552665
+545	Prevotella hominis
+546	Phocaeicola coprophilus
+547	UBA9502 sp003506385
+548	Caecibacter
+549	Caecibacter sp003467125
+550	Streptococcus mutans
+551	UBA3402
+552	UBA3402 sp003478355
+553	Veillonella sp003463825
+554	AM51-8
+555	AM51-8 sp003478275
+556	Lachnoclostridium_A
+557	Lachnoclostridium_A sp003464085
+558	TF01-11 sp003524945
+559	Collinsella sp900755685
+560	Parabacteroides sp900540715
+561	Firmicutes_B
+562	Peptococcia
+563	Peptococcales
+564	Peptococcaceae
+565	UBA7185
+566	UBA7185 sp900556545
+567	CAG-274
+568	Unknown genus
+569	Robinsoniella
+570	Robinsoniella sp900539655
+571	Collinsella sp900541145
+572	Prevotella buccae
+573	Collinsella sp900540995
+574	Eggerthellaceae
+575	CAG-1427
+576	CAG-1427 sp900547965
+577	Collinsella sp900551635
+578	Veillonella sp900556785
+579	Phascolarctobacterium_A
+580	Phascolarctobacterium_A sp900544885
+581	Clostridium_E
+582	Clostridium_E sporosphaeroides
+583	Peptostreptococcus
+584	Peptostreptococcus anaerobius
+585	RF39
+586	UBA660
+587	UBA7057
+588	UBA7057 sp900543675
+589	Pauljensenia
+590	Pauljensenia sp900541895
+591	Blautia_A sp900541985
+592	Collinsella sp900540905
+593	Varibaculum
+594	Varibaculum cambriense_A
+595	CAG-1427 sp900542525
+596	Paludibacteraceae
+597	RF16
+598	RF16 sp900542355
+599	Rothia
+600	Rothia mucilaginosa
+601	Pauljensenia sp001064145
+602	Phascolarctobacterium_A sp900552855
+603	Veillonella sp900550175
+604	Eisenbergiella
+605	Eisenbergiella sp900539715
+606	Collinsella vaginalis
+607	Collinsella sp900550355
+608	Cyanobacteria
+609	Vampirovibrionia
+610	Gastranaerophilales
+611	Gastranaerophilaceae
+612	UMGS951
+613	UMGS951 sp900547585
+614	UBA945
+615	UBA945 sp900549675
+616	Pasteurellaceae
+617	Haemophilus_D
+618	Haemophilus_D parainfluenzae
+619	Streptococcus infantis_I
+620	Pygmaiobacter
+621	Pygmaiobacter massiliensis
+622	Collinsella sp900540945
+623	Collinsella sp900549355
+624	Odoribacter sp900544025
+625	Enterococcus_D sp002850555
+626	Collinsella sp900549245
+627	CAG-95
+628	Rothia terrae
+629	Collinsella sp900540985
+630	CAG-272
+631	CAG-272
+632	CAG-272 sp900556615
+633	Lentilactobacillus
+634	Lentilactobacillus parabuchneri
+635	Collinsella sp900544995
+636	CAG-605
+637	CAG-605 sp000433255
+638	UBA5446
+639	Enterococcus_G
+640	Enterococcus_G italicus
+641	Morganella
+642	Morganella morganii_B
+643	Succinivibrionaceae
+644	Anaerobiospirillum
+645	Anaerobiospirillum sp900543125
+646	UBA9475
+647	Oxalobacter
+648	Odoribacter sp900548135
+649	Borkfalkiaceae
+650	QALS01
+651	QALS01 sp900555925
+652	Verrucomicrobiota
+653	Lentisphaeria
+654	Victivallales
+655	UBA1829
+656	UBA1829
+657	UBA1829 sp002338895
+658	ML615J-28
+659	CAG-698
+660	Tener-01
+661	Tener-01 sp001940985
+662	CAG-485
+663	CAG-917
+664	CAG-1138
+665	CAG-1138 sp000434675
+666	CAG-521
+667	UBA1740
+668	UBA7173
+669	UBA7173 sp900548705
+670	CAG-485 sp001701295
+671	VUNI01
+672	CAG-873
+673	Elusimicrobiota
+674	Elusimicrobia
+675	Elusimicrobiales
+676	Elusimicrobiaceae
+677	UBA1436
+678	UBA1436 sp002329395
+679	UBA1829 sp900548385
+680	VSOB01
+681	CAG-115
+682	CAG-115 sp003531585
+683	Zag1
+684	Zag1 sp001917115
+685	Coprococcus sp900767685
+686	TANB77
+687	CAG-508
+688	CAG-269
+689	CAG-269 sp900556695
+690	CAG-382
+691	UMGS882
+692	UMGS882 sp900757905
+693	QAKD01
+694	QAKD01 sp003343965
+695	F23-B02
+696	F23-B02 sp004553495
+697	CAG-170
+698	CAG-170 sp003516765
+699	CAG-170 sp900545925
+700	CAG-390
+701	CAG-390 sp003523225
+702	CAG-273
+703	CAG-273 sp003507395
+704	UBA1212
+705	UBA1255
+706	UMGS1537
+707	UMGS1537 sp900761045
+708	RFN20
+709	CAG-631
+710	CAG-631
+711	CAG-631 sp900762575
+712	Patescibacteria
+713	Saccharimonadia
+714	Saccharimonadales
+715	Saccharimonadaceae
+716	UBA1103
+717	UMGS1766
+718	Eubacterium_R
+719	Eubacterium_R sp900539425
+720	Merdibacter
+721	CAG-628
+722	CAG-269 sp900554175
+723	UBA737
+724	CAG-354
+725	Zag111
+726	UMGS911
+727	UMGS1623
+728	Roseburia sp900550935
+729	UBA11475
+730	UBA11475 sp003538975
+731	Ruminococcus_E sp003521625
+732	UBA932
+733	RC9
+734	Alphaproteobacteria
+735	RF32
+736	CAG-239
+737	CAG-495
+738	CAG-217
+739	CAG-217 sp900547275
+740	UBA1242
+741	UBA4626
+742	Pseudoruminococcus sp902765855
+743	UBA4716
+744	UBA11774
+745	UBA11774 sp003507655
+746	CAG-390 sp000437015
+747	CAG-552
+748	UBA10677
+749	UBA10677 sp003533505
+750	QALS01 sp003150575
+751	Zag111 sp002102825
+752	Dialisteraceae
+753	Dialister
+754	Succinivibrio
+755	Succinivibrio sp000431835
+756	Alistipes sp900546065
+757	UBA11471
+758	UBA11471
+759	UBA11471 sp900547555
+760	UMGS1865
+761	UMGS1865 sp900555785
+762	Acetatifactor sp900755865
+763	Flavobacteriales
+764	UBA1820
+765	UBA1820
+766	UBA1820 sp003150615
+767	CAG-710
+768	CAG-710 sp000432595
+769	UMGS1670
+770	UMGS1670 sp900553995
+771	UBA7001
+772	CAG-353 sp900768995
+773	UBA5026
+774	CAG-449
+775	CAG-449
+776	CAG-449 sp000432895
+777	UMGS1795
+778	UBA7597
+779	UBA7597 sp900542935
+780	CAG-1000
+781	CAG-1000 sp900761555
+782	CAG-288
+783	CAG-288
+784	CAG-288 sp000437395
+785	CAG-313
+786	UBA1737
+787	CAG-611
+788	CAG-611 sp900552235
+789	CAG-826
+790	RUG131
+791	RUG131 sp900549975
+792	CAG-306
+793	CAG-306 sp000980375
+794	Alistipes sp001941065
+795	Zag1 sp000433095
+796	Verrucomicrobiae
+797	Opitutales
+798	CAG-312
+799	CAG-312
+800	CAG-312 sp900545705
+801	CAG-462
+802	CAG-462 sp003489705
+803	Borkfalkia
+804	Borkfalkia ceftriaxoniphila
+805	RUG410
+806	UMGS1045
+807	UMGS1045 sp900547995
+808	CAG-484
+809	CAG-484 sp900554385
+810	CAG-269 sp000438255
+811	UMGS1826
+812	UBA1820 sp002314265
+813	Barnesiella sp002159975
+814	Eubacterium_R sp900539775
+815	RUG11130
+816	UBA737 sp900549755
+817	CAG-314
+818	CAG-314
+819	CAG-314 sp900551395
+820	CAG-475
+821	CAG-475 sp900550915
+822	UBA11517
+823	UBA11517 sp900768545
+824	UBA940
+825	UBA940 sp900768115
+826	CAG-841
+827	CAG-841 sp000437375
+828	QHMH01
+829	QHMH01 sp003258795
+830	CAG-460
+831	UMGS1668
+832	UMGS1668 sp900553955
+833	Victivallaceae
+834	CAAGED01
+835	CAAGED01 sp900768505
+836	UMGS1696
+837	UMGS1696 sp900554225
+838	UBA6414
+839	Spirochaetota
+840	Brachyspirae
+841	Brachyspirales
+842	Brachyspiraceae
+843	Brachyspira
+844	Brachyspira pilosicoli
+845	UBA7642
+846	UBA7642 sp900770925
+847	UMGS2069
+848	UMGS2069 sp900554955
+849	UBA10281
+850	UBA10281 sp900767495
+851	Dysosmobacter
+852	Duodenibacillus sp900544335
+853	UMGS882 sp900546385
+854	UBA1234
+855	UBA1234
+856	UBA1234 sp900753135
+857	UBA4951
+858	UBA4951 sp900540385
+859	Spirochaetia
+860	Treponematales
+861	Treponemataceae
+862	Treponema_D
+863	Treponema_D sp900541995
+864	CAG-312 sp900546565
+865	UMGS1387
+866	HGM13634
+867	HGM13634 sp900770385
+868	HGM11416
+869	HGM11416 sp900766495
+870	Butyrivibrio_A
+871	Butyrivibrio_A sp000431815
+872	Zag1 sp900767135
+873	Phascolarctobacterium_A sp900770955
+874	CAG-115 sp900768125
+875	Acholeplasmatales
+876	Anaeroplasmataceae
+877	Anaeroplasma
+878	Anaeroplasma sp900767915
+879	Agathobacter sp900548765
+880	UMGS1865 sp900768535
+881	Zag111 sp003258735
+882	RUG410 sp900553115
+883	UBA2883
+884	UBA2883 sp002103075
+885	UMGS1883
+886	HGM11501
+887	HGM11501
+888	HGM11501 sp900766735
+889	CAG-1000 sp900768345
+890	QALA01
+891	UMGS995
+892	UMGS995 sp900769695
+893	HGM11416 sp900768525
+894	CAG-110
+895	CAG-110 sp900547405
+896	CAG-127 sp900553925
+897	Brachyspira aalborgi
+898	UMGS1585
+899	UMGS1585 sp900766355
+900	CAG-312 sp000438015
+901	RUG410 sp900769705
+902	CAG-977
+903	UBA2903
+904	UBA2903 sp900768875
+905	CAG-724
+906	CAG-724 sp003524145
+907	CADBRU01
+908	CADBRU01 sp900762815
+909	UMGS363
+910	UMGS363 sp900541495
+911	Zag1 sp900556295
+912	Campylobacterota
+913	Campylobacteria
+914	Campylobacterales
+915	Helicobacteraceae
+916	Helicobacter_B
+917	Helicobacter_B fennelliae
+918	CAG-590
+919	CAG-590 sp900769115
+920	UBA2882
+921	UBA2882 sp900549665
+922	UMGS902
+923	UMGS1889
+924	UMGS1889 sp900556055
+925	UBA737 sp900547095
+926	UBA1436 sp900541355
+927	Firm-07
+928	Firm-07 sp900548735
+929	CAG-452
+930	UBA1221
+931	UBA1221 sp900770525
+932	UBA4636
+933	UBA4636 sp900770945
+934	Duodenibacillus sp900767875
+935	Prevotella sp900770395
+936	UMGS1470
+937	UMGS1470 sp900552105
+938	CAAFZY01
+939	CAAFZY01 sp900767645
+940	UMGS1585 sp900553205
+941	CAG-138
+942	PeH17
+943	PeH17 sp000435055
+944	Collinsella sp900768265
+945	CAG-510
+946	CAG-510 sp000434615
+947	Phascolarctobacterium_A sp900551335
+948	Prevotella sp900543975
+949	Olsenella
+950	Olsenella sp900538935
+951	Fusobacteriota
+952	Fusobacteriia
+953	Fusobacteriales
+954	Fusobacteriaceae
+955	Cetobacterium_A
+956	Cetobacterium_A sp900766645
+957	UMGS1826 sp900555435
+958	UBA1829 sp900549045
+959	Oribacterium
+960	Oribacterium sp004554245
+961	CAG-762
+962	CAG-762 sp000432575
+963	Eremiobacterota
+964	Xenobia
+965	Xenobiales
+966	Xenobiaceae
+967	Bruticola
+968	Bruticola sp004554425
+969	UBA2883 sp900768915
+970	Agathobacter sp900552085
+971	Zag1 sp900769355
+972	Roseburia sp003483745
+973	Sutterella
+974	Sutterella sp900770335
+975	Zag1 sp001765415
+976	Lawsonibacter sp900545895
+977	Mailhella
+978	Mailhella sp900553065
+979	CAG-521 sp900554675
+980	Prevotella sp900548535
+981	Campylobacteraceae
+982	Campylobacter
+983	Campylobacter fetus
+984	Cellulosilyticaceae
+985	Cellulosilyticum
+986	Cellulosilyticum sp900556665
+987	Caecibacter hominis
+988	Paraprevotella
+989	Paraprevotella sp900546665
+990	CAG-115 sp003507295
+991	Lachnospira sp000437735
+992	Collinsella sp900546105
+993	Duodenibacillus sp900552915
+994	Collinsella sp900545555
+995	CAG-521 sp000437635
+996	CAG-279
+997	CAG-279 sp900544305
+998	Pauljensenia turicensis
+999	Gemmiger variabilis_A
+1000	UBA11452
+1001	UBA11452 sp003526375
+1002	UMGS1502
+1003	Streptococcus vestibularis
+1004	Lactococcus garvieae
+1005	Acetatifactor sp900766575
+1006	RC9 sp900544195
+1007	UMGS124
+1008	UMGS124
+1009	UMGS75
+1010	Rs-D84
+1011	Rs-D84
+1012	Rs-D84
+1013	Rs-D84 sp900549365
+1014	Phascolarctobacterium_A succinatutens_A
+1015	UMGS1293
+1016	UMGS1293 sp900754495
+1017	UBA1407
+1018	UBA1407
+1019	UBA1724
+1020	UBA1724 sp900548225
+1021	Senegalimassilia
+1022	CAG-791
+1023	CAG-791 sp000431495
+1024	Mobilibacterium
+1025	Mobilibacterium timonense
+1026	CAG-1427 sp900544455
+1027	UMGS1502 sp900552365
+1028	UBA1829 sp900549415
+1029	Ruminococcus_C
+1030	RC9 sp000433355
+1031	UMGS1491
+1032	UMGS1518
+1033	Senegalimassilia faecalis
+1034	Parolsenella
+1035	Parolsenella massiliensis
+1036	UBA1752
+1037	UBA1752 sp900554405
+1038	CAG-196
+1039	CAG-196 sp900553895
+1040	CAG-873 sp900540625
+1041	Parolsenella uli_B
+1042	UBA636
+1043	UBA636 sp900546285
+1044	Blautia_A sp900763175
+1045	Eubacterium_J
+1046	CAG-632
+1047	Prevotella sp002299635
+1048	Victivallis
+1049	Victivallis sp900768515
+1050	Rhodocyclaceae
+1051	SFHR01
+1052	Ellagibacter
+1053	Gemmiger sp004555405
+1054	Lachnospira sp900547255
+1055	Treponema_D sp900541945
+1056	Arcanobacterium_A
+1057	Prevotella sp900546535
+1058	Eubacterium_R sp000436835
+1059	CAG-390 sp900753295
+1060	Collinsella aerofaciens_G
+1061	Collinsella sp900758845
+1062	CAG-170 sp002404795
+1063	Bacteroides togonis
+1064	UBA11471 sp000434215
+1065	Holdemanella sp900547815
+1066	Pseudomonadaceae
+1067	Pseudomonas_E
+1068	Pseudomonas_E bubulae
+1069	Prevotellamassilia
+1070	UBA10281 sp900556195
+1071	CAG-302
+1072	UMGS1668 sp900768105
+1073	UBA733
+1074	UBA733 sp900550795
+1075	UBA7173 sp900546835
+1076	CAG-238
+1077	CAG-238 sp900551415
+1078	CAG-488
+1079	CAG-488 sp000434055
+1080	Faecalibacillus sp900544435
+1081	Dialister sp002320515
+1082	RC9 sp000431015
+1083	CAG-873 sp004552485
+1084	UMGS1810
+1085	UMGS1810
+1086	Bacteroides congonensis
+1087	Sphaerochaetales
+1088	Sphaerochaetaceae
+1089	UBA5920
+1090	CAG-485 sp002491165
+1091	UMGS1470 sp900766395
+1092	Lactococcus_A
+1093	Lactococcus_A raffinolactis
+1094	UBA4334
+1095	CAG-977
+1096	CAG-977 sp000434295
+1097	CAG-590 sp900552885
+1098	UBA733 sp900767605
+1099	Angelakisella
+1100	Angelakisella sp003453215
+1101	CAG-590 sp000431135
+1102	Prevotellamassilia sp900543155
+1103	Prevotella sp000436035
+1104	Parabacteroides sp900549585
+1105	DTU072
+1106	CAG-1782
+1107	UBA4372
+1108	UBA4372 sp900543815
+1109	Prevotella sp900552675
+1110	CAG-83
+1111	CAG-83 sp900552725
+1112	UMGS1279
+1113	CAG-475 sp000434435
+1114	Monoglobales
+1115	Monoglobaceae
+1116	UMGS1326
+1117	Prevotella sp900546575
+1118	UBA738
+1119	Fusobacterium_B
+1120	Fusobacterium_B sp900541465
+1121	CAG-451
+1122	CAG-451 sp000438295
+1123	CAG-110 sp900544705
+1124	Duodenibacillus sp900762555
+1125	SFDB01
+1126	SFDB01 sp004558825
+1127	HGM12650
+1128	NC2004
+1129	RC9 sp900545245
+1130	CAG-177
+1131	CAG-177 sp003514385
+1132	Dialister sp000434475
+1133	CAG-180
+1134	CAG-180 sp004556705
+1135	CAG-74
+1136	SFFS01
+1137	Unknown family
+1138	F23-B02 sp900545805
+1139	Phil1
+1140	Phil1 sp001940855
+1141	CAG-245
+1142	UBA10281 sp900548285
+1143	Evtepia
+1144	CAG-312 sp001917305
+1145	CAG-170 sp900548625
+1146	Dialister sp900541605
+1147	CAG-110 sp000434635
+1148	Collinsella sp900550205
+1149	UBA1777
+1150	UBA10677 sp900762945
+1151	CAG-917
+1152	UBA11490
+1153	ER4
+1154	ER4 sp900768135
+1155	Streptococcus sp900555155
+1156	Campylobacter sp013416015
+1157	Bifidobacteriaceae
+1158	Bifidobacterium
+1159	Bifidobacterium sp002742445
+1160	Negativicoccaceae
+1161	Negativicoccus
+1162	Negativicoccus massiliensis
+1163	Peptoniphilus_A harei
+1164	Anaerococcus
+1165	Corynebacterium glucuronolyticum
+1166	Porphyromonadaceae
+1167	Porphyromonas
+1168	Porphyromonas_A
+1169	Porphyromonas_A sp900541275
+1170	Porphyromonas_A bennonis
+1171	Fenollaria
+1172	Fenollaria sp900539225
+1173	Paraeggerthella
+1174	Paraeggerthella hongkongensis
+1175	Collinsella sp900542905
+1176	Collinsella sp900544875
+1177	Collinsella sp900544095
+1178	Lactococcus lactis_E
+1179	Collinsella sp900541695
+1180	Bulleidia sp900539965
+1181	Enterocloster sp900543885
+1182	Bifidobacterium sp900551485
+1183	UBA5809
+1184	UBA5809 sp002417965
+1185	Collinsella sp900544135
+1186	Collinsella sp900541645
+1187	Prevotella sp000431975
+1188	Collinsella sp900541475
+1189	Phocaeicola sp900541515
+1190	Phascolarctobacterium_A sp900541915
+1191	Veillonella_A
+1192	Veillonella_A sp900545795
+1193	CAG-417
+1194	CAG-417 sp000432835
+1195	Lancefieldella
+1196	Lancefieldella sp900555335
+1197	Veillonella sp900545205
+1198	Bacteroides pyogenes
+1199	Fusobacterium
+1200	Fusobacterium nucleatum_E
+1201	CAG-269 sp900551615
+1202	Eubacterium_M
+1203	Eubacterium_M sp900540015
+1204	Succinivibrio sp900548485
+1205	Megamonas
+1206	Megamonas sp900554895
+1207	Turicimonas
+1208	Turicimonas muris
+1209	Collinsella sp900544755
+1210	Collinsella sp900542945
+1211	Collinsella sp900542325
+1212	Mycoplasmatales
+1213	Mycoplasmoidaceae
+1214	Ureaplasma
+1215	Ureaplasma sp900544585
+1216	Collinsella sp900546825
+1217	Blautia_A sp900541345
+1218	Anaerofustaceae
+1219	Anaerofustis
+1220	Anaerofustis sp900549875
+1221	Dysosmobacter sp900556925
+1222	UBA1691
+1223	UBA1691 sp900549825
+1224	Sutterella sp900543805
+1225	Collinsella sp900549715
+1226	Zag1 sp000437435
+1227	CAG-521 sp900546995
+1228	Dysgonomonadaceae
+1229	Dysgonomonas
+1230	Dysgonomonas capnocytophagoides
+1231	Catenibacterium sp900540665
+1232	UBA9506
+1233	UBA9506
+1234	UBA9506 sp003506415
+1235	Companilactobacillus
+1236	Companilactobacillus farciminis_A
+1237	Alistipes sp900550375
+1238	CAG-485 sp900552315
+1239	Duncaniella
+1240	Duncaniella sp900544535
+1241	Collinsella sp900550415
+1242	UBA7748
+1243	UBA7748 sp900314535
+1244	UBA10281 sp000437515
+1245	Dysosmobacter sp900544105
+1246	Agathobaculum sp900557315
+1247	Clostridium sp900540255
+1248	Dysosmobacter sp900544615
+1249	Collinsella sp900540845
+1250	Lacticaseibacillus
+1251	Lacticaseibacillus sp900540605
+1252	Lactobacillus apis
+1253	Collinsella sp900541685
+1254	Acidaminococcus sp900538365
+1255	CAG-521 sp900544345
+1256	UBA7173 sp900552325
+1257	Prevotella sp900545525
+1258	Prevotella sp900549175
+1259	Paraprevotella sp900548345
+1260	Collinsella sp900540875
+1261	CAG-269 sp900552555
+1262	Collinsella sp900542155
+1263	Faecalimonas sp900546325
+1264	Olsenella_B sp900548775
+1265	UMGS1490
+1266	UMGS1490 sp900547395
+1267	CAG-632 sp900539185
+1268	Collinsella sp900554255
+1269	Prevotellamassilia sp900556465
+1270	UBA1409
+1271	UBA1409 sp002338885
+1272	Collinsella sp900544425
+1273	UBA11517 sp003522085
+1274	Verrucomicrobiales
+1275	Akkermansiaceae
+1276	Akkermansia
+1277	Akkermansia sp004167605
+1278	UBA7173 sp900540205
+1279	Porphyromonas sp900539765
+1280	CAG-267
+1281	CAG-267 sp900551865
+1282	CAG-1024
+1283	CAG-1024 sp000432015
+1284	CAG-83 sp900545495
+1285	Collinsella sp900541665
+1286	Collinsella sp900555355
+1287	Collinsella sp900545075
+1288	CAG-170 sp900555665
+1289	CAG-103
+1290	CAG-103 sp900317855
+1291	Collinsella sp900541785
+1292	UBA2882 sp900542015
+1293	CAG-914
+1294	CAG-914 sp000437895
+1295	CAG-279 sp900541555
+1296	CAG-115 sp002492075
+1297	UMGS1307
+1298	UMGS1307 sp900550505
+1299	Collinsella sp900540895
+1300	UBA5394
+1301	UBA5394 sp900542615
+1302	UMGS1241
+1303	UMGS1241 sp900549955
+1304	UMGS902 sp900546635
+1305	Acidaminococcus fermentans
+1306	Clostridium neonatale
+1307	CAG-269 sp900553985
+1308	Collinsella sp900553415
+1309	Collinsella sp900555555
+1310	Phocaeicola sp900552075
+1311	Collinsella sp900551665
+1312	Beduini sp900550005
+1313	UBA9502 sp900538475
+1314	An92
+1315	An92 sp900199495
+1316	Slackia_A
+1317	Slackia_A sp900553775
+1318	Blautia sp900556555
+1319	Fusobacterium_A
+1320	Fusobacterium_A sp900015295
+1321	Clostridium nigeriense
+1322	Lactobacillus porci
+1323	Phascolarctobacterium
+1324	Phascolarctobacterium sp900551745
+1325	Sutterella sp900545275
+1326	Niameybacter
+1327	Niameybacter sp900551325
+1328	Gemmiger sp900548355
+1329	Dysosmobacter sp900546705
+1330	UMGS416
+1331	UMGS416
+1332	UMGS416 sp900542005
+1333	Phocaeicola sp900552645
+1334	An172
+1335	An172 sp002160515
+1336	Veillonella sp900549845
+1337	Phascolarctobacterium_A sp900545025
+1338	CAG-273 sp000437855
+1339	Absicoccus porci
+1340	UMGS75 sp900538885
+1341	UMGS577
+1342	UMGS577 sp900543525
+1343	CAG-314 sp000437915
+1344	UMGS1532
+1345	UMGS1532 sp900552605
+1346	Collinsella sp900544235
+1347	UMGS403
+1348	UMGS403 sp900541975
+1349	UBA5446 sp900546485
+1350	UMGS1241 sp900540495
+1351	Collinsella sp900548935
+1352	CAG-1031
+1353	CAG-1031 sp000431215
+1354	UMGS692
+1355	UMGS692 sp900544545
+1356	Eubacterium_R sp900555015
+1357	CAG-1427 sp900538545
+1358	CAG-245 sp900552135
+1359	Collinsella sp900552685
+1360	Collinsella sp900553935
+1361	UMGS1994
+1362	UMGS1994 sp900553945
+1363	Collinsella sp900551195
+1364	CAG-269 sp900553125
+1365	GCA-900066495 sp900545985
+1366	UBA4855
+1367	UBA4855 sp900540365
+1368	Fusobacterium_A sp900549465
+1369	Collinsella sp900557505
+1370	Barnesiella sp900538705
+1371	CAG-776
+1372	CAG-776 sp000438195
+1373	Ruminococcus
+1374	Ruminococcus sp900752785
+1375	UBA11517 sp900555365
+1376	Rs-D84 sp900546185
+1377	CAG-617
+1378	CAG-617 sp900553285
+1379	Phocaeicola salanitronis
+1380	PeH17 sp900542285
+1381	Blautia_A sp900553515
+1382	UMGS1441
+1383	UMGS1441 sp900543365
+1384	Veillonella_A seminalis
+1385	Eubacterium_I sp900546495
+1386	UMGS1880
+1387	UMGS1880 sp900555875
+1388	UMGS1518 sp900552575
+1389	UMGS1491 sp900552265
+1390	UMGS1490 sp900552245
+1391	UBA4855 sp900540395
+1392	UBA4855 sp900545015
+1393	CAG-492
+1394	CAG-492 sp900557195
+1395	Clostridium sp900539375
+1396	Streptococcus mitis_D
+1397	Collinsella sp900541285
+1398	CAG-1427 sp000435475
+1399	Collinsella sp900542235
+1400	CAG-354 sp900552655
+1401	Collinsella sp900549215
+1402	Collinsella sp900540095
+1403	Merdimonas
+1404	Merdimonas sp900553355
+1405	Anaerostipes rhamnosivorans
+1406	Niameybacter sp900549765
+1407	Blautia sp900539145
+1408	UMGS680
+1409	UMGS680 sp900544525
+1410	UBA737 sp900547445
+1411	Haemophilus_D sp900756155
+1412	Dialister sp900541485
+1413	Collinsella sp900547345
+1414	Roseburia sp900548205
+1415	TM7x
+1416	TM7x sp900556885
+1417	UBA4716 sp900556575
+1418	Prevotella sp900540375
+1419	Collinsella sp900541125
+1420	Collinsella sp900543845
+1421	CAG-56
+1422	CAG-56 sp900539525
+1423	Faecalimonas sp900550235
+1424	Pauljensenia sp000278725
+1425	Intestinibacter sp900540355
+1426	Clostridium_AQ
+1427	Clostridium_AQ sp900552125
+1428	Veillonella sp900538355
+1429	Anaerococcus sp900551095
+1430	Porphyromonas sp900539155
+1431	Ezakiella
+1432	Ezakiella sp900540185
+1433	Varibaculum timonense
+1434	Gemmiger sp900556255
+1435	UMGS1537 sp900543695
+1436	Lactococcus garvieae_B
+1437	Mediterraneibacter sp900751785
+1438	Collinsella sp900751755
+1439	Dehalobacteriia
+1440	UBA7702
+1441	UBA7702
+1442	UBA7702
+1443	Ruminococcus_C sp000980705
+1444	Collinsella sp900751695
+1445	UMGS1590
+1446	UMGS1590 sp900552455
+1447	HGM11521
+1448	HGM11521 sp900751885
+1449	Collinsella sp900768795
+1450	CAG-1427 sp900555755
+1451	CAG-56 sp900752065
+1452	CAG-217 sp000436335
+1453	CAG-485 sp900760735
+1454	CAG-269 sp900556945
+1455	UBA1390
+1456	UBA1390
+1457	Prevotella sp900554695
+1458	Pseudomonas_E putida_P
+1459	CAG-1031 sp900752535
+1460	DTU089
+1461	DTU089 sp002440045
+1462	Phocaeicola sp900553185
+1463	Prevotella sp900554045
+1464	UMGS1648
+1465	UMGS1648 sp900553765
+1466	Prevotella sp000436595
+1467	CAG-877
+1468	CAG-877 sp900753325
+1469	Campylobacter sp900753405
+1470	Enterocloster sp005845215
+1471	CAG-103 sp004556965
+1472	UBA11490 sp003524095
+1473	CAG-631 sp900754115
+1474	Succinivibrio sp900555115
+1475	CAG-484 sp000431315
+1476	Prevotella sp900556395
+1477	Negativibacillus
+1478	Negativibacillus sp000435195
+1479	UBA6398
+1480	UBA6398 sp900550635
+1481	Porphyromonas_A somerae
+1482	Dialister hominis
+1483	CAG-1427 sp900556585
+1484	Robinsoniella sp900540475
+1485	Streptococcus sp900755085
+1486	Enterocloster sp900538485
+1487	F0422
+1488	F0422 sp001553345
+1489	UMGS1590 sp900553245
+1490	Streptococcus sp000187445
+1491	UBA4871
+1492	UBA4871 sp900554535
+1493	F0422 sp900544365
+1494	Haemophilus_A
+1495	Haemophilus_A sputorum
+1496	CAG-317 sp900543415
+1497	Fusobacterium_B sp900554885
+1498	Prevotella sp002251365
+1499	Aerococcaceae
+1500	Granulicatella
+1501	CAG-411
+1502	CAG-411 sp000437275
+1503	Limosilactobacillus oris
+1504	Rothia sp001808955
+1505	Campylobacter_B
+1506	Campylobacter_B sp900539505
+1507	Staphylococcus haemolyticus_A
+1508	Acutalibacter
+1509	Acutalibacter sp900755895
+1510	Ruminococcus_E sp900755995
+1511	CAG-873 sp900755985
+1512	Collinsella sp900555955
+1513	RC9 sp000434935
+1514	Collinsella sp900552995
+1515	Anaerostipes sp900756035
+1516	Haemophilus_D parainfluenzae_L
+1517	Clostridium sp000435835
+1518	CAG-1427 sp900540345
+1519	Citrobacter_A
+1520	Citrobacter_A sp009363175
+1521	Collinsella aerofaciens_J
+1522	Flavobacteriaceae
+1523	Flavobacterium
+1524	Flavobacterium lindanitolerans
+1525	Azonexus
+1526	Azonexus sp900549295
+1527	Weeksellaceae
+1528	Chryseobacterium
+1529	Chryseobacterium gambrini
+1530	Collinsella aerofaciens_K
+1531	Prevotella pectinovora
+1532	Eubacterium_R sp002493325
+1533	Collinsella sp900551015
+1534	Weissella viridescens
+1535	HGM11523
+1536	HGM11523 sp900756545
+1537	UBA7185 sp900756555
+1538	UMGS1600
+1539	UMGS1600 sp900553315
+1540	Collinsella sp900756725
+1541	Collinsella sp900756765
+1542	CAG-110 sp900544975
+1543	CAG-269 sp000431335
+1544	Duodenibacillus sp900552545
+1545	Agathobaculum sp900544475
+1546	UMGS1279 sp900550315
+1547	Phascolarctobacterium_A sp900547415
+1548	HGM11808
+1549	HGM11808 sp900757025
+1550	Butyricicoccus_A
+1551	Butyricicoccus_A sp002395695
+1552	Collinsella sp900757205
+1553	Collinsella sp900757185
+1554	Collinsella sp900757265
+1555	Collinsella sp900757285
+1556	UMGS1491 sp900757335
+1557	Collinsella sp900757505
+1558	Collinsella sp900757385
+1559	Ruminococcus_C sp000437255
+1560	Collinsella sp900757615
+1561	Prevotella sp900543585
+1562	UBA1685
+1563	UBA1685 sp002320595
+1564	HGM12669
+1565	Collinsella sp900757495
+1566	Collinsella sp900757465
+1567	CAG-103 sp900543625
+1568	Collinsella sp900757595
+1569	Collinsella sp900757705
+1570	CAG-303
+1571	CAG-303 sp000437755
+1572	TM7x sp900556355
+1573	UBA737 sp900543215
+1574	Fusobacterium_A varium_A
+1575	Fusobacterium_B sp900554355
+1576	Ruminococcus_C sp000433635
+1577	Collinsella sp900552425
+1578	CAG-1427 sp900546175
+1579	CAG-1427 sp000431675
+1580	UBA738 sp004557735
+1581	SFHK01
+1582	SFHK01 sp004556395
+1583	Gemmiger sp900540775
+1584	Collinsella sp900759335
+1585	Bifidobacterium pullorum
+1586	CAG-274
+1587	CAG-274 sp000432155
+1588	Collinsella sp900548265
+1589	UBA1822
+1590	UBA1822 sp900545365
+1591	CAG-1427 sp900542265
+1592	Prevotella lascolaii
+1593	F23-B02 sp004557075
+1594	CAG-1427 sp000434775
+1595	CAG-1427 sp000436075
+1596	UMGS1603
+1597	UMGS1603 sp900759005
+1598	UMGS1590 sp900759105
+1599	Fusobacterium sp000235465
+1600	UBA5446 sp900759385
+1601	UMGS1754
+1602	UMGS1754 sp900759475
+1603	Collinsella sp002391315
+1604	Massilicoli
+1605	Massilicoli timonensis
+1606	Anaerosacchariphilus sp900553635
+1607	Collinsella sp900759565
+1608	Muribaculum sp001701195
+1609	CAG-269 sp000435535
+1610	UMGS1441 sp900551755
+1611	UBA7057 sp900542735
+1612	CAG-269 sp900554565
+1613	Agathobacter sp900547695
+1614	UMGS1472
+1615	UMGS1472 sp900552095
+1616	Collinsella sp900541745
+1617	Collinsella sp900759435
+1618	UMGS973
+1619	UMGS973 sp900547295
+1620	UBA1777 sp900549865
+1621	UBA4285
+1622	UBA4285 sp900545225
+1623	QAMH01
+1624	QAMH01
+1625	QAMH01 sp003149935
+1626	CAG-1427 sp900551155
+1627	CAG-81 sp900541255
+1628	Collinsella sp900549025
+1629	CAG-451 sp900758495
+1630	Ruminococcus_D
+1631	Ruminococcus_D sp900539095
+1632	Collinsella sp900556415
+1633	NK3B98
+1634	NK3B98 sp900758315
+1635	UMGS1491 sp900554775
+1636	Enterococcus_C dispar
+1637	Porphyromonas uenonis_A
+1638	Mediterraneibacter sp900553885
+1639	Porphyromonas sp900548415
+1640	Acutalibacter sp900759575
+1641	Parolsenella sp900544655
+1642	Lancefieldella rimae
+1643	Collinsella sp900759045
+1644	CAG-354 sp900759015
+1645	Firm-10
+1646	Firm-10 sp004552515
+1647	RUG11247
+1648	RUG11247 sp902767315
+1649	UMGS1820
+1650	UMGS1820 sp900555375
+1651	UMGS1326 sp900550775
+1652	Blautia_A sp900547615
+1653	Evtepia sp004556345
+1654	HGM13006
+1655	HGM13006 sp900757695
+1656	CAG-110 sp900551495
+1657	Eubacterium_R sp900542875
+1658	CACZQA01
+1659	CACZQA01 sp900758075
+1660	Peptacetobacter
+1661	Peptacetobacter sp900550335
+1662	Peptostreptococcus sp900759325
+1663	Collinsella bouchesdurhonensis
+1664	UMGS1600 sp900553295
+1665	Evtepia sp900758955
+1666	CAG-776 sp900758895
+1667	Prevotella sp900557405
+1668	Collinsella sp900758885
+1669	UBA1777 sp900754515
+1670	UBA737 sp900549055
+1671	Enterocloster sp900541315
+1672	UMGS1370
+1673	UMGS1370 sp900542035
+1674	Dialister sp900543165
+1675	Collinsella provencensis
+1676	Enterocloster sp900759225
+1677	Lachnoclostridium_A sp002160755
+1678	Catenibacillus sp900557175
+1679	Paramuribaculum
+1680	Paramuribaculum sp001689535
+1681	TF01-11 sp900759665
+1682	Faecalibacterium prausnitzii_F
+1683	CAG-354 sp001915925
+1684	Massiliomicrobiota
+1685	Massiliomicrobiota sp002160865
+1686	Rothia sp902373285
+1687	Succiniclasticum
+1688	Succiniclasticum sp900316935
+1689	Acinetobacter johnsonii
+1690	Caulobacterales
+1691	Caulobacteraceae
+1692	Caulobacter
+1693	Caulobacter sp903900155
+1694	Sphingomonadales
+1695	Sphingomonadaceae
+1696	Sphingomonas
+1697	Sphingomonas ginsenosidimutans
+1698	Acidovorax
+1699	Acidovorax sp000302535
+1700	Acidovorax temperans
+1701	Rhizobiales
+1702	Beijerinckiaceae
+1703	Methylobacterium
+1704	Methylobacterium sp002778835
+1705	Atlantibacter
+1706	Atlantibacter hermannii
+1707	Lancefieldella sp902373375
+1708	Rothia mucilaginosa_B
+1709	Corynebacterium sp902373425
+1710	UBA644
+1711	UBA644
+1712	UBA644 sp002299265
+1713	UMGS775
+1714	Pauljensenia sp902373435
+1715	Streptococcus sp902373455
+1716	CAG-485 sp900321585
+1717	Eubacterium limosum
+1718	Bilophila
+1719	Bilophila sp902373525
+1720	DNF00809
+1721	DNF00809 sp001552935
+1722	Pseudomonas_E fulva
+1723	Saccharofermentanales
+1724	Fastidiosipilaceae
+1725	KA00274
+1726	KA00274 sp902373515
+1727	28L
+1728	28L sp000177555
+1729	Scardovia
+1730	Scardovia wiggsiae
+1731	Pauljensenia sp902373545
+1732	UMGS1872
+1733	UMGS1872 sp902373635
+1734	Bifidobacterium vaginale_G
+1735	Veillonella dispar
+1736	Streptococcus sp900543065
+1737	UBA3700
+1738	CABKMX01
+1739	CABKMX01 sp902373595
+1740	Finegoldia
+1741	Finegoldia magna_H
+1742	Bifidobacterium infantis
+1743	Lacticaseibacillus rhamnosus
+1744	Parasutterella
+1745	Parasutterella excrementihominis
+1746	Desulfovibrio fairfieldensis
+1747	Pediococcus
+1748	Pediococcus acidilactici
+1749	Campylobacter_D
+1750	Campylobacter_D coli
+1751	Listeriaceae
+1752	Listeria
+1753	Listeria grayi
+1754	Amedibacillus
+1755	Amedibacillus dolichus
+1756	Faecalibacterium prausnitzii
+1757	Parvimonas
+1758	Parvimonas micra
+1759	Alistipes putredinis
+1760	Clostridium_AP
+1761	Clostridium_AP scindens
+1762	Erysipelatoclostridium
+1763	Erysipelatoclostridium spiroforme
+1764	Anaerofustis stercorihominis
+1765	Phocaeicola coprocola
+1766	Providencia
+1767	Providencia stuartii
+1768	Streptococcus infantarius
+1769	Clostridium_F
+1770	Clostridium_F botulinum_A
+1771	Mediterraneibacter lactaris
+1772	Enterocloster sp000155435
+1773	Helicobacter_D
+1774	Helicobacter_D pullorum
+1775	Bacteroides eggerthii
+1776	Bacteroides_F
+1777	Bacteroides_F pectinophilus
+1778	Bariatricus
+1779	Bariatricus comes
+1780	Mitsuokella multacida
+1781	Citrobacter portucalensis_A
+1782	Enterobacter cancerogenus
+1783	Butyrivibrio_A crossotus
+1784	Peptacetobacter hiranonis
+1785	Desulfovibrio piger
+1786	Gemmiger variabilis
+1787	Providencia rettgeri_D
+1788	Fusobacterium periodonticum_D
+1789	Fusobacterium_C
+1790	Fusobacterium_C gonidiaformans
+1791	Fusobacterium animalis
+1792	Fusobacterium_A ulcerans
+1793	Clostridium tertium
+1794	Helicobacter_A
+1795	Helicobacter_A rappini
+1796	Helicobacter_D winghamensis
+1797	Oxalobacter formigenes
+1798	Massilioclostridium
+1799	Massilioclostridium methylpentosum
+1800	Lentilactobacillus hilgardii
+1801	Ligilactobacillus ruminis
+1802	Lactobacillus ultunensis
+1803	Limosilactobacillus reuteri_E
+1804	Bacteroides fragilis
+1805	Blautia_A wexlerae_A
+1806	Synergistota
+1807	Synergistia
+1808	Synergistales
+1809	Acetomicrobiaceae
+1810	Acetomicrobium
+1811	Acetomicrobium hydrogeniformans
+1812	Weissella paramesenteroides
+1813	Leuconostoc mesenteroides
+1814	Streptococcus gordonii
+1815	Acinetobacter junii
+1816	Acinetobacter radioresistens
+1817	Bacteroides xylanisolvens
+1818	Bacteroides uniformis
+1819	Fusobacterium vincentii
+1820	Helicobacter_D canadensis
+1821	Veillonella parvula_A
+1822	Fusobacterium periodonticum_B
+1823	Edwardsiella
+1824	Edwardsiella tarda
+1825	Clostridium_AQ sp000165065
+1826	Collinsella aerofaciens
+1827	Bifidobacterium dentium
+1828	Anaerococcus hydrogenalis
+1829	Lawsonibacter sp000177015
+1830	Helicobacter
+1831	Helicobacter pylori_C
+1832	Campylobacter_D upsaliensis
+1833	Bilophila wadsworthia
+1834	Prevotella salivae
+1835	Sutterella wadsworthensis
+1836	Streptococcus anginosus
+1837	Streptococcus equinus
+1838	Phocaeicola plebeius
+1839	Phascolarctobacterium_A succinatutens
+1840	Succinatimonas
+1841	Succinatimonas hippei
+1842	Clostridium_Q
+1843	Clostridium_Q symbiosum
+1844	Muricomes fissicatena_A
+1845	Lactobacillus delbrueckii
+1846	Bacteroides fluxus
+1847	Paenibacillales
+1848	Paenibacillaceae
+1849	Paenibacillus
+1850	Paenibacillus lautus_A
+1851	Paraprevotella xylaniphila
+1852	Faecalimonas sp000209385
+1853	Mediterraneibacter torques
+1854	Ruminococcus_F
+1855	Ruminococcus_F champanellensis
+1856	Dysgonomonas gadei
+1857	Dysgonomonas mossii
+1858	Bacteroides ovatus
+1859	Schaedlerella glycyrrhizinilytica
+1860	Ruminococcus_B
+1861	Ruminococcus_B gnavus
+1862	Neisseriaceae
+1863	Neisseria
+1864	Neisseria macacae
+1865	Collinsella tanakaei
+1866	Lactobacillus iners
+1867	Ralstonia
+1868	Ralstonia pickettii
+1869	Alistipes_A indistinctus
+1870	Enterocloster clostridioformis
+1871	Senegalimassilia anaerobia
+1872	Desulfitobacteriia
+1873	Desulfitobacteriales
+1874	Desulfitobacteriaceae
+1875	Desulfitobacterium
+1876	Desulfitobacterium hafniense
+1877	Synergistaceae
+1878	Cloacibacillus
+1879	Cloacibacillus evryensis
+1880	Domibacillaceae
+1881	Bacillus_O
+1882	Bacillus_O smithii
+1883	Coprobacteraceae
+1884	Coprobacter
+1885	Coprobacter fastidiosus
+1886	Campylobacter_A
+1887	Campylobacter_A concisus_R
+1888	Hafnia
+1889	Hafnia paralvei
+1890	Yokenella
+1891	Yokenella regensburgei
+1892	Listeria innocua
+1893	Clostridium_AQ innocuum
+1894	Dialister succinatiphilus
+1895	Longicatena
+1896	Longicatena caecimuris
+1897	Odoribacter laneus
+1898	Erysipelatoclostridium ramosum
+1899	Sutterella parvirubra
+1900	Coprobacillus
+1901	Coprobacillus cateniformis
+1902	Bacillales_D
+1903	Amphibacillaceae
+1904	Oceanobacillus
+1905	Oceanobacillus massiliensis
+1906	Paenibacillus_L
+1907	Paenibacillus_L senegalensis
+1908	Bacillaceae_L
+1909	Ferdinandcohnia
+1910	Ferdinandcohnia timonensis
+1911	Bacillales_A
+1912	Planococcaceae
+1913	Kurthia
+1914	Kurthia massiliensis
+1915	Clostridium_J senegalense
+1916	Brevibacteriaceae
+1917	Brevibacterium
+1918	Brevibacterium senegalense
+1919	Slackia_A piriformis
+1920	Sutterella wadsworthensis_A
+1921	Pauljensenia sp000308055
+1922	DSM-18226
+1923	Robertmurraya
+1924	Robertmurraya massiliosenegalensis
+1925	Enorma
+1926	Enorma massiliensis
+1927	Peptoniphilus_E
+1928	Peptoniphilus_E obesi
+1929	Alistipes communis
+1930	Cellulomonadaceae
+1931	Cellulomonas
+1932	Cellulomonas massiliensis
+1933	Noviherbaspirillum
+1934	Noviherbaspirillum massiliense
+1935	Nocardioidaceae
+1936	Aeromicrobium
+1937	Aeromicrobium massiliense
+1938	Timonella
+1939	Timonella senegalensis
+1940	Alistipes senegalensis
+1941	Dielma
+1942	Dielma fastidiosa
+1943	Bacteroides oleiciplenus
+1944	Clostridium celatum
+1945	Anaerococcus senegalensis
+1946	Peptoniphilus_A senegalensis
+1947	Phytobacter
+1948	Phytobacter massiliensis
+1949	Enorma timonensis
+1950	Bacillus_BN
+1951	Bacillus_BN massilioanorexius
+1952	Alistipes_A ihumii
+1953	Holdemania massiliensis
+1954	Helicobacter pylori_BU
+1955	Helicobacter_C
+1956	Helicobacter_C cinaedi
+1957	Bacteroides salyersiae
+1958	Butyricicoccus
+1959	Butyricicoccus pullicaecorum
+1960	Corynebacterium amycolatum_A
+1961	Paenibacillus_F
+1962	Paenibacillus_F sp000411255
+1963	Staphylococcus schleiferi
+1964	Paenisporosarcina
+1965	Paenisporosarcina sp000411295
+1966	Faecalimonas umbilicata
+1967	Acidaminococcus intestini
+1968	Pauljensenia sp000411415
+1969	Streptococcus sp000411475
+1970	Streptomycetales
+1971	Streptomycetaceae
+1972	Streptomyces
+1973	Streptomyces albus
+1974	Veillonella atypica
+1975	Cedecea
+1976	Cedecea davisae
+1977	Cutibacterium avidum
+1978	Prevotella oralis
+1979	Dermabacteraceae
+1980	Dermabacter
+1981	Dermabacter hominis
+1982	Salinicoccaceae
+1983	Nosocomiicoccus
+1984	Nosocomiicoccus massiliensis
+1985	Nesterenkonia
+1986	Nesterenkonia massiliensis
+1987	Paenibacillus_A
+1988	Paenibacillus_A antibioticophila
+1989	Stoquefichus
+1990	Stoquefichus massiliensis
+1991	Aneurinibacillales
+1992	Aneurinibacillaceae
+1993	Aneurinibacillus
+1994	Aneurinibacillus aneurinilyticus
+1995	Bittarella
+1996	Bittarella massiliensis
+1997	Faecalitalea
+1998	Faecalitalea cylindroides
+1999	Eubacterium_I ramulus
+2000	Pseudomonas_B
+2001	Pseudomonas_B luteola
+2002	Cetobacterium_A somerae
+2003	Fusobacterium nucleatum
+2004	Romboutsia
+2005	Romboutsia dakarensis
+2006	Bacteroides neonati
+2007	Helicobacter_B macacae
+2008	Helicobacter_B canis
+2009	Fusobacterium polymorphum
+2010	Providencia alcalifaciens_A
+2011	Providencia alcalifaciens
+2012	Clostridium_E jeddahense
+2013	Geodermatophilaceae
+2014	Blastococcus
+2015	Blastococcus massiliensis
+2016	Neobacillus
+2017	Neobacillus jeddahensis
+2018	Virgibacillus
+2019	Virgibacillus kapii
+2020	Bifidobacterium gallicum
+2021	Oceanobacillus jeddahense
+2022	Sporanaerobacteraceae
+2023	Anaerosalibacter
+2024	Anaerosalibacter massiliensis
+2025	Clostridium_J sp000821305
+2026	Neobacillus rubiinfantis
+2027	Caproiciproducens
+2028	Caproiciproducens sp000752215
+2029	Clostridium_L
+2030	Clostridium_L amazonitimonense
+2031	Collinsella sp000763055
+2032	Clostridium_AA
+2033	Clostridium_AA polynesiense
+2034	Pauljensenia polynesiensis
+2035	Neobacillus sp000821085
+2036	Planococcus
+2037	Planococcus massiliensis
+2038	Arachnia
+2039	Arachnia massiliensis
+2040	Nigerium
+2041	Nigerium massiliense
+2042	Pseudomonas_E massiliensis
+2043	Dermatophilaceae
+2044	Mobilicoccus
+2045	Mobilicoccus massiliensis
+2046	Beduini massiliensis
+2047	Thermoactinomycetales
+2048	Thermoactinomycetaceae
+2049	Risungbinella
+2050	Risungbinella massiliensis
+2051	Parabacteroides goldsteinii
+2052	Bifidobacterium catenulatum
+2053	Rubeoparvulales
+2054	Rubeoparvulaceae
+2055	Rubeoparvulum
+2056	Rubeoparvulum massiliense
+2057	Enterococcus_C massiliensis
+2058	Enterocloster bolteae
+2059	Mesosutterella
+2060	Mesosutterella massiliensis
+2061	Anaerococcus jeddahensis
+2062	Extibacter sp001185345
+2063	Clostridium_F niameyense
+2064	Bacillus_BN testis
+2065	Muricomes contortus_B
+2066	Lawsonibacter asaccharolyticus
+2067	Caldibacillaceae
+2068	Bacillus_J
+2069	Bacillus_J andreraoultii
+2070	Intestinimonas
+2071	Intestinimonas massiliensis
+2072	Fermentimonas
+2073	Fermentimonas caenicola
+2074	Tepidimicrobiaceae
+2075	Mt11
+2076	Mt11 sp001282665
+2077	Kallipyga
+2078	Kallipyga gabonensis
+2079	Neofamilia
+2080	Neofamilia massiliensis
+2081	Paenibacillus ihuae
+2082	Halobacillaceae
+2083	Thalassobacillus
+2084	Thalassobacillus devorans
+2085	Flaviflexus
+2086	Flaviflexus massiliensis
+2087	Novibacillaceae
+2088	Numidum
+2089	Numidum massiliense
+2090	Bacillales_E
+2091	Massilibacteriaceae
+2092	Massilibacterium
+2093	Massilibacterium senegalense
+2094	Coprobacter secundus
+2095	Clostridium_P massiliamazoniense
+2096	Paenibacillus_A ihumii
+2097	Lagierella
+2098	Lagierella massiliensis
+2099	Limosilactobacillus antri
+2100	Lactobacillus amylolyticus
+2101	Gorillibacterium
+2102	Gorillibacterium timonense
+2103	Olsenella sp001457795
+2104	Vitreoscilla
+2105	Vitreoscilla massiliensis
+2106	Fenollaria timonensis
+2107	Pauljensenia radingae_A
+2108	Gracilibacillus
+2109	Gracilibacillus massiliensis
+2110	RUG013
+2111	RUG013 sp001486445
+2112	Paenibacillus_A rubinfantis
+2113	Paenibacillus_A senegalimassiliensis
+2114	Fournierella
+2115	Fournierella massiliensis
+2116	Mediterraneibacter massiliensis
+2117	Gabonibacter
+2118	Gabonibacter massiliensis
+2119	Anaerococcus rubeinfantis
+2120	Enterocloster sp001517625
+2121	Peptoniphilus_A phoceensis
+2122	Corynebacterium ammoniagenes
+2123	Xanthomonadales
+2124	Xanthomonadaceae
+2125	Xanthomonas_B
+2126	Xanthomonas_B massiliensis
+2127	Paenibacillus_A phocaensis
+2128	Enterobacter_A
+2129	Enterobacter_A timonensis
+2130	Cellulomonas timonensis
+2131	Collinsella ihuae
+2132	Acutalibacter timonensis
+2133	Corynebacterium provencense
+2134	Murdochiella
+2135	Murdochiella massiliensis
+2136	Paenibacillus_A sp900069005
+2137	Lachnoclostridium
+2138	Lachnoclostridium sp900078195
+2139	Corynebacterium bouchesdurhonense
+2140	Olegusella
+2141	Olegusella massiliensis
+2142	Alistipes provencensis
+2143	Emergencia timonensis
+2144	Paenibacillus_A tuaregi
+2145	Gracilibacillus phocaeensis
+2146	Christensenellaceae
+2147	Christensenella
+2148	Christensenella timonensis
+2149	Odoribacter massiliensis
+2150	Butyricimonas synergistica
+2151	Clostridium_P mediterraneense
+2152	Corynebacterium phoceense
+2153	Fusobacterium massiliense
+2154	Acidaminococcus massiliensis
+2155	F0040
+2156	F0040 sp900095835
+2157	Streptococcus timonensis
+2158	Anaeroglobus
+2159	Anaeroglobus massiliensis
+2160	Massilioclostridium coli
+2161	Caecibacter massiliensis
+2162	Alistipes timonensis
+2163	Murdochiella vaginalis
+2164	Enterocloster clostridioformis_A
+2165	CAG-103 sp900757655
+2166	Eubacterium_R coprostanoligenes
+2167	UBA4871 sp014467055
+2168	Lacrimispora sp000526575
+2169	Dysosmobacter sp014297375
+2170	CAG-238 sp900542245
+2171	Dethiosulfovibrionaceae
+2172	Pyramidobacter
+2173	Pyramidobacter piscolens
+2174	Desulfovibrio sp900547595
+2175	Parabacteroides timonensis
+2176	Intestinimonas sp900540545
+2177	Christensenella hongkongensis
+2178	Fusobacterium_B sp900545035
+2179	Blautia sp900543715
+2180	UBA866
+2181	UBA866 sp900543295
+2182	Lawsonibacter sp900553135
+2183	Phocaeicola sp900544075
+2184	Peptostreptococcus russellii_A
+2185	Blautia sp900547685
+2186	UMGS1370 sp900551135
+2187	Enorma sp900538305
+2188	Enterocloster sp900547035
+2189	Dorea_B
+2190	Dorea_B phocaeensis
+2191	Gabonibacter sp900543425
+2192	Cloacibacillus porcorum
+2193	Sporanaerobacter
+2194	Sporanaerobacter acetigenes
+2195	Phocea
+2196	Phocea massiliensis
+2197	Acidaminococcus sp900554515
+2198	Allisonella
+2199	Allisonella pneumosintes
+2200	CAG-521 sp002329575
+2201	Eisenbergiella sp900548905
+2202	Dysosmobacter sp900544955
+2203	Clostridium_Q sp900547735
+2204	Peptostreptococcus russellii
+2205	UBA9502 sp900540335
+2206	UMGS1907
+2207	UMGS1907 sp900556165
+2208	Pauljensenia sp900554605
+2209	Enterocloster sp900549235
+2210	Terrisporobacter othiniensis
+2211	Proteus
+2212	Proteus cibarius
+2213	Eikenella
+2214	Eikenella corrodens
+2215	Phascolarctobacterium sp900544795
+2216	Gemmiger sp900539695
+2217	Collinsella sp900549345
+2218	Phascolarctobacterium_A sp900552005
+2219	Prevotellamassilia sp900542795
+2220	Bilophila sp900553145
+2221	RC9 sp000435075
+2222	Longibaculum sp900538465
+2223	Agathobacter sp900543445
+2224	Slackia_A sp900555495
+2225	Duncaniella sp900549445
+2226	CAG-485 sp900760815
+2227	UBA7173 sp900759895
+2228	Eubacterium_G sp900550135
+2229	UMGS1663
+2230	UMGS1663 sp900553865
+2231	UMGS1781
+2232	UMGS1781 sp900553695
+2233	CAG-594
+2234	CAG-594 sp900759985
+2235	UBA1409 sp900760125
+2236	F23-B02 sp900760205
+2237	UBA1191 sp900545775
+2238	V9D3004
+2239	V9D3004 sp002349525
+2240	Collinsella sp900760325
+2241	UMGS856
+2242	UMGS856 sp900760305
+2243	Butyricimonas faecalis
+2244	Collinsella sp900543515
+2245	RC9 sp900760425
+2246	SFFH01
+2247	SFFH01 sp900548125
+2248	Paraprevotella sp900760455
+2249	HGM11788
+2250	HGM11788 sp900760465
+2251	Bacteroides gallinarum
+2252	CAG-451 sp900760545
+2253	Alistipes sp900760675
+2254	QALW01
+2255	UMGS1322
+2256	UMGS1322 sp900550765
+2257	UBA1259
+2258	UBA1259 sp900760875
+2259	UBA7642 sp900539865
+2260	UMGS1840
+2261	UMGS1840
+2262	HGM11507
+2263	HGM11507 sp900761005
+2264	UMGS995 sp900547465
+2265	UMGS1537 sp900552695
+2266	UMGS1795 sp900761165
+2267	UBA1685 sp900546845
+2268	RUG705
+2269	RUG705 sp900759875
+2270	CAG-452 sp000434035
+2271	UBA10677 sp900553005
+2272	Ruminococcus sp900761275
+2273	Paramuribaculum sp900760855
+2274	Frisingicoccus
+2275	DONG20-135
+2276	DONG20-135 sp009831105
+2277	CAG-964
+2278	DNF00809 sp900604965
+2279	CAG-317 sp000433535
+2280	Hungatella_A
+2281	Hungatella_A hathewayi_A
+2282	Blautia coccoides
+2283	Ruminococcus_G
+2284	Ruminococcus_G gauvreauii
+2285	Aeromonadaceae
+2286	Aeromonas
+2287	Aeromonas veronii_A
+2288	Aeromonas dhakensis
+2289	Enterococcus
+2290	Enterococcus faecalis
+2291	Megasphaera massiliensis
+2292	Enterococcus_A
+2293	Enterococcus_A raffinosus
+2294	Erysipelatoclostridium saccharogumia
+2295	Marvinbryantia
+2296	Marvinbryantia formatexigens
+2297	Clostridium_J ihumii
+2298	Citrobacter_A sedlakii
+2299	Corynebacterium afermentans
+2300	Virgibacillus picturae
+2301	Vibrionaceae
+2302	Vibrio
+2303	Vibrio fluvialis
+2304	Blautia hansenii
+2305	Citrobacter portucalensis
+2306	Campylobacter_A curvus
+2307	Coprococcus sp000154245
+2308	Providencia rustigianii
+2309	Collinsella stercoris
+2310	Extibacter hylemonae
+2311	Holdemanella biformis
+2312	Bacillaceae_G
+2313	Bacillus_A
+2314	Bacillus_A thuringiensis_S
+2315	Vibrio furnissii
+2316	Coprococcus_A
+2317	Coprococcus_A catus
+2318	Collinsella sp900752475
+2319	Collinsella sp900752545
+2320	Prevotella sp002350355
+2321	UBA5446 sp004553625
+2322	Massilimaliae sp900752435
+2323	Collinsella sp900752425
+2324	UBA1390 sp002305315
+2325	CAG-145
+2326	CAG-145 sp900545135
+2327	Collinsella sp900751665
+2328	HGM11530
+2329	HGM11530 sp900751685
+2330	CAG-83 sp900550615
+2331	Eubacterium_R sp000434995
+2332	Duncaniella sp001701225
+2333	UMGS1519
+2334	UMGS1519 sp900552585
+2335	Collinsella sp900549555
+2336	Dysosmobacter sp900752075
+2337	CAG-884
+2338	Collinsella sp900752015
+2339	Coprococcus sp900548215
+2340	CAG-273 sp900752095
+2341	UMGS743
+2342	UMGS743 sp900545085
+2343	CAG-56 sp900762665
+2344	Hydrogeniiclostridium
+2345	Hydrogeniiclostridium sp900752115
+2346	Phocaeicola ilei
+2347	CAG-1000 sp000436975
+2348	Collinsella sp900752215
+2349	CAG-110 sp900752285
+2350	UBA1394 sp900538575
+2351	Ruminococcus sp900540005
+2352	UBA1417
+2353	UBA1417 sp900549945
+2354	Anaeroglobus geminatus
+2355	Prevotella sp000434975
+2356	UBA1206
+2357	UBA1206 sp000433115
+2358	CAG-448
+2359	CAG-448 sp000433415
+2360	UMGS1976
+2361	UMGS1976 sp900556765
+2362	RC9 sp000432655
+2363	CAG-488 sp000434915
+2364	Prevotella sp900313215
+2365	CAG-617 sp000438115
+2366	CAG-831
+2367	CAG-831 sp900550465
+2368	CAG-475 sp900550855
+2369	CAG-831 sp000432775
+2370	UBA3789
+2371	UBA3789 sp900543055
+2372	Eubacterium_F sp000434115
+2373	UMGS1851
+2374	UMGS1851 sp900555605
+2375	Acutalibacter sp000432995
+2376	Zag1 sp900555175
+2377	Phocaeicola sp900551065
+2378	Mailhella sp003150275
+2379	UMGS1109
+2380	UMGS1109 sp900548675
+2381	UBA11517 sp900557645
+2382	Phocaeicola sp900551645
+2383	Phocaeicola sp002161565
+2384	Phascolarctobacterium_A sp900553055
+2385	UBA953
+2386	W0P29-029
+2387	CAG-632 sp002406015
+2388	Amulumruptor
+2389	Amulumruptor caecigallinarius
+2390	CAG-590 sp900548855
+2391	Ruminococcus_D sp900752625
+2392	Megasphaera sp900548635
+2393	RC9 sp900546925
+2394	Prevotella sp900553965
+2395	UBA1375
+2396	Mediterraneibacter sp002314255
+2397	COE1
+2398	COE1 sp900753305
+2399	CAG-1427 sp900753095
+2400	CACZQA01 sp902783175
+2401	QAKW01
+2402	HGM12957
+2403	CAG-145 sp900540145
+2404	Anaerotignum lactatifermentans
+2405	UMGS1603 sp900553265
+2406	CAG-83 sp900551355
+2407	UMGS929
+2408	UMGS929 sp900546875
+2409	UBA4951 sp900542595
+2410	TF01-11 sp000436755
+2411	UMGS2070
+2412	Phocaeicola sp000432735
+2413	CAG-475 sp900551145
+2414	Zag1 sp000438175
+2415	UMGS2016
+2416	Collinsella sp900758375
+2417	UBA7868
+2418	CAG-1435
+2419	CAG-1435 sp900769665
+2420	Eubacterium_F sp000433735
+2421	UBA11940
+2422	CAG-632 sp000431515
+2423	UMGS172
+2424	UMGS172 sp900539855
+2425	UBA4675
+2426	UBA1409 sp002491605
+2427	Prevotella sp003447235
+2428	CAG-873 sp900555715
+2429	HGM12619
+2430	HGM12619 sp900753195
+2431	QAMI01
+2432	QAMI01 sp900554095
+2433	RUG14156
+2434	Acetatifactor sp900760705
+2435	Parabacteroides sp900548175
+2436	HGM11327
+2437	HGM11327
+2438	Akkermansia muciniphila_A
+2439	UMGS1781 sp900555075
+2440	UBA1829 sp900760615
+2441	Ruminiclostridium_E
+2442	Ruminiclostridium_E sp003512525
+2443	QALW01
+2444	QALW01 sp900547955
+2445	CAG-145 sp900542565
+2446	Zag111 sp900555325
+2447	UMGS1840
+2448	UMGS1840 sp900555525
+2449	Parabacteroides sp900552415
+2450	CAG-557
+2451	CAG-557 sp000435275
+2452	UMGS1810
+2453	Firm-18
+2454	UMGS1908
+2455	Ruminococcus_D sp900543145
+2456	QAKW01
+2457	QAKW01 sp003343605
+2458	Duncaniella dubosii
+2459	Desulfovibrio sp002159665
+2460	UMGS1839
+2461	UMGS1839 sp900555545
+2462	UMGS731
+2463	UMGS731 sp900544985
+2464	Prevotellamassilia sp900541575
+2465	F23-B02 sp002472405
+2466	Phocaeicola sp900546355
+2467	CAG-465
+2468	CAG-465
+2469	CAG-465 sp000433135
+2470	Parasutterella sp009767915
+2471	Zag1 sp900752845
+2472	Phocaeicola sp900544675
+2473	CAG-776 sp900549285
+2474	Prevotella sp900547005
+2475	UMGS75 sp900752975
+2476	Paramuribaculum sp900752995
+2477	CAG-475 sp900548005
+2478	CAG-279 sp900548875
+2479	QAND01
+2480	UMGS1975
+2481	UMGS1975 sp900751745
+2482	Prevotella sp900544495
+2483	UMGS1002
+2484	UMGS1002 sp900547565
+2485	UBA5905
+2486	UBA5905 sp002437905
+2487	UBA7173 sp001701135
+2488	CAG-873 sp001701165
+2489	UBA10281 sp900767815
+2490	Ruminococcus sp002438605
+2491	UMGS687
+2492	UMGS687 sp900545735
+2493	CAG-269 sp900753165
+2494	Selenomonas_C
+2495	Selenomonas_C sp002351185
+2496	UMGS687 sp900544595
+2497	CAG-611 sp000434175
+2498	UBA1777 sp900549545
+2499	Muribaculum sp002492595
+2500	Dysosmobacter sp900551885
+2501	Gastranaerophilus
+2502	Gastranaerophilus phascolarctosicola
+2503	CAG-873 sp900548975
+2504	Frisingicoccus sp900549105
+2505	Eubacterium_R sp900543795
+2506	UMGS268
+2507	UMGS268 sp900540705
+2508	UBA3631
+2509	UBA3631 sp900546275
+2510	QAMI01 sp900551915
+2511	Frisingicoccus sp900753685
+2512	CAG-877 sp900554315
+2513	Phocaeicola sp000434735
+2514	Acetatifactor sp900772845
+2515	CAG-510 sp900550475
+2516	UMGS1908 sp900556185
+2517	CAG-492 sp900557045
+2518	UBA2882 sp002362385
+2519	Enterocloster sp900753815
+2520	Prevotella sp900315955
+2521	CAG-349
+2522	CAG-349 sp001940895
+2523	51-20
+2524	51-20 sp900542055
+2525	Prevotella sp900552515
+2526	Sutterella seckii_A
+2527	SFEB01
+2528	SFEB01 sp004558105
+2529	Phascolarctobacterium sp900554395
+2530	CAG-617 sp000431275
+2531	Collinsella sp900754075
+2532	Dysosmobacter sp000436875
+2533	UBA737 sp900754145
+2534	CAG-495 sp900540425
+2535	Collinsella sp900547855
+2536	UMGS363 sp900543105
+2537	Marvinbryantia sp900550755
+2538	CAG-269 sp900754285
+2539	CAG-273 sp900752335
+2540	Collinsella sp900754525
+2541	Collinsella sp900754275
+2542	Parabacteroides sp900541965
+2543	Lachnospira sp900552795
+2544	CAG-177 sp000431775
+2545	CAG-460 sp900551525
+2546	UCG-010
+2547	UCG-010 sp900754535
+2548	BX7
+2549	JAAYBB01
+2550	Lawsonibacter sp900754605
+2551	Alistipes dispar
+2552	CAG-115 sp003516865
+2553	UMGS1688
+2554	UMGS1688 sp900754695
+2555	HGM11575
+2556	HGM11575 sp900754775
+2557	Collinsella sp900754745
+2558	Merdibacter sp900754715
+2559	Porphyromonas endodontalis
+2560	UBA5394 sp003150565
+2561	Anaerobutyricum sp900754855
+2562	Eubacterium_R sp000431535
+2563	Collinsella sp900544225
+2564	51-20 sp001917175
+2565	Centipeda
+2566	Centipeda artemidis
+2567	CAAEEV01
+2568	CAAEEV01 sp900754955
+2569	CAG-877 sp900554305
+2570	RUG12045
+2571	HGM13010
+2572	HGM13010 sp900754965
+2573	HGM11377
+2574	HGM11377 sp900755035
+2575	Collinsella sp900755005
+2576	Anaerosacchariphilus sp014290175
+2577	UBA3210
+2578	UBA3210 sp900755065
+2579	UBA5905 sp900549155
+2580	Parabacteroides massiliensis
+2581	CAG-170 sp900553545
+2582	UBA738 sp900763675
+2583	SFJ001
+2584	UMGS966
+2585	UMGS966 sp900761965
+2586	Faecalibacterium sp900758465
+2587	CAG-110 sp900762935
+2588	Collinsella sp900757235
+2589	Fructilactobacillus
+2590	Fructilactobacillus sanfranciscensis
+2591	UMGS902 sp003343845
+2592	CAG-485 sp900556595
+2593	Prevotella sp900546345
+2594	Stomatobaculum
+2595	CAG-115 sp000432175
+2596	Dysosmobacter sp001916835
+2597	Gemmiger sp900554145
+2598	CAG-110 sp003525905
+2599	QAMX01
+2600	QAMX01
+2601	QAMX01 sp004555605
+2602	SFFH01 sp900542395
+2603	QAMH01 sp900556425
+2604	Succiniclasticum sp900315805
+2605	Prevotella sp900544825
+2606	Alistipes sp900544265
+2607	Collinsella sp900545445
+2608	UBA4644
+2609	UBA4644 sp900763355
+2610	UBA5905 sp900763035
+2611	UMGS1418
+2612	NSJ-63
+2613	NSJ-63 sp014384805
+2614	Firm-11
+2615	Firm-11 sp900553905
+2616	UBA1750
+2617	UBA7102
+2618	Angelakisella sp900552845
+2619	Lawsonibacter sp900550705
+2620	Olsenella_E
+2621	Olsenella_E sp003150175
+2622	SFJ001 sp004555865
+2623	Parolsenella sp900552935
+2624	Prevotella sp900290275
+2625	UBA1232
+2626	UBA1232 sp900544815
+2627	Collinsella sp900549085
+2628	Collinsella sp900541015
+2629	Anaerovibrio
+2630	Anaerovibrio sp900548165
+2631	Dysosmobacter sp900763685
+2632	ER4 sp900763705
+2633	Collinsella sp900556365
+2634	Neisseria elongata
+2635	Porphyromonas pasteri
+2636	Acidaminococcus sp000437815
+2637	UMGS1696 sp900763885
+2638	CAG-110 sp900763965
+2639	UMGS1795 sp900555125
+2640	UBA1390 sp900764045
+2641	UBA5905 sp900764115
+2642	Negativibacillus sp900547015
+2643	CAG-882
+2644	CAG-882 sp900545455
+2645	Monoglobus
+2646	Monoglobus sp900542675
+2647	Prevotella sp000436915
+2648	Mailhella sp900541395
+2649	Anaeromassilibacillus
+2650	Anaeromassilibacillus sp002159845
+2651	UC5-1-2E3
+2652	UC5-1-2E3 sp001304875
+2653	Collinsella sp900556205
+2654	Agathobaculum sp900555465
+2655	CAG-877 sp900552495
+2656	CAG-510 sp900551115
+2657	CAG-95 sp900554925
+2658	CAG-83 sp900545585
+2659	CAG-83 sp900551995
+2660	Lachnoclostridium_B phocaeensis
+2661	CAG-145 sp900542295
+2662	UMGS1690
+2663	UMGS1690 sp900554165
+2664	Blautia sp003287895
+2665	UBA5446 sp900544295
+2666	UBA5446 sp900546615
+2667	Ruthenibacterium
+2668	Ruthenibacterium sp900546885
+2669	CAG-83 sp900550585
+2670	Amulumruptor sp001689515
+2671	Desulfovibrio desulfuricans_A
+2672	UMGS403 sp900540865
+2673	Zag1 sp900551675
+2674	CAG-433
+2675	CAG-433 sp000433675
+2676	UMGS1572
+2677	UMGS1572 sp900553045
+2678	Prevotella sp900556825
+2679	CAG-1435 sp000433775
+2680	Phocaeicola sp002493165
+2681	UMGS2069 sp900557585
+2682	CAG-917 sp000437555
+2683	CAG-475 sp900549225
+2684	CAG-533
+2685	CAG-533 sp000434495
+2686	SFTJ01
+2687	UMGS1901
+2688	UMGS1901 sp900553755
+2689	CAG-492 sp900553225
+2690	Paramuribaculum sp000431155
+2691	RUG11198
+2692	Collinsella sp900754445
+2693	Collinsella sp900553165
+2694	UMGS1688 sp900554085
+2695	Ruminococcus_A
+2696	Ruminococcus_A sp000432335
+2697	Collinsella sp000434535
+2698	Clostridium sp001916075
+2699	CAG-313
+2700	CAG-313 sp000433035
+2701	Acutalibacter sp900543305
+2702	QANA01
+2703	QANA01 sp900554725
+2704	UMGS403 sp900540275
+2705	Emergencia sp900551775
+2706	UBA1691 sp900552985
+2707	Parvimonas sp001553085
+2708	UBA11940 sp900549005
+2709	CAG-822
+2710	CAG-822 sp000432855
+2711	Massilistercora
+2712	Massilistercora timonensis
+2713	Porphyromonas sp900546675
+2714	RUG705 sp900551455
+2715	Parabacteroides sp000436495
+2716	Kiritimatiellae
+2717	RFP12
+2718	UBA1067
+2719	UBA1731
+2720	UBA3375
+2721	UBA3375
+2722	UBA3375 sp900551955
+2723	Dialister sp900543455
+2724	Faecalibacterium sp900540455
+2725	CAG-873 sp900554265
+2726	CAG-81 sp900556965
+2727	Eubacterium_R sp900546785
+2728	UBA1691 sp900544715
+2729	Ruminococcus sp900545125
+2730	Collinsella sp900545615
+2731	Eubacterium_R sp900539845
+2732	Acutalibacter sp900543555
+2733	Bariatricus sp900554415
+2734	Zag111 sp004558955
+2735	UBA6984
+2736	UBA6984 sp900550295
+2737	UMGS1649
+2738	UMGS1649 sp900553785
+2739	CAG-110 sp900546415
+2740	UMGS1613
+2741	UMGS1613 sp900553395
+2742	UBA11963
+2743	UBA11963 sp900552975
+2744	UMGS1901 sp900556135
+2745	Treponema_D succinifaciens
+2746	Rs-D84 sp900546225
+2747	UMGS1312
+2748	UBA6857
+2749	UBA6857 sp900555805
+2750	Acetatifactor sp900771995
+2751	UBA5026 sp900552335
+2752	CAG-110 sp900554705
+2753	RQCD01
+2754	RQCD01 sp008668455
+2755	UMGS1883
+2756	UMGS1883
+2757	CAG-533 sp900551105
+2758	CAG-110 sp900556935
+2759	UBA3282
+2760	UBA737 sp900547305
+2761	UBA1081
+2762	UBA1081 sp900543395
+2763	CAG-302 sp900549325
+2764	Eubacterium_R sp900540235
+2765	CAG-841 sp002479075
+2766	Eubacterium_R sp900548085
+2767	Ruminococcus_E sp900543095
+2768	UMGS363 sp900550695
+2769	UMGS1217
+2770	UMGS1217 sp900549625
+2771	UMGS1864
+2772	UMGS1864 sp900555835
+2773	Eisenbergiella sp003478085
+2774	Clostridium_AQ sp003481775
+2775	Anaerococcus nagyae
+2776	Enterococcus_A avium
+2777	GCA-900066135
+2778	GCA-900066135 sp900066135
+2779	Faecalibacterium prausnitzii_D
+2780	Bacteroides stercorirosoris
+2781	Faecalibacterium prausnitzii_I
+2782	Paraprevotella sp003477995
+2783	OF09-33XD
+2784	OF09-33XD sp003481995
+2785	Marvinbryantia sp900066075
+2786	Eubacterium_I ramulus_A
+2787	Dorea_A longicatena_B
+2788	UBA9502 sp003481825
+2789	Bacteroides faecis
+2790	Parabacteroides gordonii
+2791	Bacillus_A paranthracis
+2792	Megamonas funiformis
+2793	CAG-95 sp900066375
+2794	Blautia stercoris
+2795	Agathobaculum sp003481705
+2796	Bacillus_A luti
+2797	Coprococcus sp000433075
+2798	Sellimonas sp002161525
+2799	OM05-12
+2800	OM05-12 sp003438995
+2801	TF01-11 sp003529475
+2802	Prevotella sp900557255
+2803	Ruminococcus_C callidus
+2804	Streptococcus koreensis
+2805	TF01-11 sp001916135
+2806	Blautia_A sp000436615
+2807	Vagococcus sp003462485
+2808	Bacteroides cutis
+2809	Staphylococcus warneri
+2810	Ruminococcus_E sp003438075
+2811	UBA7182 sp003481535
+2812	Leminorella
+2813	Leminorella grimontii
+2814	Mycobacterium
+2815	Mycobacterium avium
+2816	Campylobacter hyointestinalis
+2817	Campylobacter lanienae
+2818	Kurthia senegalensis
+2819	Microvirga
+2820	Microvirga massiliensis
+2821	Vibrio cholerae
+2822	Blautia_A sp000285855
+2823	Lactobacillus mulieris
+2824	Brevibacillales
+2825	Brevibacillaceae
+2826	Brevibacillus_C
+2827	Brevibacillus_C massiliensis
+2828	Anaerococcus vaginalis_B
+2829	Anaerococcus obesiensis
+2830	Peptoniphilus_A grossensis
+2831	Kallipyga massiliensis
+2832	Limosilactobacillus mucosae
+2833	Enterococcus_B lactis
+2834	Ruminococcus_D bicirculans
+2835	Escherichia
+2836	Escherichia marmotae
+2837	Escherichia sp000208585
+2838	Ligilactobacillus salivarius
+2839	Listeria monocytogenes_B
+2840	Bacillales_H
+2841	Bacillaceae_D
+2842	Alkalihalobacillus
+2843	Alkalihalobacillus alcalophilus
+2844	Dysosmobacter welbionis
+2845	Enterocloster asparagiformis
+2846	Dielma sp001305055
+2847	Eisenbergiella tayi
+2848	Vibrio parahaemolyticus
+2849	Campylobacter_D coli_A
+2850	Campylobacter_D coli_B
+2851	Bifidobacterium thermophilum
+2852	Yersinia
+2853	Yersinia enterocolitica
+2854	Megasphaera sp000417505
+2855	Staphylococcus aureus
+2856	Staphylococcus haemolyticus
+2857	Lacticaseibacillus saniviri
+2858	Intestinimonas butyriciproducens
+2859	Acinetobacter ursingii
+2860	Acinetobacter variabilis
+2861	Acinetobacter courvalinii
+2862	Acinetobacter baumannii
+2863	Acinetobacter nosocomialis
+2864	Acinetobacter pittii
+2865	Streptococcus anginosus_C
+2866	Lactobacillus crispatus
+2867	Streptococcus agalactiae
+2868	Serratia
+2869	Serratia marcescens_I
+2870	Klebsiella_A michiganensis
+2871	Gordonibacter
+2872	Gordonibacter urolithinfaciens
+2873	Enterococcus_B faecium
+2874	Moellerella
+2875	Moellerella wisconsensis
+2876	Clostridium_F botulinum
+2877	Bacillus_A wiedmannii
+2878	Bacillus licheniformis
+2879	Pelistega
+2880	Pelistega indica
+2881	Mycobacterium tuberculosis
+2882	Lactobacillus hominis
+2883	Lentilactobacillus senioris
+2884	Fusobacterium_C necrophorum
+2885	Raoultella
+2886	Raoultella ornithinolytica
+2887	Arcobacteraceae
+2888	Aliarcobacter
+2889	Aliarcobacter butzleri
+2890	Bifidobacterium globosum
+2891	Salmonella
+2892	Salmonella enterica
+2893	Pediococcus pentosaceus
+2894	Vibrio metoecus
+2895	Clostridioides
+2896	Clostridioides difficile
+2897	Clostridioides difficile_A
+2898	Tidjanibacter
+2899	Tidjanibacter inops_A
+2900	Clostridium_P perfringens
+2901	Clostridium septicum
+2902	Campylobacter testudinum
+2903	Clostridium_G
+2904	Clostridium_G tetani
+2905	Lachnoclostridium_B sp000765215
+2906	Clostridium_X
+2907	Clostridium_X cadaveris
+2908	Akkermansia sp001580195
+2909	Lactobacillus acidophilus
+2910	Levilactobacillus
+2911	Levilactobacillus brevis
+2912	Stenotrophomonas
+2913	Stenotrophomonas bentonitica_A
+2914	Stenotrophomonas maltophilia_AK
+2915	Lacticaseibacillus zeae
+2916	Lactobacillus helveticus
+2917	Leminorella richardii
+2918	Lactiplantibacillus
+2919	Lactiplantibacillus plantarum
+2920	Lactobacillus paragasseri
+2921	Lacticaseibacillus paracasei
+2922	Latilactobacillus sakei
+2923	Ligilactobacillus agilis
+2924	Oceanobacillus caeni
+2925	Listeria monocytogenes
+2926	Merdimonas faecis
+2927	Prevotella rara
+2928	Bifidobacterium adolescentis
+2929	Bifidobacterium bifidum
+2930	Bifidobacterium angulatum
+2931	Aquaspirillaceae
+2932	Laribacter
+2933	Laribacter hongkongensis
+2934	Staphylococcus hominis
+2935	Staphylococcus lugdunensis
+2936	Propionibacterium
+2937	Propionibacterium freudenreichii
+2938	Clostridium_H
+2939	Clostridium_H massiliodielmoense
+2940	Robinsoniella peoriensis
+2941	Bacillus_BE
+2942	Bacillus_BE massilionigeriensis
+2943	Olsenella_E timonensis
+2944	Corynebacterium pacaense
+2945	Cohnella
+2946	Cohnella sp900169535
+2947	Bacillus_BD
+2948	Bacillus_BD tuaregi
+2949	Gordonibacter massiliensis
+2950	Harryflintia
+2951	Harryflintia acetispora
+2952	Christensenella sp001678845
+2953	Prevotellamassilia timonensis
+2954	Arabia
+2955	Arabia massiliensis
+2956	Paenibacillus odorifer
+2957	Proteus sp001722135
+2958	Hydrogeniiclostridium mannosilyticum
+2959	Lachnoclostridium_A edouardi
+2960	Parabacteroides chinchillae
+2961	Phoenicibacter
+2962	Phoenicibacter congonensis
+2963	Clostridium_E merdae
+2964	Tissierellaceae
+2965	CABMKH01
+2966	CABMKH01 sp902386935
+2967	Campylobacter_D jejuni
+2968	Pantoea
+2969	Pantoea septica
+2970	Monoglobus pectinilyticus
+2971	Campylobacter_A concisus_K
+2972	Campylobacter_A concisus_B
+2973	Campylobacter_A concisus_E
+2974	Campylobacter_A concisus_W
+2975	Campylobacter_A concisus_I
+2976	Campylobacter_A concisus_L
+2977	Campylobacter_A concisus_F
+2978	Campylobacter_A concisus_P
+2979	Campylobacter_A concisus_G
+2980	Campylobacter_A concisus
+2981	Pigmentiphaga
+2982	Pigmentiphaga sp002188635
+2983	Blautia hominis
+2984	Parabacteroides distasonis
+2985	CHH4-2
+2986	CHH4-2 sp002899675
+2987	Enteroscipio
+2988	Enteroscipio rubneri
+2989	Rubneribacter
+2990	Rubneribacter badeniensis
+2991	Gordonibacter sp003339845
+2992	Helicobacter_B sp001854545
+2993	Faecalibacillus faecis
+2994	Clostridium_Q sp003024715
+2995	Mesosutterella multiformis
+2996	Evtepia gabavorous
+2997	Parabacteroides acidifaciens
+2998	Olsenella_E sp003609875
+2999	Paraeggerthella hongkongensis_A
+3000	Akkermansia muciniphila_C
+3001	Akkermansia muciniphila_B
+3002	Akkermansia muciniphila
+3003	Bacteroides cellulosilyticus
+3004	Kurthia sp002418445
+3005	Yersinia aleksiciae
+3006	Bifidobacterium animalis
+3007	Cronobacter
+3008	Cronobacter sakazakii
+3009	Yersinia kristensenii
+3010	Yersinia kristensenii_B
+3011	Pseudomonas
+3012	Pseudomonas aeruginosa
+3013	Acetivibrio_A
+3014	Acetivibrio_A ethanolgignens
+3015	Yersinia massiliensis
+3016	Yersinia frederiksenii
+3017	Yersinia frederiksenii_C
+3018	Enterococcus caccae
+3019	Bifidobacterium breve
+3020	Bacteroides intestinalis
+3021	Yersinia mollaretii
+3022	Lentilactobacillus kefiri
+3023	Victivallis vadensis
+3024	Rahnella
+3025	Rahnella variigena
+3026	Lactonifactor
+3027	Lactonifactor longoviformis
+3028	Yersinia pestis
+3029	Citrobacter_A amalonaticus
+3030	Phocaeicola dorei
+3031	Campylobacter_B hominis
+3032	Adlercreutzia
+3033	Adlercreutzia celatus_A
+3034	Stenotrophomonas maltophilia_F
+3035	Ruminococcus_E bromii
+3036	Clostridium_Q saccharolyticum_A
+3037	Cronobacter malonaticus
+3038	Fusobacterium_A mortiferum
+3039	Fusobacterium_A varium
+3040	Gordonibacter pamelaeae
+3041	Proteus penneri
+3042	Neisseria gonorrhoeae
+3043	Paenibacillus_B
+3044	Paenibacillus_B thiaminolyticus
+3045	Kluyvera ascorbata_B
+3046	Agathobacter rectalis
+3047	Enterococcus_B pernyi
+3048	Citrobacter_B
+3049	Citrobacter_B koseri
+3050	Citrobacter europaeus
+3051	Salmonella bongori
+3052	Klebsiella
+3053	Klebsiella aerogenes
+3054	Enterobacter sichuanensis
+3055	Enterobacter roggenkampii
+3056	Enterobacter cloacae
+3057	Enterobacter cloacae_K
+3058	Enterobacter chengduensis
+3059	Enterobacter ludwigii
+3060	Enterobacter hormaechei_A
+3061	Oxalobacter formigenes_B
+3062	Escherichia coli_D
+3063	Escherichia albertii
+3064	Hafnia alvei
+3065	Slackia_A isoflavoniconvertens
+3066	Klebsiella quasipneumoniae
+3067	Klebsiella variicola
+3068	Morganella morganii
+3069	Morganella morganii_A
+3070	Proteus mirabilis
+3071	Escherichia fergusonii
+3072	Proteus vulgaris
+3073	Roseburia hominis
+3074	Serratia surfactantfaciens
+3075	Enterobacter asburiae_B
+3076	Pluralibacter
+3077	Pluralibacter gergoviae
+3078	Phytobacter ursingii
+3079	Lachnoanaerobaculum
+3080	Lachnoanaerobaculum umeaense
+3081	Christensenella minuta
+3082	Yersinia bercovieri
+3083	Yersinia intermedia
+3084	Aeromonas hydrophila
+3085	Aeromonas caviae
+3086	Anaerostipes hadrus
+3087	Aeromonas veronii
+3088	Ruminiclostridium_E siraeum
+3089	Pseudobutyrivibrio
+3090	Pseudobutyrivibrio fibrisolvens_A
+3091	Enterovibrio
+3092	Enterovibrio hollisae
+3093	Vibrio vulnificus
+3094	Citrobacter_A farmeri
+3095	Citrobacter gillenii
+3096	Plesiomonas
+3097	Plesiomonas shigelloides
+3098	Kocuria
+3099	Kocuria rhizophila
+3100	Klebsiella pneumoniae
+3101	Collinsella aerofaciens_A
+3102	Paraprevotella clara
+3103	Cardiobacteriales
+3104	Cardiobacteriaceae
+3105	Cardiobacterium
+3106	Cardiobacterium valvarum
+3107	Lentilactobacillus parafarraginis
+3108	Campylobacter_B ureolyticus
+3109	Eggerthella
+3110	Eggerthella lenta
+3111	Faecalibacterium prausnitzii_G
+3112	Neobittarella
+3113	Neobittarella massiliensis
+3114	Megasphaera elsdenii
+3115	Staphylococcus argenteus
+3116	Bacteroides caccae
+3117	Haemophilus_A paraphrohaemolyticus
+3118	Lachnospira sp000436535
+3119	UMGS1484
+3120	UMGS1484 sp902388225
+3121	Streptococcus oralis_W
+3122	Megasphaera sp902388315
+3123	CAG-279 sp000437795
+3124	Collinsella sp902388345
+3125	Prevotella sp900540415
+3126	Lachnospira sp900551945
+3127	Phocaeicola sp902388365
+3128	Bacteroides sp902388495
+3129	Dialister sp900557365
+3130	Romboutsia timonensis
+3131	CAG-831 sp902388455
+3132	Veillonella_A magna
+3133	Collinsella sp900550835
+3134	CAG-485 sp900547755
+3135	Phocaeicola sp900542985
+3136	Ruminococcus_E sp003526955
+3137	UBA1234 sp900765095
+3138	CAG-354 sp900555085
+3139	Ruminococcus_C sp900545285
+3140	Fusobacterium_A ulcerans_A
+3141	CAG-977 sp900553035
+3142	Ligilactobacillus sp900765635
+3143	Lachnospira sp000436475
+3144	CAG-269 sp001916065
+3145	Succinivibrio sp900552905
+3146	CAG-492 sp000434015
+3147	Akkermansia sp900545155
+3148	CAG-145 sp002320005
+3149	Parabacteroides sp900760525
+3150	Lawsonibacter sp900766145
+3151	CAG-110 sp900540635
+3152	CAG-594 sp900766325
+3153	CAG-521 sp902388655
+3154	Alistipes sp902388705
+3155	Limosilactobacillus sp900557215
+3156	Streptococcus sanguinis_H
+3157	CAG-83 sp902388735
+3158	Mediterraneibacter sp900555215
+3159	Olsenella sp003862195
+3160	Eubacterium_T
+3161	Eubacterium_T sp900766045
+3162	CAG-110 sp900549705
+3163	CAG-274 sp900545305
+3164	Prevotella sp900767615
+3165	UBA6984 sp003258725
+3166	CAG-878
+3167	CAG-878 sp000432255
+3168	CAG-485 sp900541835
+3169	CAG-882 sp003486385
+3170	CAG-83 sp003539495
+3171	CAG-495 sp001917125
+3172	Dysosmobacter sp900542115
+3173	Faecalibacterium prausnitzii_J
+3174	Desulfovibrio desulfuricans
+3175	Bacteroides ndongoniae
+3176	Phocaeicola sp900546095
+3177	Negativibacillus massiliensis
+3178	Veillonella sp900549805
+3179	Haemophilus_D sp900756875
+3180	TF01-11 sp003149875
+3181	Haemophilus_D parainfluenzae_K
+3182	Leptotrichiaceae
+3183	Leptotrichia
+3184	Leptotrichia wadei_A
+3185	Prevotella veroralis
+3186	Prevotella jejuni
+3187	Lachnoanaerobaculum orale
+3188	Haemophilus
+3189	Haemophilus sp002998595
+3190	Veillonella sp900757715
+3191	Faecalibacterium sp003449675
+3192	Turicimonas sp900542195
+3193	UBA11549
+3194	UBA11549 sp900768185
+3195	UBA3637
+3196	CAAHEQ01
+3197	CAAHEQ01 sp900772625
+3198	Faecalibacterium sp900772565
+3199	Myxococcota
+3200	Bradymonadia
+3201	UBA4248
+3202	UBA4248
+3203	UBA4248
+3204	UBA4248 sp004554395
+3205	Prevotella sp002251295
+3206	RUG14107
+3207	RUG14107 sp900772685
+3208	F23-B02 sp900772725
+3209	Oribacterium sp900772695
+3210	UBA1174
+3211	UBA1174 sp900556855
+3212	Ruminiclostridium_E sp900556525
+3213	P3
+3214	UBA3388
+3215	UBA3388 sp900546465
+3216	Prevotella sp900772835
+3217	UBA3388 sp900545215
+3218	Bruticola sp900772775
+3219	F23-B02 sp004556755
+3220	Prevotella sp900552965
+3221	Agathobacter sp900546625
+3222	Treponema_D sp002478955
+3223	UMGS911 sp003343545
+3224	UBA9475 sp900549885
+3225	QALR01
+3226	QALR01 sp900552255
+3227	UBA3818
+3228	UMGS1975 sp900546685
+3229	Dysosmobacter sp900548505
+3230	RUG12999
+3231	RUG12999
+3232	UBA3818 sp900557155
+3233	Borkfalkia sp900557285
+3234	UMGS966 sp900547185
+3235	Anaerobutyricum sp002161065
+3236	UMGS1591
+3237	HGM11588
+3238	Flavonifractor sp900549795
+3239	UMGS1623 sp900553525
+3240	CAG-170 sp900549635
+3241	UMGS856 sp900546265
+3242	ER4 sp900317525
+3243	F23-B02 sp900556535
+3244	Butyricicoccus sp900547195
+3245	HGM11514
+3246	HGM11514
+3247	CAG-83 sp000435555
+3248	CAG-873 sp009775195
+3249	UMGS911 sp900545935
+3250	CAG-83 sp900549395
+3251	CAG-485 sp900554345
+3252	NSJ-62
+3253	Collinsella sp900549335
+3254	Collinsella sp900545165
+3255	UMGS403 sp900541565
+3256	Prevotella sp900553465
+3257	Collinsella sp900551605
+3258	Collinsella sp900544865
+3259	Collinsella sp900543025
+3260	Collinsella sp900551815
+3261	Collinsella sp900556605
+3262	Blautia sp900765525
+3263	Collinsella sp900550595
+3264	CAG-485 sp900554845
+3265	Collinsella sp900555745
+3266	Collinsella sp900557455
+3267	UBA4636 sp900764595
+3268	Catenibacterium sp900764725
+3269	Eubacterium_R sp900764665
+3270	CAG-245 sp000435175
+3271	Schleiferilactobacillus
+3272	Schleiferilactobacillus harbinensis
+3273	Collinsella sp900540935
+3274	UMGS1766 sp900554855
+3275	Dialister sp900545785
+3276	Collinsella sp900542825
+3277	Holdemania sp900120005
+3278	Fournierella sp004558145
+3279	UMGS775 sp900545325
+3280	Olsenella_E sp900540955
+3281	Prevotellamassilia sp900541335
+3282	Porphyromonas sp900538385
+3283	UMGS268 sp900540175
+3284	Lactiplantibacillus pentosus
+3285	UMGS1004
+3286	UMGS1004 sp900548845
+3287	Lapidilactobacillus
+3288	Lapidilactobacillus dextrinicus
+3289	Dialister sp900547785
+3290	CAG-83 sp003487665
+3291	CAG-110 sp900548795
+3292	UMGS1663 sp900553405
+3293	UMGS1124
+3294	UMGS1124 sp900548725
+3295	Megasphaera sp900540735
+3296	Parolsenella sp900549525
+3297	UBA1777 sp900546515
+3298	CAG-196 sp900549855
+3299	CAG-877 sp000433455
+3300	CAG-488 sp900539465
+3301	Eubacterium_R sp900539165
+3302	UMGS911 sp900546695
+3303	UMGS1994 sp900556975
+3304	CAG-628 sp900553835
+3305	Campylobacter_D sp900539255
+3306	UBA3631 sp900544605
+3307	Anaerococcus prevotii_A
+3308	Citrobacter braakii
+3309	Paenibacillus_B sp900539405
+3310	Tissierella
+3311	Tissierella sp002266425
+3312	Veillonella tobetsuensis
+3313	Negativicoccus sp900556745
+3314	Finegoldia magna_F
+3315	Streptococcus peroris
+3316	Enterobacter bugandensis
+3317	Collinsella sp900552705
+3318	Klebsiella_A indica
+3319	Rhizobiales_A
+3320	Rhizobiaceae_A
+3321	Phyllobacterium
+3322	Phyllobacterium sp900539805
+3323	Enterocloster sp900551225
+3324	Veillonella sp900552715
+3325	CAG-349 sp003539515
+3326	Prevotella sp900548195
+3327	Prevotella sp900551985
+3328	Fusicatenibacter sp900543115
+3329	Anaerocolumna
+3330	Anaerocolumna aminovalerica
+3331	Blautia_A sp900542045
+3332	Mediterraneibacter sp900541505
+3333	Granulicatella sp001058355
+3334	UMGS1872 sp900549475
+3335	UBA5446 sp900544765
+3336	Collinsella sp900542315
+3337	Lachnoclostridium_B sp900543315
+3338	Desulfovibrio sp900540515
+3339	Collinsella sp900554325
+3340	UMGS905
+3341	UMGS905 sp900540085
+3342	Collinsella sp900544465
+3343	Collinsella sp900549655
+3344	Collinsella sp900547025
+3345	Peptacetobacter sp900539645
+3346	Collinsella sp900545875
+3347	Hydrogeniiclostridium sp900550095
+3348	Collinsella sp900541725
+3349	Collinsella sp900541885
+3350	Collinsella sp900544205
+3351	Megasphaera sp900539295
+3352	Agathobaculum desmolans
+3353	Collinsella sp900550825
+3354	Collinsella sp900545745
+3355	Alistipes sp900552955
+3356	CAG-279 sp900556245
+3357	Collinsella sp900549535
+3358	CAG-605 sp900545005
+3359	Collinsella sp900555815
+3360	UMGS874
+3361	UMGS874 sp900546315
+3362	CAG-495 sp900538765
+3363	UBA1777 sp002320035
+3364	CAG-873 sp900541865
+3365	CAG-145 sp000435715
+3366	Prevotella sp900550365
+3367	RC9 sp900546395
+3368	Ruminococcus_D sp900539835
+3369	CAG-83 sp000435975
+3370	UMGS1477
+3371	UMGS1477 sp900553845
+3372	UMGS951 sp900547155
+3373	Pseudomonas_E juntendi
+3374	Stenotrophomonas maltophilia
+3375	Anaerococcus sp900550345
+3376	Corynebacterium kroppenstedtii_A
+3377	Pantoea sp002920175
+3378	Streptococcus oralis
+3379	Streptococcus sp900546335
+3380	Anaerococcus prevotii
+3381	Haemophilus_D parainfluenzae_N
+3382	Winkia
+3383	Winkia sp002849225
+3384	Lawsonella
+3385	Lawsonella clevelandensis
+3386	Varibaculum cambriense
+3387	Haemophilus_D pittmaniae
+3388	Varibaculum cambriense_B
+3389	Actinomyces urogenitalis
+3390	Negativicoccus succinicivorans
+3391	Phytobacter diazotrophicus
+3392	CAG-279 sp900541935
+3393	Sporomusales
+3394	Acetonemaceae
+3395	Anaerosporomusa
+3396	Anaerosporomusa sp900542835
+3397	Lancefieldella parvula
+3398	Gemellaceae
+3399	Gemella
+3400	Slackia
+3401	Slackia exigua
+3402	Collinsella sp900541045
+3403	UBA10677 sp900543755
+3404	UMGS1052
+3405	UMGS1052 sp900548115
+3406	Collinsella sp900548075
+3407	Collinsella sp900545055
+3408	Collinsella sp900544725
+3409	Collinsella sp900547765
+3410	Collinsella sp900541065
+3411	CAG-485 sp900550645
+3412	RC9 sp900541925
+3413	Collinsella sp900547805
+3414	UMGS124 sp900539345
+3415	CAG-877 sp900548695
+3416	CAG-83 sp000431575
+3417	Collinsella sp900554585
+3418	Collinsella sp900554645
+3419	Prevotellamassilia sp900540885
+3420	Collinsella sp900541055
+3421	Phocaeicola sp900540105
+3422	Caproiciproducens sp900546895
+3423	Phocaeicola sp002161765
+3424	Collinsella sp900547505
+3425	Bacillales_G
+3426	Sporolactobacillaceae
+3427	Sporolactobacillus
+3428	Sporolactobacillus sp900543345
+3429	Clostridium_B sp902809985
+3430	Enterococcus_A sp002140655
+3431	Parascardovia
+3432	Parascardovia denticolens
+3433	Actinomyces graevenitzii
+3434	TM7x sp900555885
+3435	Actinomyces oris
+3436	Marseille-P3106
+3437	Marseille-P3106 sp900543935
+3438	Bariatricus massiliensis
+3439	Enterocloster sp900555905
+3440	Collinsella sp900539735
+3441	Collinsella sp900541035
+3442	UMGS1251
+3443	UMGS1251 sp900549995
+3444	Leptotrichia wadei
+3445	UMGS1907 sp900555945
+3446	Bulleidia sp900554555
+3447	UMGS1202
+3448	UMGS1202 sp900549565
+3449	UBA1191 sp900543485
+3450	Desulfovibrio sp900319575
+3451	Lactobacillus kalixensis
+3452	Ellagibacter sp900554945
+3453	Collinsella sp900541795
+3454	Peptoniphilus_A lacydonensis
+3455	Prevotella sp900555035
+3456	Collinsella sp900542275
+3457	Clostridium sp900543325
+3458	Anaerosporobacter
+3459	Anaerosporobacter mobilis
+3460	Oscillibacter
+3461	Oscillibacter ruminantium
+3462	UMGS599
+3463	UMGS599 sp900543705
+3464	Blautia_A sp900551075
+3465	Enterococcus_A pallens
+3466	Collinsella sp900546455
+3467	Succiniclasticum sp900544275
+3468	Collinsella sp900552755
+3469	Collinsella sp900541715
+3470	Fannyhessea
+3471	Fannyhessea vaginae
+3472	Frisingicoccus caecimuris
+3473	UBA1191 sp900542385
+3474	TM7x sp900555425
+3475	Bifidobacterium vaginale_F
+3476	Collinsella sp900548515
+3477	UBA1691 sp002320555
+3478	Streptococcus rubneri
+3479	Gemella sp900555985
+3480	UBA737 sp900554525
+3481	Blautia_A sp900551715
+3482	Gemella sanguinis
+3483	TM7x sp900555265
+3484	Pauljensenia sp900556405
+3485	Marvinbryantia sp900544685
+3486	Allisonella histaminiformans
+3487	Collinsella sp900542305
+3488	Dorea_A sp900550865
+3489	CAG-170 sp000432135
+3490	Megasphaera sp002319965
+3491	Enterocloster sp900555045
+3492	Desulfovibrio sp900546145
+3493	Lactococcus_A piscium_C
+3494	Lancefieldella sp000564995
+3495	Rothia dentocariosa
+3496	Rothia aeria
+3497	Stomatobaculum longum
+3498	CAG-1427 sp900539675
+3499	Anaeromassilibacillus sp001305115
+3500	Collinsella sp900551365
+3501	Collinsella sp900541025
+3502	TM7x sp900555675
+3503	Oribacterium sinus
+3504	Granulicatella sp900551535
+3505	Collinsella sp900545605
+3506	Blautia_A sp900540785
+3507	Halomonadaceae
+3508	Salinicola
+3509	Salinicola tamaricis
+3510	Duodenibacillus sp900538905
+3511	Alistipes_A sp900549685
+3512	Alistipes sp900553175
+3513	Collinsella sp900554985
+3514	Parasutterella sp000980495
+3515	Parasutterella sp900554375
+3516	Collinsella sp900545835
+3517	Collinsella sp900548565
+3518	Collinsella sp900549195
+3519	Collinsella sp900551655
+3520	Collinsella sp900543615
+3521	Collinsella sp900549455
+3522	Collinsella sp900545995
+3523	Collinsella sp900543605
+3524	Collinsella sp900549185
+3525	Collinsella sp900554495
+3526	CAG-485 sp900542185
+3527	Collinsella sp900542555
+3528	Collinsella sp900554465
+3529	Collinsella sp900552385
+3530	Collinsella sp900556705
+3531	Gemmiger sp900545545
+3532	Collinsella sp900541135
+3533	Collinsella sp900553705
+3534	Collinsella sp900542965
+3535	Eubacterium_R sp900547915
+3536	UMGS1071
+3537	UMGS1071 sp900548305
+3538	Fusobacterium_A sp900543175
+3539	CAG-110 sp900554625
+3540	UBA7001 sp900553685
+3541	CAG-180 sp900545625
+3542	Collinsella sp900550185
+3543	Eisenbergiella sp900544445
+3544	Bacteroides graminisolvens
+3545	Ruminococcus_B sp900544395
+3546	Collinsella sp900542165
+3547	UMGS1388
+3548	UMGS1388
+3549	UMGS1388 sp900551345
+3550	Bifidobacterium gallinarum
+3551	QALR01 sp900542425
+3552	Paenibacillus amylolyticus
+3553	Clostridium_Q sp000435655
+3554	Collinsella sp900541205
+3555	CAG-196 sp002102975
+3556	Collinsella sp900550815
+3557	Collinsella sp900539035
+3558	Collinsella sp900547125
+3559	Collinsella sp900541875
+3560	CAG-724 sp900551005
+3561	CAG-269 sp900554365
+3562	Merdibacter sp900543035
+3563	CAG-988
+3564	CAG-988 sp003149915
+3565	Parabacteroides sp900547435
+3566	Collinsella sp900544845
+3567	Phocaeicola barnesiae
+3568	CAG-460 sp900546715
+3569	Collinsella sp900552155
+3570	Phocaeicola sp000436795
+3571	Barnesiella sp900538555
+3572	UMGS946
+3573	UMGS946 sp900547135
+3574	UMGS1601
+3575	UMGS1601 sp900545345
+3576	Collinsella sp900541245
+3577	UMGS1933
+3578	UMGS1933 sp900556455
+3579	UBA11517 sp900551855
+3580	Pauljensenia sp001838165
+3581	Clostridium sp900547475
+3582	Franconibacter
+3583	Franconibacter helveticus
+3584	Clostridium_F tepidum
+3585	Haemophilus_D parainfluenzae_J
+3586	Capnocytophaga
+3587	Capnocytophaga ochracea
+3588	Alloscardovia
+3589	Alloscardovia omnicolens
+3590	Gemella sp002871655
+3591	Collinsella sp900541235
+3592	Chimaeribacter
+3593	Chimaeribacter coloradensis
+3594	Rothia mucilaginosa_A
+3595	Corynebacterium kefirresidentii
+3596	Pantoea eucalypti
+3597	Corynebacterium simulans
+3598	Anaerococcus octavius
+3599	Winkia neuii
+3600	UMGS1260
+3601	UMGS1260
+3602	UMGS1260
+3603	UMGS1260 sp900550105
+3604	Dysgonomonas sp900556485
+3605	Niallia
+3606	Niallia sp900199695
+3607	Streptococcus mitis_BB
+3608	Cutibacterium granulosum
+3609	Xanthobacteraceae
+3610	Bradyrhizobium
+3611	Bradyrhizobium sp000015165
+3612	Streptococcus pseudopneumoniae_O
+3613	Clostridium_G cochlearium
+3614	Pauljensenia sp000758755
+3615	Clostridium_J sp900547625
+3616	Clostridium_J sp900548455
+3617	Aeromonas rivipollensis
+3618	UMGS822
+3619	UMGS822 sp900545825
+3620	Streptococcus oralis_S
+3621	Robinsoniella sp900555455
+3622	Faecalimonas sp900551895
+3623	UBA4285 sp900542465
+3624	Peptoniphilus_A sp900538655
+3625	Prevotella denticola
+3626	RUG420
+3627	RUG420 sp900542575
+3628	UMGS1490 sp900548185
+3629	CAG-495 sp900551585
+3630	Eubacterium_R sp900544515
+3631	Collinsella sp900556515
+3632	CAG-485 sp000437495
+3633	Collinsella sp900556285
+3634	UMGS1858
+3635	UMGS1858 sp900555705
+3636	Eubacterium_R sp900540305
+3637	Phocaeicola sp900546645
+3638	CAG-485 sp002361235
+3639	Coprococcus sp900548315
+3640	Faecalibacterium sp900539885
+3641	Collinsella sp900552295
+3642	UMGS1688 sp900544575
+3643	Sutterella sp900764215
+3644	CAG-180 sp900540295
+3645	CAG-485 sp900555915
+3646	Collinsella sp900541185
+3647	Collinsella sp900542125
+3648	UMGS905 sp900546735
+3649	Amulumruptor sp900539915
+3650	Klebsiella quasivariicola
+3651	UMGS1004 sp900547645
+3652	Collinsella sp900544065
+3653	Collinsella sp900545905
+3654	UMGS2069 sp900557695
+3655	Collinsella sp900541195
+3656	Mixta
+3657	Mixta calida
+3658	Peptococcus
+3659	Peptococcus niger
+3660	Gleimia
+3661	Gleimia europaea_A
+3662	Leclercia
+3663	Leclercia adecarboxylata_C
+3664	Haemophilus_D parainfluenzae_M
+3665	Veillonella rogosae
+3666	Collinsella sp900547285
+3667	UBA5416
+3668	UBA5416 sp900539175
+3669	CAG-831 sp900544175
+3670	Paramuribaculum sp900546365
+3671	Anaerococcus sp900541365
+3672	Corynebacterium sp900539985
+3673	F0422 sp003999875
+3674	Paramuribaculum sp900759835
+3675	HGM05190
+3676	HGM05190 sp900759815
+3677	CAG-873 sp900759845
+3678	CAG-873 sp900759825
+3679	UBA3263
+3680	UBA3263 sp900759865
+3681	Butyricimonas sp900759925
+3682	HGM05232
+3683	HGM05232 sp900759955
+3684	CAG-312 sp900760055
+3685	Pseudomonas_E extremaustralis
+3686	Collinsella sp900760215
+3687	BX12 sp014333425
+3688	HGM11417
+3689	HGM11417
+3690	Collinsella sp900760245
+3691	NSJ-32
+3692	NSJ-32 sp014384895
+3693	1XD42-69
+3694	1XD42-69 sp014287635
+3695	UBA10677 sp900760475
+3696	CAG-267 sp001917135
+3697	UBA4068
+3698	UBA4068
+3699	HGM13862
+3700	HGM13862 sp900760825
+3701	HGM12657
+3702	HGM12657 sp900760575
+3703	HGM12957 sp900760695
+3704	OM05-12 sp900760755
+3705	CAG-582
+3706	CAG-582 sp900760845
+3707	CAG-485 sp900760885
+3708	SFFH01 sp900542445
+3709	Collinsella sp900760905
+3710	QALS01 sp900552625
+3711	Collinsella sp900761085
+3712	Collinsella sp900761035
+3713	CAG-313 sp900539265
+3714	Collinsella sp900761145
+3715	Sodaliphilus
+3716	Sodaliphilus pleomorphus
+3717	Collinsella sp900761155
+3718	UMGS1397
+3719	UMGS1397 sp900761355
+3720	Victivallis sp002998355
+3721	UBA1375 sp002305795
+3722	Coprococcus sp900761435
+3723	Butyricimonas sp900761485
+3724	Eubacterium_R sp900761545
+3725	Prevotellamassilia sp000437675
+3726	UMGS1279 sp900761625
+3727	Collinsella sp900761615
+3728	Mediterraneibacter sp900761655
+3729	Borkfalkia sp900761665
+3730	Borkfalkia sp900761675
+3731	UMGS1004 sp900761685
+3732	Victivallis sp900761715
+3733	UMGS1880 sp900761765
+3734	Porphyromonas_A sp001808555
+3735	Bacteroides sp900761785
+3736	HGM11417 sp900761895
+3737	Muribaculum sp002473395
+3738	CAG-631 sp000433015
+3739	HGM11386
+3740	HGM11386 sp900761915
+3741	Firmicutes_G
+3742	SHA-98
+3743	DTUO25
+3744	HGM14224
+3745	HGM14224
+3746	HGM14224 sp900761905
+3747	Collinsella sp900761945
+3748	Collinsella sp900761995
+3749	CAG-110 sp900762005
+3750	UBA7707
+3751	Collinsella sp900762015
+3752	Prevotella sp900762125
+3753	CAG-110 sp900762245
+3754	RUG11200
+3755	Collinsella sp900762355
+3756	Collinsella sp900762325
+3757	Collinsella sp900762345
+3758	Duncaniella sp900762315
+3759	UMGS1487
+3760	UMGS1487 sp900552225
+3761	Alistipes sp900541585
+3762	CAG-269 sp900762425
+3763	Coprobacter sp900545915
+3764	51-20 sp900762565
+3765	CAG-269 sp900555615
+3766	CAG-495 sp900762585
+3767	Prevotella melaninogenica
+3768	Duodenibacillus sp900544255
+3769	CAG-475 sp900763875
+3770	Faecalibacterium prausnitzii_M
+3771	UBA7642 sp900763245
+3772	CAG-110 sp900544405
+3773	Selenomonas_A
+3774	CAG-312 sp002437405
+3775	Parolsenella catena
+3776	Porphyromonas gingivalis
+3777	UBA733 sp900539595
+3778	Senegalimassilia sp900550055
+3779	CAG-448 sp003150135
+3780	UBA1227
+3781	UBA1227 sp900545655
+3782	Lawsonibacter sp900763995
+3783	UBA10281 sp900764105
+3784	Angelakisella sp004557855
+3785	Bacteroides sp900547205
+3786	QAMM01
+3787	QAMM01 sp900552945
+3788	Actinobaculum
+3789	Actinobaculum massiliense
+3790	Lentilactobacillus buchneri
+3791	Duodenibacillus massiliensis
+3792	Catenibacterium sp900764565
+3793	VUNA01
+3794	Blautia sp900541955
+3795	Lawsonibacter sp900764755
+3796	Veillonella sp900550455
+3797	Campylobacter_A concisus_Q
+3798	Prevotella sp900550035
+3799	Lactobacillus gallinarum
+3800	GCA-900066135 sp900543575
+3801	Ruminococcus_C sp900765125
+3802	Collinsella sp900765115
+3803	Collinsella sp900765185
+3804	Veillonella_A sp900765165
+3805	Dialister sp900538805
+3806	Veillonella sp900765235
+3807	Prevotella sp900554545
+3808	Prevotella sp900765465
+3809	Dialister sp900765565
+3810	Bacteroides sp900765785
+3811	Parasutterella sp900766055
+3812	Prevotella corporis
+3813	Lachnoclostridium phytofermentans_A
+3814	Streptococcus alactolyticus
+3815	Kluyvera ascorbata
+3816	Paenibacillus_A sp900766135
+3817	Enterobacter_D
+3818	Enterobacter_D kobei_A
+3819	Collinsella sp900556495
+3820	Dysgonomonas sp900079735
+3821	Bacteroides sp900766195
+3822	Collinsella sp900766165
+3823	Pseudescherichia
+3824	Pseudescherichia sp002298805
+3825	Johnsonella
+3826	Johnsonella sp900766185
+3827	Bacteroides sp007896885
+3828	Finegoldia sp900766215
+3829	Anaerococcus sp900258475
+3830	Streptococcus mitis_AC
+3831	Citrobacter werkmanii
+3832	Prevotella bivia
+3833	Corynebacterium striatum
+3834	Sneathia
+3835	Sneathia sanguinegens
+3836	Phytobacter sp002377245
+3837	Chimaeribacter arupi
+3838	Pantoea anthophila
+3839	Corynebacterium aurimucosum_E
+3840	Lachnoanaerobaculum sp000296385
+3841	Pantoea agglomerans
+3842	Bifidobacterium scardovii
+3843	Ureaplasma parvum
+3844	Pantoea brenneri
+3845	Pseudomonas_R
+3846	Pseudomonas_R sp900766265
+3847	Neisseria subflava_C
+3848	Bdellovibrionota
+3849	Bdellovibrionia_A
+3850	CAIPTA01
+3851	CAIPTA01
+3852	Pseudescherichia vulneris
+3853	Gemella sp900766305
+3854	Streptococcus mitis
+3855	Pantoea ananatis
+3856	Haemophilus influenzae
+3857	Superficieibacter
+3858	Superficieibacter sp900766525
+3859	Clostridium sp900766315
+3860	F0422 sp900766245
+3861	HGM08974
+3862	HGM08974 sp900766555
+3863	Serratia ureilytica
+3864	Stenotrophomonas sp003028475
+3865	Staphylococcus capitis
+3866	Paenibacillus lactis
+3867	Stenotrophomonas maltophilia_AM
+3868	Lactococcus hircilactis
+3869	Leuconostoc citreum
+3870	Veillonella sp009929605
+3871	Metamycoplasmataceae
+3872	Metamycoplasma
+3873	Metamycoplasma hominis
+3874	UBA11517 sp900753315
+3875	CAG-110 sp900544945
+3876	UBA10281 sp900554485
+3877	CAG-568
+3878	CAG-568 sp000434395
+3879	HGM12789
+3880	HGM12789 sp900766585
+3881	Akkermansia sp900766865
+3882	Acinetobacter sp900766635
+3883	Alistipes sp900766655
+3884	Firm-11 sp004556545
+3885	RF16 sp900766775
+3886	UBA4372 sp900766785
+3887	CAG-115 sp900766795
+3888	UBA1712
+3889	UBA1712 sp900766815
+3890	W3P20-009
+3891	W3P20-009
+3892	W3P20-009 sp900766825
+3893	SFTJ01 sp004557385
+3894	CAG-127 sp900766925
+3895	HGM12587
+3896	HGM12587 sp900766915
+3897	CAG-180 sp900766945
+3898	CAG-873 sp004552725
+3899	Eubacterium_R sp900766895
+3900	HUN007
+3901	UBA6857 sp900767015
+3902	CAG-485 sp900766975
+3903	HGM20899
+3904	HGM20899 sp900767005
+3905	Eubacterium_R sp900767025
+3906	Anaerobiospirillum succiniciproducens
+3907	UBA1067
+3908	UBA1067 sp900767325
+3909	RC9 sp900767375
+3910	HGM05398
+3911	HGM05398 sp900767385
+3912	RC9 sp900767405
+3913	CAG-312 sp002405555
+3914	UBA1740 sp900767415
+3915	Bifidobacterium ruminantium
+3916	WG-1
+3917	WG-1 sp900539665
+3918	UMGS1865 sp900547725
+3919	UBA9732
+3920	UBA9732 sp001940825
+3921	CAG-127 sp900767585
+3922	HGM11367
+3923	HGM11367 sp900767835
+3924	Prevotellamassilia sp900546605
+3925	Prevotella sp900553595
+3926	Collinsella sp900767675
+3927	Succinivibrio sp900767695
+3928	HGM11372
+3929	HGM11372 sp900767715
+3930	CAG-841 sp900544285
+3931	Treponema_D sp900767955
+3932	UMGS1883 sp900768005
+3933	Alistipes sp900768015
+3934	UBA737 sp900768035
+3935	Alistipes sp900768045
+3936	UBA6857 sp900768075
+3937	Selenomonas_A sp900769615
+3938	UBA7642 sp900549915
+3939	Acidaminococcus timonensis
+3940	CAG-312 sp900548275
+3941	CAG-269 sp003525075
+3942	Selenomonas_C bovis
+3943	RUG572
+3944	RUG572 sp900547945
+3945	RUG806
+3946	RUG806 sp900313475
+3947	HGM11367 sp900768425
+3948	CAG-95 sp000436115
+3949	CAG-488 sp900554995
+3950	Prevotellamassilia sp900768625
+3951	UBA2804
+3952	UBA2804 sp900768635
+3953	Prevotella sp002299275
+3954	Ruminiclostridium_E sp900768735
+3955	CAG-115 sp900768705
+3956	RF16 sp900768725
+3957	UBA7173 sp900768685
+3958	W1P29-020
+3959	Butyrivibrio_A sp900768755
+3960	UBA7001 sp900768805
+3961	CAG-1435 sp003537755
+3962	CAG-977 sp900768845
+3963	UBA733 sp900767825
+3964	UBA7597 sp003448195
+3965	SFVR01
+3966	SFVR01 sp900769035
+3967	UBA11524
+3968	UBA11524 sp900769075
+3969	Prevotella sp900769055
+3970	Fibrobacterota
+3971	Fibrobacteria
+3972	Fibrobacterales
+3973	Fibrobacteraceae
+3974	Fibrobacter_A
+3975	Fibrobacter_A intestinalis
+3976	Prevotella sp900769275
+3977	UBA3766
+3978	UBA3766 sp900769175
+3979	CAG-1000 sp004552445
+3980	RC9 sp900769145
+3981	Parabacteroides sp900770835
+3982	UBA7862
+3983	CAG-475 sp900769205
+3984	RC9 sp004556005
+3985	CAAGGB01
+3986	CAAGGB01 sp900769285
+3987	SFLA01
+3988	SFLA01 sp004553575
+3989	RC9 sp004554455
+3990	W0P28-013
+3991	W0P28-013 sp004557405
+3992	SFTJ01 sp900769345
+3993	Treponema_D sp900769325
+3994	Prevotella sp004556065
+3995	UBA737 sp900769375
+3996	Alistipes sp900769405
+3997	UBA1232 sp900769385
+3998	Alistipes sp900769445
+3999	HGM04593
+4000	HGM04593 sp900769465
+4001	Alistipes sp900769525
+4002	UBA1181
+4003	UBA1181 sp900769555
+4004	UMGS1976 sp900769535
+4005	QALS01 sp900769545
+4006	UBA1259 sp900769565
+4007	Clostridium sp900769625
+4008	Zag1 sp900769645
+4009	CAG-127 sp900539705
+4010	HGM05376
+4011	HGM05376 sp900769785
+4012	UBA1232 sp900769735
+4013	SFWF01
+4014	SFWF01 sp900769775
+4015	Alistipes sp900769745
+4016	UMGS1322 sp900769815
+4017	HGM04593 sp900769765
+4018	UMGS1820 sp900769795
+4019	CAG-110 sp900769835
+4020	CAG-831 sp900769885
+4021	UBA1232 sp004561775
+4022	UBA3388 sp004551865
+4023	F082
+4024	F082
+4025	F082 sp900769945
+4026	Spiro-01
+4027	Spiro-01 sp900769955
+4028	HGM10890
+4029	HGM10890 sp900769965
+4030	Treponema_D sp900769975
+4031	Treponema_D sp900769985
+4032	CAG-110 sp900769995
+4033	Prevotella sp900770025
+4034	RC9 sp900769905
+4035	CAG-110 sp900770015
+4036	Treponema_D sp900770075
+4037	Anaeroplasma sp900770055
+4038	UMGS2037
+4039	UMGS687 sp900551705
+4040	HGM12814
+4041	HGM12814 sp900770165
+4042	Firm-07 sp900770145
+4043	Ruminococcus_C sp900770195
+4044	HGM11412
+4045	HGM11412 sp900770185
+4046	Acidaminococcus sp900770265
+4047	Ruminococcus_D sp900770285
+4048	Dysosmobacter sp900770295
+4049	Sodaliphilus sp900770215
+4050	CAG-177 sp900770255
+4051	Helicobacter_F
+4052	Helicobacter_F sp002287135
+4053	Enterocloster sp900770345
+4054	RUG12045 sp900770325
+4055	HGM11525
+4056	HGM11525 sp900770405
+4057	UMGS2070 sp900557655
+4058	Oribacterium sp900770445
+4059	HGM12713
+4060	HGM12713 sp900770605
+4061	UBA3388 sp002358835
+4062	Alistipes sp900770585
+4063	Alistipes sp900770635
+4064	HGM10611
+4065	HGM10611 sp900770645
+4066	HGM04593 sp900770655
+4067	UBA4372 sp900770805
+4068	UBA1259 sp900770685
+4069	HGM04593 sp900770665
+4070	HGM04792
+4071	HGM04792 sp900770705
+4072	Succinivibrio sp900770725
+4073	SFDP01
+4074	SFDP01 sp004558185
+4075	Prevotellamassilia sp004552865
+4076	CAG-791 sp900315055
+4077	Weimerbacter
+4078	Helicobacter_D sp900770765
+4079	SFDP01 sp900770785
+4080	Bulleidia massiliensis_B
+4081	Succinivibrio sp003456415
+4082	Prevotella sp900770845
+4083	Olsenella_B sp900770865
+4084	UBA2913
+4085	UBA2913 sp900770895
+4086	RC9 sp900771005
+4087	UBA1732
+4088	RUG420 sp900771085
+4089	F082 sp900771045
+4090	Acinetobacter sp900771065
+4091	SFVR01 sp900771035
+4092	UBA1724 sp900771165
+4093	W0P29-029 sp004558035
+4094	Prevotellamassilia sp004557035
+4095	Butyrivibrio_A sp900771195
+4096	CAG-177 sp900771185
+4097	RUG572 sp900771305
+4098	W1P29-020 sp900771325
+4099	CAG-831 sp900771335
+4100	UBA1259 sp900771345
+4101	NK4A136
+4102	NK4A136 sp002314855
+4103	UBA1711
+4104	UBA1711 sp900771365
+4105	UBA1786
+4106	UBA1786 sp900771425
+4107	RF16 sp900767595
+4108	Rs-D84 sp900550495
+4109	Catenibacterium sp900540685
+4110	F082 sp900542475
+4111	Mitsuokella sp900552565
+4112	UBA1417 sp003531055
+4113	Collinsella sp900552875
+4114	CAG-110 sp900546915
+4115	CAG-594 sp900771805
+4116	Rs-D84 sp900550565
+4117	Acetatifactor sp900554205
+4118	Prevotella sp900771975
+4119	CAG-1000 sp900556025
+4120	CAG-170 sp900751035
+4121	HGM10836
+4122	HGM10836 sp900772095
+4123	UMGS1491 sp900554335
+4124	UBA1777 sp900549485
+4125	UMGS1933 sp900772235
+4126	HGM10818
+4127	HGM10818 sp900772445
+4128	CAG-594 sp900772415
+4129	Prevotellamassilia sp900772575
+4130	Faecalibacterium sp900551435
+4131	Fusicatenibacter sp900772675
+4132	HGM11368
+4133	HGM11368 sp900772745
+4134	CAG-95 sp900553305
+4135	Treponema_D sp002449305
+4136	Prevotella sp000433175
+4137	Bacteroides stercoris
+4138	Ruthenibacterium lactatiformans
+4139	Bifidobacterium pseudocatenulatum
+4140	Eisenbergiella massiliensis
+4141	Collinsella sp003438495
+4142	ER4 sp000765235
+4143	Paenibacillus polymyxa
+4144	Faecalicoccus
+4145	Faecalicoccus sp900546545
+4146	Lactobacillus gasseri
+4147	Prevotella disiens
+4148	Collinsella sp003439125
+4149	Phocaeicola plebeius_A
+4150	Agathobacter faecis
+4151	Ruminococcus_A sp003011855
+4152	Prevotella copri_A
+4153	Holdemanella sp003436425
+4154	Collinsella sp900546115
+4155	Parabacteroides sp003480915
+4156	Eisenbergiella sp900066775
+4157	Collinsella sp003466125
+4158	Thermoanaerobacteria
+4159	Caldanaerobiales
+4160	UBA4877
+4161	UBA4877
+4162	UBA4877 sp002399345
+4163	Garciellaceae
+4164	Garciella
+4165	Garciella sp900555725
+4166	An181
+4167	An181 sp002160325
+4168	Sedimentibacteraceae
+4169	Sedimentibacter
+4170	Sedimentibacter sp003457065
+4171	Enterococcus_A devriesei
+4172	Loigolactobacillus
+4173	Loigolactobacillus coryniformis
+4174	Stenotrophomonas maltophilia_AQ
+4175	Serratia liquefaciens
+4176	Enterococcus_A gilvus
+4177	Muricomes sp900604355
+4178	S5-A14a
+4179	S5-A14a sp900553025
+4180	Peptoniphilus_B
+4181	Peptoniphilus_C urinimassiliensis
+4182	Jonquetella
+4183	Jonquetella anthropi
+4184	Mobiluncus
+4185	Bifidobacterium vaginale
+4186	S5-A14a sp000758905
+4187	Peptoniphilus_A lacrimalis
+4188	Peptostreptococcus sp000758885
+4189	Bifidobacterium vaginale_E
+4190	Prevotella amnii
+4191	Bradyrhizobium sp003020075
+4192	Afipia
+4193	Afipia broomeae
+4194	QFNR01
+4195	Cupriavidus
+4196	Cupriavidus metallidurans
+4197	Fenollaria massiliensis
+4198	Streptococcus oralis_E
+4199	Ezakiella coagulans
+4200	Levyella
+4201	Levyella massiliensis
+4202	Prevotella buccalis
+4203	Filifactoraceae
+4204	Filifactor
+4205	Alterileibacterium
+4206	Alterileibacterium massiliense
+4207	JABCPO02
+4208	Peptoniphilus_A raoultii
+4209	Criibacterium
+4210	Criibacterium bergeronii
+4211	Arcanobacterium_A urinimassiliense
+4212	Varibaculum massiliense
+4213	Peptoniphilus_B duerdenii
+4214	KA00134
+4215	Stenotrophomonas maltophilia_S
+4216	Corynebacterium aurimucosum_C
+4217	Prevotella brunnea
+4218	Prevotella bergensis
+4219	Bifidobacterium sp002884815
+4220	Blautia sp002161285
+4221	Ezakiella massiliensis
+4222	DTU023
+4223	SFGY01
+4224	Stomatobaculum sp002892395
+4225	Anaerococcus lactolyticus
+4226	Anaerosacchariphilus sp002160765
+4227	Stomatobaculum naviforme
+4228	Porphyromonas uenonis
+4229	Prevotella timonensis
+4230	Anaeroglobus sp900240295
+4231	Peptoniphilus_B sp000478985
+4232	SFGY01 sp004556455
+4233	Pantoea conspicua
+4234	Epilithonimonas
+4235	Epilithonimonas bovis
+4236	Pauljensenia culturomici
+4237	Corynebacterium amycolatum
+4238	Prevotella colorans
+4239	Prevotella sp900548585
+4240	Succiniclasticum sp900314855
+4241	UMGS1688 sp900545885
+4242	UMGS1872 sp900555795
+4243	UBA5446 sp900543085
+4244	Blautia_A sp900549015
+4245	CAG-110 sp900549495
+4246	UBA1777 sp900549645
+4247	51-20 sp900539605
+4248	CAG-1193
+4249	CAG-1193 sp000436255
+4250	WRGP01
+4251	Eisenbergiella sp900550285
+4252	UBA7173 sp001915385
+4253	CAG-521 sp900545335
+4254	QAMM01 sp003150405
+4255	UMGS693
+4256	UMGS693 sp900544555
+4257	Ruminiclostridium_E sp900539195
+4258	CAG-475 sp900547975
+4259	Sutterella sp900762445
+4260	Paramuribaculum sp900551515
+4261	RUG841
+4262	NK3B98 sp900752305
+4263	Phascolarctobacterium sp900545535
+4264	Merdibacter sp900759455
+4265	Firm-11 sp900540045
+4266	Prevotella oris
+4267	RC9 sp900543205
+4268	Kosakonia
+4269	Kosakonia cowanii
+4270	CAG-1427 sp900553605
+4271	CAG-964 sp902789345
+4272	Zag111 sp900551965
+4273	UBA11524 sp000437595
+4274	Roseburia sp900753715
+4275	Prevotella multisaccharivorax
+4276	Faecalibacterium sp900539945
+4277	Odoribacter sp900541415
+4278	QAMM01 sp900762715
+4279	Prevotella sp000435635
+4280	UMGS1474
+4281	UMGS1474 sp900547105
+4282	Fusobacterium_A sp900555845
+4283	Gemmiger sp900540595
+4284	Bacteroides sp014385165
+4285	Mailhella sp900555975
+4286	CAG-882 sp900545175
+4287	Rikenella
+4288	Rikenella microfusus
+4289	CAG-590 sp900544905
+4290	CAG-964 sp000435335
+4291	CAG-465 sp900554875
+4292	Gemmiger qucibialis
+4293	CAG-269 sp900556865
+4294	CAG-302 sp000431795
+4295	CAG-269 sp001916055
+4296	NSJ-50
+4297	NSJ-50 sp014385105
+4298	CAG-884 sp000433875
+4299	Eubacterium_F sp900539115
+4300	UMGS1611
+4301	UMGS1611 sp900553435
+4302	Alistipes sp900021155
+4303	CAG-303 sp900539455
+4304	RUG131 sp900315885
+4305	Parabacteroides sp014287585
+4306	CAG-312 sp900545715
+4307	HGM12713 sp900754175
+4308	CAG-552
+4309	CAG-552 sp000435495
+4310	RUG472
+4311	RUG472 sp900545265
+4312	UMGS1696 sp900753285
+4313	UBA1740 sp004558975
+4314	UBA11512
+4315	UBA11512 sp003522145
+4316	UMGS1338
+4317	UMGS1338 sp900550805
+4318	VUNA01 sp002299625
+4319	QALW01 sp003150515
+4320	UMGS1312 sp900550625
+4321	CAG-452 sp900770415
+4322	UMGS1225
+4323	UMGS1225 sp900549725
+4324	CAG-877 sp900768815
+4325	Mediterraneibacter sp900752395
+4326	CAG-873 sp002493945
+4327	CAG-485 sp900761855
+4328	UBA1691 sp900544375
+4329	Alistipes sp002161445
+4330	Ruminococcus_E sp900314705
+4331	RC9 sp001915575
+4332	43-108
+4333	43-108 sp001915545
+4334	Alistipes sp900550925
+4335	UMGS2055
+4336	UMGS2055 sp900557635
+4337	HGM12650 sp900761725
+4338	CAG-605 sp000433475
+4339	CAG-465 sp000433755
+4340	CAG-354 sp900553015
+4341	Alistipes sp000434235
+4342	UBA6345
+4343	CAG-533 sp004563275
+4344	CAG-628 sp003524085
+4345	Psychrobacillus
+4346	Psychrobacillus sp012843435
+4347	UBA1191 sp900549125
+4348	HGM11588 sp900754755
+4349	Bacteroides massiliensis_A
+4350	UBA11471 sp900542765
+4351	HGM13222
+4352	HGM13222 sp900757485
+4353	UMGS1815
+4354	CAG-582 sp000435515
+4355	UMGS1820 sp900545865
+4356	CAG-1193 sp900550145
+4357	Ellagibacter isourolithinifaciens
+4358	UMGS1633
+4359	UMGS1633 sp900553645
+4360	Limosilactobacillus vaginalis
+4361	CAG-269 sp001916035
+4362	SFMI01
+4363	SFMI01 sp004556155
+4364	Eubacterium_G sp900548465
+4365	UBA1777 sp003150355
+4366	Oxalobacter sp900760095
+4367	UMGS755
+4368	UMGS755 sp900545185
+4369	UMGS946 sp900544965
+4370	CAG-83 sp900552475
+4371	UMGS1540
+4372	UMGS1540 sp900552775
+4373	HGM12998
+4374	HGM12998 sp900756495
+4375	Traorella
+4376	HGM11327 sp900759935
+4377	UCG-010 sp003150215
+4378	AM51-8 sp900761925
+4379	CAG-1427 sp000435675
+4380	HGM10766
+4381	HGM10766 sp900757295
+4382	UMGS1253
+4383	UMGS1253
+4384	CAG-594 sp000434835
+4385	Enterocloster sp900540675
+4386	Firm-11 sp900548145
+4387	UMGS1783
+4388	UMGS1783
+4389	UMGS1783 sp900555065
+4390	CAG-279 sp900550025
+4391	CAG-83 sp900756715
+4392	Eubacterium_R sp000433975
+4393	CAG-302 sp900548425
+4394	CAG-1000 sp900772435
+4395	HGM13233
+4396	HGM13233 sp900762805
+4397	Alistipes_A sp900546005
+4398	UBA5905 sp004558485
+4399	UMGS1387 sp900551295
+4400	Unknown order
+4401	Angelakisella sp900547385
+4402	CAG-272 sp000433515
+4403	CAG-95 sp000438155
+4404	UMGS1071 sp900541905
+4405	CAG-302 sp001916775
+4406	CAG-822 sp900546055
+4407	Fournierella sp900543285
+4408	UMGS1253 sp900550065
+4409	Acutalibacter sp000435395
+4410	UBA1777 sp900547315
+4411	V9D3004 sp900760345
+4412	CAG-1427 sp900554685
+4413	Eisenbergiella sp900555195
+4414	UBA738 sp003522945
+4415	QAMH01 sp900544245
+4416	UMGS1375 sp900551235
+4417	Marseille-P3106 sp900169975
+4418	Ruthenibacterium sp900759375
+4419	UBA644 sp900547165
+4420	UBA5026 sp900546745
+4421	Comamonas
+4422	Comamonas kerstersii
+4423	Pseudomonas citronellolis
+4424	UBA7102 sp900760085
+4425	CAG-273 sp003534295
+4426	HGM11514
+4427	HGM11514 sp900757255
+4428	Dialister invisus
+4429	QALW01 sp900552055
+4430	UBA5026 sp900550255
+4431	Evtepia sp900546255
+4432	UMGS1494
+4433	UMGS1494 sp900552305
+4434	ER4 sp003522105
+4435	CAG-145 sp900754795
+4436	Pradoshia
+4437	Pradoshia sp001183965
+4438	UMGS1781 sp900553365
+4439	UMGS1241 sp900550525
+4440	Phocaeicola sp900551445
+4441	QANG01
+4442	Bacteroides sp900553815
+4443	Slackia_A sp900553655
+4444	CAG-269 sp001916005
+4445	CAG-793
+4446	CAG-793 sp900557475
+4447	UBA737 sp002431945
+4448	CAG-83 sp001916855
+4449	F23-B02 sp000431075
+4450	CAG-110 sp900553805
+4451	RC9 sp900546445
+4452	UBA6398 sp003150315
+4453	CAG-485 sp900759795
+4454	UMGS902 sp900761025
+4455	HGM13618
+4456	HGM13618 sp900753975
+4457	RUG11241
+4458	UMGS621
+4459	UMGS621 sp900543915
+4460	CAG-269 sp900556345
+4461	UMGS1883 sp900763305
+4462	CAG-533 sp900553855
+4463	RUG13868
+4464	Clostridium sp900759995
+4465	Terrisporobacter sp900557165
+4466	Massiliomicrobiota sp002160815
+4467	QAKS01
+4468	UMGS1071 sp900542375
+4469	CAG-492 sp000434335
+4470	Alistipes sp900761235
+4471	UMGS1601 sp900553335
+4472	SFEL01
+4473	SFEL01 sp004557245
+4474	HGM12669 sp900761935
+4475	CAG-170 sp000436735
+4476	UMGS2016 sp900557185
+4477	Acetatifactor sp003447295
+4478	NK3B98 sp900545815
+4479	Desulfovibrio piger_A
+4480	CAG-460 sp900544625
+4481	Amulumruptor sp900547825
+4482	CAG-177 sp003538135
+4483	Parolsenella sp900543875
+4484	Atopobium
+4485	Atopobium minutum
+4486	CAG-273 sp902406115
+4487	UMGS1449
+4488	UMGS1449 sp900551925
+4489	CAG-110 sp900546075
+4490	Massilistercora sp902406105
+4491	UMGS263
+4492	UMGS263 sp900540535
+4493	Streptococcus sp900550895
+4494	Porphyromonas asaccharolytica
+4495	Pauljensenia bouchesdurhonensis
+4496	Blautia_A schinkii
+4497	Porphyromonas_A sp900554935
+4498	Roseburia sp900542495
+4499	UMGS915
+4500	UMGS915 sp900546795
+4501	Collinsella sp900554155
+4502	Ruminococcus_C sp000437175
+4503	ER4 sp900550165
+4504	CAG-1427 sp900548955
+4505	UMGS1484 sp900552285
+4506	Collinsella sp900553215
+4507	Parabacteroides sp900552465
+4508	Ruminococcus_D sp000434695
+4509	UMGS1670 sp900546215
+4510	Limosilactobacillus caviae
+4511	Faecalicoccus pleomorphus
+4512	Anaeroglobus micronuciformis
+4513	Alistipes sp900549305
+4514	Alloprevotella
+4515	Alloprevotella tannerae
+4516	UMGS1474 sp900552115
+4517	TM7x sp900557595
+4518	Providencia rettgeri
+4519	Ruminococcus_A faecicola
+4520	UBA1259 sp003523255
+4521	CAG-307
+4522	CAG-307 sp900547045
+4523	CAG-238 sp000435615
+4524	Fusobacterium_B sp900542625
+4525	UMGS1781 sp900554635
+4526	Aggregatibacter
+4527	Aggregatibacter segnis
+4528	Granulicatella adiacens
+4529	Lachnospira sp900316325
+4530	CAG-273 sp000438355
+4531	Streptococcus constellatus
+4532	RUG14215
+4533	CAG-180 sp000432435
+4534	Prevotellamassilia sp900539625
+4535	Ruminococcus_E sp002493635
+4536	Faecalibacterium sp900765105
+4537	Phascolarctobacterium sp000436095
+4538	CAG-110 sp000435995
+4539	UBA5026 sp900557305
+4540	Collinsella sp900542635
+4541	Streptococcus thermophilus
+4542	UBA5884
+4543	UBA5884 sp900551505
+4544	CAG-245 sp900761475
+4545	Veillonella_A sp000431435
+4546	CAG-460 sp000437315
+4547	Alistipes sp900548155
+4548	CAG-302 sp900554615
+4549	CAG-354 sp900754085
+4550	UBA10281 sp900767885
+4551	CAG-882 sp000435595
+4552	CAG-484 sp900321895
+4553	Prevotella sp002251385
+4554	Holdemanella sp900754615
+4555	CAG-83 sp900554275
+4556	CAG-628 sp000438415
+4557	Lachnospira sp900772425
+4558	UBA2821
+4559	UBA2821 sp902763335
+4560	Lachnospira sp900545725
+4561	F23-B02 sp001916715
+4562	CAG-302 sp900543825
+4563	Prevotella sp002265625
+4564	Eubacterium_R sp900539325
+4565	Caecibacter sp900549385
+4566	RC9 sp000432515
+4567	Agathobacter sp900550545
+4568	CAG-1000 sp000434555
+4569	CAG-83 sp900313295
+4570	CAG-488 sp003486665
+4571	Agathobacter sp900549895
+4572	UMGS1477 sp900552205
+4573	UBA9783
+4574	Collinsella phocaeensis
+4575	RUG841 sp900313795
+4576	DUOT01
+4577	Collinsella sp900548365
+4578	CAG-826
+4579	CAG-826 sp000437235
+4580	COE1 sp001916965
+4581	Bilophila sp900550745
+4582	UMGS1707
+4583	UMGS1707 sp900554285
+4584	UBA7597 sp900767195
+4585	UMGS1224
+4586	UMGS1224 sp900549775
+4587	UBA4644 sp900555855
+4588	CAG-465 sp000433335
+4589	CAG-460 sp000438075
+4590	CAG-313 sp003539625
+4591	CAG-793 sp000433915
+4592	CAG-269 sp900760175
+4593	Sutterella faecalis
+4594	Prevotella sp900556795
+4595	CAG-485 sp900767075
+4596	UBA791
+4597	CAG-698
+4598	CAG-698 sp000431235
+4599	CAG-83 sp900548615
+4600	Barnesiella sp900542255
+4601	Alistipes_A sp900539755
+4602	Alistipes_A sp900545315
+4603	UBA1394 sp900554975
+4604	QALR01 sp900553085
+4605	Sodaliphilus sp004557565
+4606	CAG-83 sp900556015
+4607	Phocaeicola mediterraneensis
+4608	ER4 sp900546295
+4609	CAG-873 sp900554715
+4610	UBA2903 sp002349565
+4611	F23-B02 sp003533405
+4612	CAG-83 sp900547745
+4613	CAG-449 sp900551385
+4614	ER4 sp900552015
+4615	Muribaculum sp003150235
+4616	Prevotella sp900548745
+4617	UBA1436 sp900540405
+4618	CAG-269 sp000437215
+4619	Collinsella sp003487125
+4620	CAG-345
+4621	CAG-345 sp000433315
+4622	Victivallis sp900551245
+4623	CAG-312 sp900760665
+4624	CAG-460 sp000437355
+4625	UMGS2068
+4626	UMGS2068 sp900769635
+4627	Prevotella sp002481295
+4628	Victivallis sp900550905
+4629	UMGS1663 sp900753245
+4630	Sneathia amnii
+4631	Zag111 sp002103105
+4632	TWA4
+4633	Ruminococcus_E bromii_A
+4634	UBA11549 sp900550445
+4635	Olsenella_E sp002160255
+4636	CAG-83 sp900555735
+4637	CAG-103 sp000432375
+4638	UMGS1477 sp900761525
+4639	Akkermansia sp900548895
+4640	CAG-495 sp000436375
+4641	CAG-245 sp000434195
+4642	UBA10677 sp900767465
+4643	Alistipes sp900542505
+4644	CAG-313 sp900760745
+4645	UMGS1754 sp900554815
+4646	Ureibacillus
+4647	Ureibacillus endophyticus
+4648	Alistipes sp900290115
+4649	CAG-460 sp900751815
+4650	AM51-8 sp900546435
+4651	Phil1 sp004558525
+4652	Frisingicoccus sp900757195
+4653	UBA7067
+4654	UBA5446 sp900545405
+4655	Prevotella sp002480935
+4656	Gemella morbillorum
+4657	An23
+4658	An23 sp900544635
+4659	Peptostreptococcus stomatis
+4660	Pauljensenia cardiffensis
+4661	Olsenella_E sp002159735
+4662	UBA2834
+4663	UBA2834 sp004561445
+4664	RF16 sp900556095
+4665	Treponema_D berlinense
+4666	UBA6382
+4667	UBA6382 sp900557555
+4668	F082 sp002633315
+4669	UMGS1688 sp900553825
+4670	UMGS1795 sp900553555
+4671	Coprococcus_A sp900548825
+4672	Enorma sp900751795
+4673	UBA1409 sp900553675
+4674	Prevotella sp900317685
+4675	UBA2856
+4676	UBA2856 sp009696445
+4677	CAG-194
+4678	CAG-194 sp000432915
+4679	CAG-307 sp001916215
+4680	CAG-433 sp900546245
+4681	Collinsella sp900551555
+4682	UBA7173 sp900555165
+4683	UMGS363 sp900768245
+4684	RUG841 sp900772035
+4685	Olsenella_E provencensis
+4686	Anaerotruncus massiliensis
+4687	Prevotella sp900316565
+4688	Blautia_A sp900551465
+4689	CAG-521 sp900553105
+4690	Prevotella nigrescens
+4691	Prevotella intermedia
+4692	Mobilibacterium sp900315625
+4693	Prevotella sp002300055
+4694	Erysipelatoclostridium sp002160495
+4695	ZJ304
+4696	Paramuribaculum sp009775605
+4697	Duodenibacillus sp900542805
+4698	F0040 sp000318095
+4699	CAG-495 sp000432275
+4700	Prevotella sp900551055
+4701	UMGS1670 sp900548595
+4702	Eubacterium_R sp003526845
+4703	Negativibacillus sp900547455
+4704	Leuconostoc lactis
+4705	Collinsella sp900555585
+4706	Alistipes finegoldii
+4707	D5
+4708	D5 sp900113995
+4709	Collinsella aerofaciens_N
+4710	Clostridium beijerinckii
+4711	UMGS1975 sp900556815
+4712	F23-B02 sp004558025
+4713	Veillonella sp900552445
+4714	Mycoplasmopsis
+4715	Mycoplasmopsis bovis
+4716	Bacteroides sp900766005
+4717	Finegoldia magna
+4718	Dysosmobacter sp004553545
+4719	CAG-245 sp900758165
+4720	Haemophilus_A parahaemolyticus
+4721	CAG-873 sp900550395
+4722	Eubacterium_R sp014465955
+4723	UBA9502 sp900555625
+4724	Collinsella aerofaciens_H
+4725	Sutterella sp900754475
+4726	Collinsella sp900554655
+4727	Collinsella sp900554665
+4728	Prevotella sp000436695
+4729	Prevotella sp900556275
+4730	Olsenella_B sp900768455
+4731	Monoglobus sp900554105
+4732	QAMX01 sp003149835
+4733	Marvinbryantia sp014385005
+4734	RUG100
+4735	Eubacterium_T saphenum_A
+4736	UMGS1418 sp900551595
+4737	Megamonas hypermegale
+4738	Roseburia sp900756925
+4739	Paramuribaculum sp900759915
+4740	Acutalibacter sp900548545
+4741	UBA9475 sp900554075
+4742	Pseudoflavonifractor sp014287675
+4743	Lysinibacillus
+4744	Lysinibacillus fusiformis_D
+4745	Bifidobacterium italicum
+4746	Blautia_A sp900548245
+4747	UBA7160 sp900757145
+4748	Evtepia sp004554585
+4749	Actinomyces sp000220835
+4750	Eubacterium_I sp900557275
+4751	HGM10873
+4752	HGM10873 sp900753645
+4753	Megamonas sp900556715
+4754	Collinsella sp900754435
+4755	Blautia sp900753905
+4756	Elizabethkingia
+4757	Elizabethkingia bruuniana
+4758	UBA7741
+4759	UBA7741 sp900314575
+4760	UBA6398 sp900555645
+4761	Prevotella sp900553155
+4762	Collinsella sp900552145
+4763	Catenibacillus sp900553975
+4764	CAG-462 sp900291465
+4765	UBA2856 sp900555005
+4766	Collinsella sp900555765
+4767	Phascolarctobacterium faecium
+4768	Streptococcus sobrinus
+4769	Succinivibrio sp902776275
+4770	QANA01 sp003149735
+4771	UMGS1397 sp900551425
+4772	Neisseria sp000186165
+4773	UMGS882 sp003343885
+4774	Dysosmobacter sp900550685
+4775	Blautia_A wexlerae_B
+4776	Firm-11 sp900550955
+4777	SCN-57-10
+4778	Companilactobacillus farciminis
+4779	Streptococcus sp001556435
+4780	CAG-273 sp000435755
+4781	Megasphaera cerevisiae
+4782	Phocaeicola sartorii
+4783	Enterococcus_B hirae
+4784	Schaedlerella sp900765975
+4785	Megasphaera sp001546855
+4786	UMGS1384
+4787	UMGS1384 sp900551265
+4788	Dialister sp900759415
+4789	Acidaminococcus fermentans_A
+4790	CAG-238 sp900754805
+4791	UMGS1815 sp900555345
+4792	UBA1822 sp002314995
+4793	Proteus sp003144505
+4794	UBA1417 sp900552925
+4795	Phascolarctobacterium_A sp900757795
+4796	Limosilactobacillus ingluviei
+4797	Limosilactobacillus timonensis
+4798	CAG-462 sp900765575
+4799	Sutterella sp900757865
+4800	UMGS1810 sp900555295
+4801	Collinsella sp900754385
+4802	Fusobacterium_A sp900764925
+4803	CAG-485 sp900549375
+4804	ER4 sp900552375
+4805	Lawsonibacter sp900549405
+4806	UBA5446 sp900752445
+4807	Eggerthella sp014287365
+4808	RUG023
+4809	RUG023 sp900315435
+4810	Faecalimonas sp900555395
+4811	Collinsella sp900556445
+4812	UMGS1670 sp902406135
+4813	Nitratidesulfovibrio
+4814	Nitratidesulfovibrio vulgaris
+4815	UBA9502 sp900770535
+4816	Raoultibacter
+4817	Raoultibacter timonensis
+4818	Collinsella sp008014645
+4819	Levilactobacillus namurensis
+4820	Limosilactobacillus sp012843675
+4821	CAG-762 sp900551315
+4822	Gemmiger variabilis_B
+4823	HGM11616
+4824	HGM11616 sp900761075
+4825	Lactonifactor sp009677585
+4826	Stoquefichus sp001244545
+4827	Olsenella sp900555995
+4828	Butyricimonas sp900184685
+4829	Clostridium_N
+4830	UBA1417 sp002305575
+4831	UMGS1591 sp900553255
+4832	KM106-2
+4833	Fusobacterium_A sp900555485
+4834	Eggerthella sinensis
+4835	HGM13006 sp900756575
+4836	Weissella confusa_B
+4837	Bacteroides sp900555635
+4838	UMGS1293 sp900550385
+4839	An23 sp900545755
+4840	Blautia sp900555025
+4841	UBA7488
+4842	UBA7488 sp002477185

@@ -1,0 +1,816 @@
+---
+title: "{{ metadata.title }}"
+author: "{{ metadata.author }}"
+date: "{{ metadata.date_rendered }}"
+output:
+  BiocStyle::html_document:
+    theme: {{ output.html_theme }}
+    number_sections: {{ 'yes' if output.number_sections else 'no' }}
+    toc_float: {{ 'yes' if output.toc_float else 'no' }}
+    toc_depth: {{ output.toc_depth }}
+---
+
+  <style type="text/css">
+  /* Centrar el título */
+  h1.title {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+
+  /* Centrar el autor */
+  h4.author {
+    text-align: center;
+  }
+
+  /* Centrar la fecha */
+  h4.date {
+    text-align: center;
+  }
+
+  /* Estilo para las imágenes */
+  img + em {
+    display: inherit;
+    text-align: center;
+    font-size: 8pt;
+    color: #1a81c2;
+    font-style: inherit;
+    font-weight: bold;
+  }
+
+  /* Ajustar el tamaño de las tablas */
+  .table {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  /* Asegurar que el contenido ocupe todo el ancho */
+  .container {
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+  /* Asegurar que las imágenes sean responsivas */
+  img {
+    width: 100%;
+    height: auto;
+  }
+  </style>
+
+---
+
+```{r opts, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, 
+                      out.width.px = 80, out.height.px=50,
+                      dev = "jpeg",
+                      dpi = 300)
+
+
+```
+
+
+```{r libraries}
+# Load required libraries
+library(patchwork)
+library(phyloseq)
+library(vegan)
+library(fossil)
+library(ggplot2)
+library(dplyr)
+library(ggrepel)
+library(stringr)
+library(tidyr)
+library(viridis)
+library(ggpubr)
+library(knitr)
+library(kableExtra)
+library(DT)
+library(umap)
+library(readxl)
+library(readr)
+library(RVAideMemoire)
+library(uwot)
+library(BasicPlots)
+library(openxlsx)
+```
+
+# Introduction
+
+## Project Information
+
+{% if project_info %}
+- **PI:** {{ project_info.pi }}
+- **Researcher:** {{ project_info.researcher }}
+- **Technology:** {{ project_info.technology }}
+- **Species:** {{ project_info.species }}
+- **Samples:** {{ project_info.samples }}
+{% endif %}
+
+# Background
+
+{{ background }}
+
+# Samples used in this approach:
+
+{{ samples_info }}
+
+
+```{r transformationintophyloseqobj}
+
+{% if mode.bracken %}
+
+# Load and create taxon list
+load_taxid_list <- function() {
+  taxid_list <- read.delim("taxid_list.txt", header = FALSE, sep = "\t", col.names = c("taxid", "species")) #This path has to be changed
+  colnames(taxid_list) <- c("taxid", "species")
+  taxid_dict <- setNames(taxid_list$taxid, taxid_list$species)
+  return(taxid_dict)
+}
+
+# Load and process taxonomic info
+load_taxonomic_info <- function() {
+  taxinf <- read.csv(file.path("Samples_info_dash.txt"), sep = ";", header = FALSE) #This path has to be changed
+  colnames(taxinf) <- c("Division", "Phylum", "Class", "Order", "Family", "Genus", "Species")
+  return(taxinf)
+}
+
+# Load and process genome metadata
+load_genome_metadata <- function() {
+  metadata <- read.csv("genomes-all_metadata.tsv", sep = "\t")
+  metadata_edited <- metadata[, c("Length", "Lineage")]
+  metadata_edited <- metadata_edited %>%
+    separate(
+      Lineage,
+      into = c("Division", "Phylum", "Class", "Order", "Family", "Genus", "Species"),
+      sep = ";",
+      remove = TRUE
+    )
+  metadata_edited <- metadata_edited[, c("Length", "Species")]
+  metadata_edited$Species <- gsub(" ", "_", metadata_edited$Species)
+  average_length <- aggregate(Length ~ Species, data = metadata_edited, FUN = mean)
+  return(average_length)
+}
+
+# Process kraken results
+process_kraken_files <- function(list_files_kraken) {
+  free_the_krako <- lapply(list_files_kraken, function(x) {
+    krakn <- read.csv(x, sep = "\t")
+    file_name <- basename(x)
+    id <- sub("^(F_\\d+)_.*$", "\\1", file_name)
+    
+    krakn$multip <- krakn[[ncol(krakn) - 1]] * krakn[[ncol(krakn)]]
+    percsam <- paste0("PercSM_", id)
+    totreads <- paste0("TotReadsSM_", id)
+    colnames(krakn) <- c("Species", "TaxID", "Tax_level", "Krakenrreads", "addedreads", totreads, percsam, "absabd")
+    
+    krakn <- krakn %>%
+      mutate(
+        across(everything(), ~ str_trim(.)),
+        Species = str_replace_all(Species, " ", "_"),
+        Species = paste0("s__", Species)
+      ) %>%
+      filter(Tax_level == "S")
+    
+    krakn <- krakn[, c("Species", totreads, percsam)]
+    return(krakn)
+  })
+  
+  merged_all <- Reduce(function(x, y) merge(x, y, by = "Species", all = TRUE), free_the_krako)
+  return(merged_all)
+}
+
+# Normalization by genome length if needed
+# Function to merge and normalize Kraken data
+merge_and_normalize_data <- function(merged_all, taxinf, average_length, should_merge = TRUE) {
+  # Merge taxinf with merged_all by "Species"
+  krkan_merged <- merge(taxinf, merged_all, by = "Species")
+  
+  # Reorder columns to move specific taxonomic columns to the front
+  columns_to_move <- c("Phylum", "Class", "Order", "Family", "Genus")
+  krkan_merged <- krkan_merged[, c(columns_to_move, setdiff(names(krkan_merged), columns_to_move))]
+  
+  # Condition to merge with average_length and normalize
+  if (should_merge) {
+    # Merge with average_length by "Species"
+    krkan_merged <- merge(krkan_merged, average_length, by = "Species")
+    krkan_merged$Length <- krkan_merged$Length / 1e6  # Convert Length to millions
+    
+    # Identify columns starting with "TotReads" for normalization
+    normalizacio <- grep("^TotReads", colnames(krkan_merged), value = TRUE)
+    krkan_merged <- krkan_merged %>%
+      mutate(across(all_of(normalizacio), as.numeric))  # Ensure TotReads columns are numeric
+    
+    # Create new normalized columns by dividing TotReads by Length
+    new_columns <- lapply(normalizacio, function(col) {
+      krkan_merged[[col]] / krkan_merged$Length
+    })
+    names(new_columns) <- paste0("Normal_", normalizacio)  # Add "Normal_" prefix to new columns
+    krkan_merged <- cbind(krkan_merged, new_columns)  # Append normalized columns to the data frame
+  }
+  
+  # Replace NA values with 0
+  krkan_merged[is.na(krkan_merged)] <- 0
+  Unfiltered_reads <- grep("^TotReads", colnames(krkan_merged), value = TRUE)
+  infoaddedunf <- append(Unfiltered_reads, c("Species", "Phylum", "Class", "Order", "Family", "Genus"))
+  full_krakn_species <- krkan_merged[, infoaddedunf]
+  return(full_krakn_species)
+}
+
+
+# Main function for Bracken2Phyloseq
+main <- function(project,resultsfolder) {
+  taxid_dict <- load_taxid_list()
+  taxinf <- load_taxonomic_info()
+  average_length <- load_genome_metadata()
+  
+  list_files_kraken <- list.files(
+    path = "{{ input_files.bracken }}",
+    pattern = "*.tsv",
+    recursive = TRUE,
+    full.names = TRUE
+  )
+  
+  merged_all <- process_kraken_files(list_files_kraken)
+  krkan_merged <- merge_and_normalize_data(merged_all, taxinf, average_length, should_merge = FALSE)
+  
+  return(krkan_merged)
+}
+
+# Execute main function
+results <- main()
+taxtablesextract<- read.csv("taxinfo.csv")  #This path has to be changed
+sample_info <- read.xlsx("{{ metadata_source.excel_file }}")
+process_phyloseq_data <- function(final_results, taxtablesextracted, samples_information) {
+  
+  # Create OTU matrix
+  tax_columns <- c("Species", "Phylum", "Class", "Order", "Family", "Genus")
+  names(final_results) <- gsub("TotReadsSM_", "", names(final_results))
+  numeric_columns <- setdiff(colnames(final_results), tax_columns)
+  
+  otu_mat <- final_results %>%
+    tibble::column_to_rownames("Species") %>%
+    mutate(across(everything(), as.numeric))   # Convert all columns to numeric
+  otu_mat <- otu_mat[, 1:(ncol(otu_mat) - 5)]
+
+  # Create taxa matrix
+  tax_mat <- taxtablesextracted %>%
+    tibble::column_to_rownames("Species")
+  
+  # Process metadata
+  samples_df <- samples_information %>%
+    tibble::column_to_rownames("{{ metadata_source.sample_id_column }}")
+  
+  # Convert matrix
+  otu_mat <- as.matrix(otu_mat)
+  tax_mat <- as.matrix(tax_mat)
+  
+  # Create phyloseq objects
+  OTU = otu_table(otu_mat, taxa_are_rows = TRUE)
+  TAX = tax_table(tax_mat)
+  samples = sample_data(samples_df)
+  
+  # Final Object
+  phyloseq_object = phyloseq(OTU, TAX, samples)
+  
+  return(phyloseq_object)
+}
+
+phyloelement <- process_phyloseq_data(results,taxtablesextract, sample_info)
+
+saveRDS(phyloelement, file = "phyloelement.rds")
+
+{% endif %}
+
+{% if mode.metaphlan %}
+
+test <- read.csv("/mnt/bioinfnas/bioinformatics/projects/20251118_PNuciforo_SM_DepotecaRecto/analysisCluster/results_taxpro_all_runmerging_meta/metaphlan/metaphlan_db1_combined_reports.txt", sep = "\t", comment.char = "#")
+
+sample_info <- read.xlsx("{{ metadata_source.excel_file }}")
+
+physeq <- metaphlan_to_phyloseq(
+  test,
+  taxa_lvl = "genus",
+  use_taxa_names = TRUE
+)
+
+samples_df <- sample_info %>%
+  tibble::column_to_rownames("Sample")
+
+sample_names(physeq) <- gsub("_db1\\.metaphlan", "", sample_names(physeq))
+
+sample_data(physeq) <- samples_df
+
+saveRDS(physeqmetaphlan, file = "physeqmetaphlan.rds")
+
+{% endif %}
+
+
+
+```
+
+
+
+```{r loadobjects}
+# Load output directory configuration
+out_dir <- "{{ input_files.output_directory }}"
+
+if (!dir.exists(out_dir)) {
+  dir.create(out_dir, recursive = TRUE)
+}
+
+# Function to save plots
+save_plot <- function(plot, name, dir = out_dir) {
+  ggsave(
+    filename = file.path(dir, paste0(name, ".png")),
+    plot = plot,
+    width = 8,
+    height = 6,
+    dpi = 300
+  )
+}
+
+# Load phyloseq object
+#phyloelement_nofiltered <- readRDS("{{ input_files.phyloseq_object }}")
+phyloelement_nofiltered <- phyloelement
+
+# Decontamination step removed per user request (decontam not applied)
+
+# -------------------------
+# Prevalence filtering
+# -------------------------
+filter_prevalence_phyloseq <- function(physeq,
+                                       rel_abundance = {{ filtering.rel_abundance }},
+                                       prevalence_cutoff = {{ filtering.prevalence_cutoff }},
+                                       use_relative = TRUE) {
+  otu <- as(otu_table(physeq), "matrix")
+  if (!taxa_are_rows(physeq)) {
+    otu <- t(otu)
+  }
+  if (use_relative) {
+    otu <- sweep(otu, 2, colSums(otu), "/")
+  }
+  otu_bin <- otu >= rel_abundance
+  prev <- rowSums(otu_bin)
+  min_samples <- ceiling(prevalence_cutoff * ncol(otu))
+  keep_taxa <- names(prev[prev >= min_samples])
+  physeq_filtered <- prune_taxa(keep_taxa, physeq)
+  return(physeq_filtered)
+}
+
+# Apply prevalence filtering to create working phyloseq object
+physeq_filtered <- filter_prevalence_phyloseq(
+  phyloelement_nofiltered,
+  rel_abundance = {{ filtering.rel_abundance }},
+  prevalence_cutoff = {{ filtering.prevalence_cutoff }}
+)
+
+# Extract sample and OTU data from filtered phyloseq
+sam_data <- as.matrix(sample_data(physeq_filtered))
+sam_data <- as.data.frame(sam_data)
+
+otu_data <- as.matrix(otu_table(physeq_filtered))
+otu_data <- as.data.frame(otu_data)
+
+# Display metadata table
+sam_data %>%
+  datatable(
+    rownames = FALSE,
+    options = list(
+      pageLength = 10,
+      scrollX = TRUE,
+      ordering = TRUE
+    )
+  )
+```
+
+```{r clrtransformation}
+# CLR transformation for beta diversity and Aitchison-based analyses
+if (requireNamespace('microbiome', quietly = TRUE)) {
+  clr_phyloelement <- microbiome::transform(
+    physeq_filtered,
+    'clr',
+    shift = {{ normalization.beta_diversity.shift }},
+    reference = {{ normalization.beta_diversity.reference }}
+  )
+} else {
+  stop('The microbiome package is required for CLR/Aitchison beta diversity analyses.')
+}
+
+# Calculate Shannon diversity index for each sample
+
+shannon_df <- data.frame(
+  Sample = sample_names(physeq_filtered),  # Gets sample names from phyloseq object
+  Shannon = diversity(t(physeq_filtered@otu_table))  # Transpose: OTUs as rows, samples as columns
+)
+
+# Reorder samples by Shannon diversity (descending order)
+
+shannon_df <- shannon_df %>%
+  mutate(Sample = reorder(Sample, -Shannon))  # "-" orders from largest to smallest
+
+# Merge Shannon diversity data with sample metadata
+
+combined_data <- merge(shannon_df, sam_data, by = "row.names")
+
+# Extract OTU table as a matrix from a non-filtered phyloseq object
+otus <- as(otu_table(phyloelement_nofiltered), "matrix")
+
+# Calculate Chao1 richness estimator for each sample
+
+chao1_results <- apply(otus, 2, chao1)
+
+# Create a data frame with Chao1 results
+
+chao1_dataset <- data.frame(
+  Sample = names(chao1_results),
+  Chao1 = chao1_results           
+)
+
+# Merge Chao1 data with sample metadata
+
+combined_data_chao1 <- merge(chao1_dataset, sam_data, by = "row.names")
+
+
+```
+
+# Statistical Analyses: Methodology
+
+## Overview
+
+My primary references were:
+
+{{ references }}
+
+The **phyloseq object** was analysed following these steps:
+
+- **Alpha diversity metrics** ({{ analyses.alpha_diversity | join(', ') }}) were calculated using raw {{ normalization.alpha_diversity.description }}
+- **Beta diversity** measures ({{ analyses.beta_diversity | join(', ') }}) with {{ 'CLR transformation with pseudocounts' if normalization.beta_diversity.use_clr else 'raw counts' }}
+- **Ordination analyses** ({{ analyses.ordination | join(', ') }})
+{% if analyses.permanova %}
+- **PERMANOVA** tests to assess inter-group differences
+{% endif %}
+
+---
+
+# Alpha Diversity
+
+Alpha diversity measures the **richness and evenness** of microbial communities within individual samples.
+
+## Shannon Index {.tabset}
+
+Shannon diversity index evaluates **evenness and richness** where higher values indicate greater microbial diversity.
+
+{% for feature in feature_columns %}
+
+### {{ feature }}
+
+```{r shannon{{ loop.index0 }}}
+# Use precomputed Shannon dataframe and add the current feature
+
+counts <- combined_data %>%
+  group_by({{ feature }}) %>%
+  summarise(N = n())
+
+p_shannon <- ggboxplot(as.data.frame(combined_data), x = "{{ feature }}", y = "Shannon", fill = "{{ feature }}") +  # Aplica colores personalizados
+  geom_jitter(aes(fill = {{ feature }}), 
+  position = position_jitterdodge(jitter.width = 0.025, dodge.width = 0.8),
+  alpha = 0.5) +
+  geom_pwc(
+    aes(group = {{ feature }}), 
+    method = "wilcox_test", 
+    label = "p = {p.adj.format}",
+    tip.length = 0,
+    remove.bracket = FALSE
+  ) + 
+  geom_text(data = counts, 
+          aes(x = {{ feature }}, y = min(combined_data$Shannon, na.rm = TRUE) - 0.2, 
+              label = paste0("N = ", N)),
+          vjust = -0.5, 
+          size = 5) +
+  labs(title = "Shannon Index by {{ feature }}") +
+  theme_pubr() +  # Tema profesional de ggpubr
+  theme(
+    plot.title = element_text(size = 12, face = "bold", hjust = 0.5),
+    axis.text.x = element_blank(),
+    legend.position = "right"
+  ) 
+
+
+print(p_shannon)
+save_plot(p_shannon, paste0("shannon_{{ feature }}_", Sys.Date()))
+```
+
+{% endfor %}
+
+## Chao1 Index {.tabset}
+
+Chao1 index estimates **species richness** accounting for unobserved taxa.
+
+{% for feature in feature_columns %}
+
+### {{ feature }}
+
+```{r chao1{{ loop.index0 }}}
+counts_Chao1 <- combined_data_chao1 %>%
+  group_by({{ feature }}) %>%
+  summarise(N = n())
+
+p_chao1 <- ggboxplot(as.data.frame(combined_data_chao1), x="{{ feature }}", y="Chao1", fill="{{ feature }}") +
+  geom_jitter(aes(fill={{ feature }}), position = position_jitterdodge(jitter.width = 0.025, dodge.width = 0.8)) +
+  geom_pwc(
+    aes(group = {{ feature }}),
+    method = "wilcox_test", 
+    label = "p = {p.adj.format}",
+    tip.length = 0,
+    remove.bracket = FALSE
+  ) + 
+  geom_text(data = counts_Chao1, 
+      aes(x = {{ feature }}, y = min(p_chao1$Chao1, na.rm = TRUE) - 0.2, 
+          label = paste0("N = ", N)),
+      vjust = -0.5, 
+      size = 3) +
+  labs(title = "Chao1 Index by {{ feature }}") +
+  theme_pubr() +  # Tema profesional de ggpubr
+  theme(
+    plot.title = element_text(size = 12, face = "bold", hjust = 0.5),
+    axis.text.x = element_blank(),
+    legend.position = "right"
+  )
+print(p_chao1)
+save_plot(p_chao1, paste0("chao1_{{ feature }}_", Sys.Date()))
+```
+
+{% endfor %}
+
+# Beta Diversity
+
+Beta diversity measures **compositional differences** between samples, reflecting how microbial communities vary across samples.
+
+```{r betadataprep}
+
+# EXTRACT AND PREPARE CLR-TRANSFORMED OTU DATA
+
+otu_clr <- as(otu_table(clr_phyloelement), 'matrix')
+
+# Ensure OTUs are rows and samples are columns (phyloseq standard format)
+
+if (!taxa_are_rows(clr_phyloelement)) otu_clr <- t(otu_clr)
+
+# CALCULATE AITCHISON DISTANCE (Euclidean distance on CLR-transformed data)
+
+dist_aitchison <- dist(t(otu_clr), method = 'euclidean')
+
+# First analysis: PERFORM PRINCIPAL COORDINATE ANALYSIS (PCoA) ON AITCHISON DISTANCE
+
+pcoa <- cmdscale(dist_aitchison, k=2)
+
+# Convert patient IDs to factor (categorical variable)
+
+patients <- as.factor(sample_data(physeq_filtered)$Patient_ID)
+
+# Second analysis: PERFORM PRINCIPAL COMPONENT ANALYSIS (PCA) ON CLR DATA
+
+# - center = FALSE because CLR data is already centered around zero
+# - scale. = TRUE standardizes variables to unit variance
+pca <- prcomp(t(otu_clr),
+              center = FALSE,
+              scale. = TRUE)
+
+# Create data frame with PCA results
+pca_df <- data.frame(
+  Sample = rownames(pca$x),  # Sample names from PCA scores
+  PC1 = pca$x[,1],           # First principal component scores
+  PC2 = pca$x[,2]            # Second principal component scores
+)
+
+# Set row names for merging
+rownames(pca_df) <- pca_df$Sample
+pca_df <- merge(pca_df, sam_data, by = "row.names")
+
+# Calculate variance explained by each PC
+var_exp <- (pca$sdev^2 / sum(pca$sdev^2)) * 100
+
+# Third analysis: PERFORM UMAP (Uniform Manifold Approximation and Projection)
+# - Set seed for reproducibility
+set.seed(123)
+
+umap_res <- umap(
+  t(clr_phyloelement@otu_table),  # Transpose: samples as rows, OTUs as columns
+  n_neighbors = 15,               # Size of local neighborhood (higher = more global structure)
+  min_dist = 0.1,                 # Minimum distance between points in embedding
+  metric = "euclidean"            # Distance metric for UMAP
+)
+
+# Create data frame with UMAP results and metadata
+umap_df <- data.frame(
+  UMAP1 = umap_res[,1],  # First UMAP dimension
+  UMAP2 = umap_res[,2],  # Second UMAP dimension
+  sample_data(clr_phyloelement)  # All metadata from CLR phyloseq object
+)
+
+# Fourth analysis: CALCULATE BRAY-CURTIS DISSIMILARITY
+# - Bray-Curtis is a common ecological distance metric
+
+bray_dist <- vegdist(t(otu_table(physeq_filtered)), method = "bray")
+
+# Perform PCoA on Bray-Curtis distance
+pcoa_bray_dist <- cmdscale(bray_dist, k=2)
+```
+
+## Hierarchical Clustering {.tabset}
+
+{% for feature in feature_columns %}
+
+### {{ feature }}
+
+```{r betaclustering{{ loop.index0 }}}
+
+betaclustering <- oneCluster(
+  clr_phyloelement@otu_table,
+  conditions = sam_data${{ feature }},
+  distance = "euclidean",
+  fmtPlot = "png",
+  fileName = "OneCluster{{ feature }}",
+  resultsDir = out_dir,
+  ce = 0.6
+)
+plot(betaclustering)
+```
+
+{% endfor %}
+
+
+## Aitchison PCoA {.tabset}
+
+Aitchison distances are computed on the CLR-transformed filtered phyloseq object.
+
+{% for feature in feature_columns %}
+
+### {{ feature }}
+
+```{r betaaitchisonpcoa{{ loop.index0 }}}
+
+pcoa_df <- data.frame(
+  Axis1 = pcoa[,1],
+  Axis2 = pcoa[,2],
+  Sample = rownames(pcoa),
+  Patient = sample_data(physeq_filtered)$Patient_ID,
+  {{ feature }} = sample_data(physeq_filtered)${{ feature }}
+)
+
+p_aitchison <- ggplot(pcoa_df, aes(Axis1, Axis2, colour = {{ feature }})) +
+  geom_point(size = 3) +
+  geom_text_repel(aes(label = Patient), size = 3) +
+  theme_minimal()
+p_aitchison
+save_plot(p_aitchison, paste0('pcoa_aitchison_{{ feature }}_', Sys.Date()))
+```
+
+{% endfor %}
+
+## PCA (CLR) {.tabset}
+
+Principal component analysis on CLR-transformed filtered phyloseq.
+
+{% for feature in feature_columns %}
+
+### {{ feature }}
+
+```{r betaclrpca{{ loop.index0 }}}
+
+p_pca <- ggplot(pca_df,
+       aes(x = PC1,
+           y = PC2,
+           color = {{ feature }},
+           label = Patient_ID)) +
+  
+  geom_point(size = 3) +
+  geom_label_repel() +
+  theme_classic() +
+  
+  labs(
+    x = paste0("PC1 (", round(var_exp[1], 1), "%)"),
+    y = paste0("PC2 (", round(var_exp[2], 1), "%)"),
+    title = "PCA on CLR-transformed data (Aitchison geometry) for {{ feature }}"
+  )
+
+print(p_pca)
+save_plot(p_pca, paste0('pca_clr_{{ feature }}_', Sys.Date()))
+```
+
+{% endfor %}
+
+## Aitchison UMAP {.tabset}
+
+UMAP embedding using CLR/Aitchison-transformed filtered phyloseq.
+
+{% for feature in feature_columns %}
+
+### {{ feature }}
+
+```{r betaaitchisonumap{{ loop.index0 }}}
+p_umap <- ggplot(
+  umap_df,
+  aes(
+    UMAP1,
+    UMAP2,
+    fill = {{ feature }}
+  )
+) +
+  geom_point(
+    shape = 21,
+    size = 5,
+    stroke = 0.8,
+    color = "black",
+    alpha = 0.9
+  ) +
+  #  geom_text_repel(size = 4, 
+  #                box.padding = 0.4, 
+  #                point.padding = 0.3, 
+  #                max.overlaps = 15, 
+  #                segment.color = "gray50")+
+  theme_classic(base_size = 22) +
+  labs(
+    x = "UMAP1",
+    y = "UMAP2"
+  ) +
+  theme(
+    axis.title = element_text(face = "bold"),
+    axis.text = element_text(size = 16),
+    legend.title = element_blank(),
+    legend.text = element_text(size = 16),
+    legend.position = "right"
+  )
+print(p_umap)
+save_plot(p_umap, paste0('umap_aitchison_{{ feature }}_', Sys.Date()))
+```
+
+{% endfor %}
+
+## Bray-Curtis PCoA {.tabset}
+
+Bray-Curtis distance-based PCoA on the filtered phyloseq object.
+
+{% for feature in feature_columns %}
+
+### {{ feature }}
+
+```{r betabraypcoa{{ loop.index0 }}}
+pcoa_bc <- data.frame(
+  Axis1 = pcoa_bray_dist[,1],
+  Axis2 = pcoa_bray_dist[,2],
+  Sample = rownames(pcoa_bray_dist),
+  Patient = sample_data(physeq_filtered)$Patient_ID,
+  {{ feature }} = sample_data(physeq_filtered)${{ feature }}
+)
+
+p_bray <- ggplot(pcoa_bc, aes(Axis1, Axis2, colour = {{ feature }})) +
+  geom_point(size = 3) +
+  geom_text_repel(aes(label = Patient), size = 3) +
+  theme_minimal()
+print(p_bray)
+save_plot(p_bray, paste0('pcoa_bray_{{ feature }}_', Sys.Date()))
+```
+
+{% endfor %}
+
+{% if analyses.permanova %}
+
+# PERMANOVA Analysis
+
+PERMANOVA (Permutational Multivariate Analysis of Variance) tests whether **inter-group differences** are statistically significant based on multivariate distances.
+
+{% for feature in feature_columns %}
+
+```{r permanova{{ loop.index0 }}}
+# PERMANOVA por pares con 9999 permutaciones
+pairwise_{{ feature }} <- pairwise.perm.manova(
+  dist_aitchison,
+  fact = physeq_filtered@sam_data${{ feature }},
+  nperm = 9999
+)
+
+# Convertir a data frame para una tabla más clara
+pairwise_df <- as.data.frame(pairwise_{{ feature }}$p.value)
+colnames(pairwise_df) <- paste0("p-value (", colnames(pairwise_df), ")")
+
+pairwise_df %>%
+  mutate(across(where(is.numeric), ~ round(., 5))) %>%
+  knitr::kable(caption = "Pairwise comparisons PERMANOVA (p-values)")
+```
+
+{% endfor %}
+
+{% endif %}
+
+
+# Session Information
+
+```{r sessioninfo}
+sessionInfo()
+```
+
+---
+
+*Report generated: `r format(Sys.time(), '%d %b %Y at %H:%M:%S')`*

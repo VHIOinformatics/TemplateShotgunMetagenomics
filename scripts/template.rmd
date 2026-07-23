@@ -92,6 +92,7 @@ library(readr)
 library(RVAideMemoire)
 library(uwot)
 library(BasicPlots)
+library(openxlsx)
 ```
 
 # Introduction
@@ -114,6 +115,202 @@ library(BasicPlots)
 
 {{ samples_info }}
 
+
+```{r transformationintophyloseqobj}
+
+{% if mode.bracken %}
+
+# Load and create taxon list
+load_taxid_list <- function() {
+  taxid_list <- read.delim("taxid_list.txt", header = FALSE, sep = "\t", col.names = c("taxid", "species")) #This path has to be changed
+  colnames(taxid_list) <- c("taxid", "species")
+  taxid_dict <- setNames(taxid_list$taxid, taxid_list$species)
+  return(taxid_dict)
+}
+
+# Load and process taxonomic info
+load_taxonomic_info <- function() {
+  taxinf <- read.csv(file.path("Samples_info_dash.txt"), sep = ";", header = FALSE) #This path has to be changed
+  colnames(taxinf) <- c("Division", "Phylum", "Class", "Order", "Family", "Genus", "Species")
+  return(taxinf)
+}
+
+# Load and process genome metadata
+load_genome_metadata <- function() {
+  metadata <- read.csv("genomes-all_metadata.tsv", sep = "\t")
+  metadata_edited <- metadata[, c("Length", "Lineage")]
+  metadata_edited <- metadata_edited %>%
+    separate(
+      Lineage,
+      into = c("Division", "Phylum", "Class", "Order", "Family", "Genus", "Species"),
+      sep = ";",
+      remove = TRUE
+    )
+  metadata_edited <- metadata_edited[, c("Length", "Species")]
+  metadata_edited$Species <- gsub(" ", "_", metadata_edited$Species)
+  average_length <- aggregate(Length ~ Species, data = metadata_edited, FUN = mean)
+  return(average_length)
+}
+
+# Process kraken results
+process_kraken_files <- function(list_files_kraken) {
+  free_the_krako <- lapply(list_files_kraken, function(x) {
+    krakn <- read.csv(x, sep = "\t")
+    file_name <- basename(x)
+    id <- sub("^(F_\\d+)_.*$", "\\1", file_name)
+    
+    krakn$multip <- krakn[[ncol(krakn) - 1]] * krakn[[ncol(krakn)]]
+    percsam <- paste0("PercSM_", id)
+    totreads <- paste0("TotReadsSM_", id)
+    colnames(krakn) <- c("Species", "TaxID", "Tax_level", "Krakenrreads", "addedreads", totreads, percsam, "absabd")
+    
+    krakn <- krakn %>%
+      mutate(
+        across(everything(), ~ str_trim(.)),
+        Species = str_replace_all(Species, " ", "_"),
+        Species = paste0("s__", Species)
+      ) %>%
+      filter(Tax_level == "S")
+    
+    krakn <- krakn[, c("Species", totreads, percsam)]
+    return(krakn)
+  })
+  
+  merged_all <- Reduce(function(x, y) merge(x, y, by = "Species", all = TRUE), free_the_krako)
+  return(merged_all)
+}
+
+# Normalization by genome length if needed
+# Function to merge and normalize Kraken data
+merge_and_normalize_data <- function(merged_all, taxinf, average_length, should_merge = TRUE) {
+  # Merge taxinf with merged_all by "Species"
+  krkan_merged <- merge(taxinf, merged_all, by = "Species")
+  
+  # Reorder columns to move specific taxonomic columns to the front
+  columns_to_move <- c("Phylum", "Class", "Order", "Family", "Genus")
+  krkan_merged <- krkan_merged[, c(columns_to_move, setdiff(names(krkan_merged), columns_to_move))]
+  
+  # Condition to merge with average_length and normalize
+  if (should_merge) {
+    # Merge with average_length by "Species"
+    krkan_merged <- merge(krkan_merged, average_length, by = "Species")
+    krkan_merged$Length <- krkan_merged$Length / 1e6  # Convert Length to millions
+    
+    # Identify columns starting with "TotReads" for normalization
+    normalizacio <- grep("^TotReads", colnames(krkan_merged), value = TRUE)
+    krkan_merged <- krkan_merged %>%
+      mutate(across(all_of(normalizacio), as.numeric))  # Ensure TotReads columns are numeric
+    
+    # Create new normalized columns by dividing TotReads by Length
+    new_columns <- lapply(normalizacio, function(col) {
+      krkan_merged[[col]] / krkan_merged$Length
+    })
+    names(new_columns) <- paste0("Normal_", normalizacio)  # Add "Normal_" prefix to new columns
+    krkan_merged <- cbind(krkan_merged, new_columns)  # Append normalized columns to the data frame
+  }
+  
+  # Replace NA values with 0
+  krkan_merged[is.na(krkan_merged)] <- 0
+  Unfiltered_reads <- grep("^TotReads", colnames(krkan_merged), value = TRUE)
+  infoaddedunf <- append(Unfiltered_reads, c("Species", "Phylum", "Class", "Order", "Family", "Genus"))
+  full_krakn_species <- krkan_merged[, infoaddedunf]
+  return(full_krakn_species)
+}
+
+
+# Main function for Bracken2Phyloseq
+main <- function(project,resultsfolder) {
+  taxid_dict <- load_taxid_list()
+  taxinf <- load_taxonomic_info()
+  average_length <- load_genome_metadata()
+  
+  list_files_kraken <- list.files(
+    path = "{{ input_files.bracken }}",
+    pattern = "*.tsv",
+    recursive = TRUE,
+    full.names = TRUE
+  )
+  
+  merged_all <- process_kraken_files(list_files_kraken)
+  krkan_merged <- merge_and_normalize_data(merged_all, taxinf, average_length, should_merge = FALSE)
+  
+  return(krkan_merged)
+}
+
+# Execute main function
+results <- main()
+taxtablesextract<- read.csv("taxinfo.csv")  #This path has to be changed
+sample_info <- read.xlsx("{{ metadata_source.excel_file }}")
+process_phyloseq_data <- function(final_results, taxtablesextracted, samples_information) {
+  
+  # Create OTU matrix
+  tax_columns <- c("Species", "Phylum", "Class", "Order", "Family", "Genus")
+  names(final_results) <- gsub("TotReadsSM_", "", names(final_results))
+  numeric_columns <- setdiff(colnames(final_results), tax_columns)
+  
+  otu_mat <- final_results %>%
+    tibble::column_to_rownames("Species") %>%
+    mutate(across(everything(), as.numeric))   # Convert all columns to numeric
+  otu_mat <- otu_mat[, 1:(ncol(otu_mat) - 5)]
+
+  # Create taxa matrix
+  tax_mat <- taxtablesextracted %>%
+    tibble::column_to_rownames("Species")
+  
+  # Process metadata
+  samples_df <- samples_information %>%
+    tibble::column_to_rownames("{{ metadata_source.sample_id_column }}")
+  
+  # Convert matrix
+  otu_mat <- as.matrix(otu_mat)
+  tax_mat <- as.matrix(tax_mat)
+  
+  # Create phyloseq objects
+  OTU = otu_table(otu_mat, taxa_are_rows = TRUE)
+  TAX = tax_table(tax_mat)
+  samples = sample_data(samples_df)
+  
+  # Final Object
+  phyloseq_object = phyloseq(OTU, TAX, samples)
+  
+  return(phyloseq_object)
+}
+
+phyloelement <- process_phyloseq_data(results,taxtablesextract, sample_info)
+
+saveRDS(phyloelement, file = "phyloelement.rds")
+
+{% endif %}
+
+{% if mode.metaphlan %}
+
+test <- read.csv("/mnt/bioinfnas/bioinformatics/projects/20251118_PNuciforo_SM_DepotecaRecto/analysisCluster/results_taxpro_all_runmerging_meta/metaphlan/metaphlan_db1_combined_reports.txt", sep = "\t", comment.char = "#")
+
+sample_info <- read.xlsx("{{ metadata_source.excel_file }}")
+
+physeq <- metaphlan_to_phyloseq(
+  test,
+  taxa_lvl = "genus",
+  use_taxa_names = TRUE
+)
+
+samples_df <- sample_info %>%
+  tibble::column_to_rownames("Sample")
+
+sample_names(physeq) <- gsub("_db1\\.metaphlan", "", sample_names(physeq))
+
+sample_data(physeq) <- samples_df
+
+saveRDS(physeqmetaphlan, file = "physeqmetaphlan.rds")
+
+{% endif %}
+
+
+
+```
+
+
+
 ```{r loadobjects}
 # Load output directory configuration
 out_dir <- "{{ input_files.output_directory }}"
@@ -134,7 +331,8 @@ save_plot <- function(plot, name, dir = out_dir) {
 }
 
 # Load phyloseq object
-phyloelement_nofiltered <- readRDS("{{ input_files.phyloseq_object }}")
+#phyloelement_nofiltered <- readRDS("{{ input_files.phyloseq_object }}")
+phyloelement_nofiltered <- phyloelement
 
 # Decontamination step removed per user request (decontam not applied)
 

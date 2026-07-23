@@ -1,0 +1,101 @@
+# ============================================================================
+# CONFIGURATION FOR AUTOMATIC RMARKDOWN REPORT GENERATION
+# ============================================================================
+
+# REPORT METADATA
+metadata:
+  title: "Title"
+  author: "William Shakespeare, VHIOinformatics"
+  date: "auto"  # 'auto' uses current date, or specify a date (e.g., "15 Jun 2026")
+  
+# PROJECT INFORMATION
+project_info:
+  pi: "Arthur Morgan"
+  researcher: "Viktor Frankestein"
+  technology: "Shotgun Metagenomic Sequencing"
+  species: "Homo Sapiens/Metagenomics"
+  samples: "100 Samples of X Patients of Cancer"
+
+# BACKGROUND SECTION
+background: |
+  Results of Quality Control can be found in previous report:
+  
+  Version used for this project:
+  https://nf-co.re/taxprofiler/
+
+# SAMPLES INFORMATION
+samples_info: |
+  - X Samples
+  - We are going to perform the analysis in all the columns provided by the researchers.
+  - In some cases both columns have objects so we should clarify this metadata.
+
+
+# PROFILING MODE
+mode: 
+  bracken: true
+  metaphlan: false
+
+# INPUT FILES
+input_files:
+  bracken: results_taxpro_portrait_UHGG_array/bracken/db1
+  metaphlan: /my/folder/metaphlan/
+  phyloseq_object: "/my/folder/phyloelement.rds"
+  output_directory: "trial"
+
+# METADATA SOURCE FROM EXCEL
+metadata_source:
+  excel_file: "metadata_trial.xlsx"
+  metadata_sheet: "metadata"
+  sample_id_column: "Seq_id"
+
+# FEATURE COLUMNS TO ANALYZE
+# These columns will be analyzed for alpha diversity, beta diversity, PERMANOVA
+feature_columns:
+  - "Timepoint"
+
+# FILTERING PARAMETERS
+filtering:
+  rel_abundance: 0.001  # 0.1%
+  prevalence_cutoff: 0.05  # 5% of samples
+
+# ANALYSES TO PERFORM
+analyses:
+  alpha_diversity:
+    - shannon
+    - chao1
+  
+  beta_diversity:
+    - bray_curtis
+  
+  ordination:
+    - pca
+    - pcoa
+  
+  permanova: true
+
+# NORMALIZATION CONFIGURATION
+normalization:
+  alpha_diversity:
+    use_raw_counts: true
+    description: "unfiltered, rounded raw reads"
+  
+  beta_diversity:
+    use_clr: true  # Centered Log-Ratio transformation
+    with_pseudocounts: true
+    shift: 1
+    reference: 1
+
+# OUTPUT CONFIGURATION
+output:
+  rmd_filename: "Test_downstream_generated.rmd"
+  html_theme: "spacelab"
+  number_sections: true
+  toc_float: true
+  toc_depth: 3
+
+# REFERENCES
+references: |
+  - Reference 1
+  - Reference 2
+  - Reference 3
+  - Reference 4
