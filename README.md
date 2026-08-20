@@ -39,7 +39,7 @@ RMarkdown template written in R+Jinja2 that defines the report structure:
 ## Requisites
 
 ### R (in RMarkdown)
-Los siguientes paquetes deben estar instalados:
+Following packages should be installed in R prior the use of the templates:
 - phyloseq
 - vegan
 - ggplot2
